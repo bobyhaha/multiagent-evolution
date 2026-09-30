@@ -1,0 +1,1 @@
+{"project":"institutions","episodes":30,"eval_episodes":12,"agents":8,"steps":48,"benchmark":"mixed","provider":"scripted","seed":7,"shock":true}

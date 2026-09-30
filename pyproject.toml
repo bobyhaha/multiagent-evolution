@@ -1,0 +1,16 @@
+[project]
+name = "artificial-societies-lab"
+version = "0.1.0"
+description = "Reproducible mechanism-design experiments for evolving agent societies"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.9,<4", "networkx>=3.4,<4"]
+dev = ["ruff>=0.12"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["F", "E9"]

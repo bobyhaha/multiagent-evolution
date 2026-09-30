@@ -1,0 +1,805 @@
+{
+  "code_sha256": "9b1fe644db9f71d037c1e2edc5a52d92aaddcff40791f0da779d6a3299be8ea5",
+  "studies": {
+    "phase-study": {
+      "calls": 0,
+      "cells": [
+        {
+          "cell": 0,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.03,
+            "coordination_cost": 0.0
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "tail_gini_mean": 0.25109672375088965,
+          "tail_modularity_mean": -0.001046361539112483,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.25925925925925924
+        },
+        {
+          "cell": 1,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.03,
+            "coordination_cost": 0.025
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "tail_gini_mean": 0.25109672375088965,
+          "tail_modularity_mean": -0.001046361539112483,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.25925925925925924
+        },
+        {
+          "cell": 2,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.03,
+            "coordination_cost": 0.15
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "tail_gini_mean": 0.25109672375088965,
+          "tail_modularity_mean": -0.001046361539112483,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.25925925925925924
+        },
+        {
+          "cell": 3,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.18,
+            "coordination_cost": 0.0
+          },
+          "seed_bootstrap_95_ci": [
+            0.2222222222222222,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.17651146578601296,
+          "tail_modularity_mean": 0.0825310787809814,
+          "tail_team_share_mean": 0.3416666666666667,
+          "test_accuracy_mean": 0.2962962962962963
+        },
+        {
+          "cell": 4,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.18,
+            "coordination_cost": 0.025
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.20791721401788657,
+          "tail_modularity_mean": 0.09617848947870279,
+          "tail_team_share_mean": 0.32916666666666666,
+          "test_accuracy_mean": 0.2222222222222222
+        },
+        {
+          "cell": 5,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.18,
+            "coordination_cost": 0.15
+          },
+          "seed_bootstrap_95_ci": [
+            0.2222222222222222,
+            0.4444444444444444
+          ],
+          "tail_gini_mean": 0.29718411344430673,
+          "tail_modularity_mean": 0.08033509824987779,
+          "tail_team_share_mean": 0.2791666666666667,
+          "test_accuracy_mean": 0.3333333333333333
+        },
+        {
+          "cell": 6,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.9,
+            "coordination_cost": 0.0
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.2222222222222222
+          ],
+          "tail_gini_mean": 0.19298565882900542,
+          "tail_modularity_mean": 0.030795614889015038,
+          "tail_team_share_mean": 0.2791666666666667,
+          "test_accuracy_mean": 0.1111111111111111
+        },
+        {
+          "cell": 7,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.9,
+            "coordination_cost": 0.025
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "tail_gini_mean": 0.26927232809817186,
+          "tail_modularity_mean": 0.0529486238159165,
+          "tail_team_share_mean": 0.30833333333333335,
+          "test_accuracy_mean": 0.0
+        },
+        {
+          "cell": 8,
+          "independent_seeds": 3,
+          "parameters": {
+            "comm_out": 0.9,
+            "coordination_cost": 0.15
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.2222222222222222
+          ],
+          "tail_gini_mean": 0.29545341475198766,
+          "tail_modularity_mean": 0.026304931356578815,
+          "tail_team_share_mean": 0.21666666666666667,
+          "test_accuracy_mean": 0.1111111111111111
+        }
+      ],
+      "paired_to_first_cell": [
+        {
+          "accuracy_difference": 0.0,
+          "cell": 1,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": 0.0,
+          "cell": 2,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": 0.037037037037037035,
+          "cell": 3,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.2222222222222222,
+            0.2222222222222222
+          ]
+        },
+        {
+          "accuracy_difference": -0.037037037037037035,
+          "cell": 4,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.2222222222222222,
+            0.1111111111111111
+          ]
+        },
+        {
+          "accuracy_difference": 0.07407407407407407,
+          "cell": 5,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.1111111111111111,
+            0.2222222222222222
+          ]
+        },
+        {
+          "accuracy_difference": -0.14814814814814814,
+          "cell": 6,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.4444444444444444,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": -0.25925925925925924,
+          "cell": 7,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.4444444444444444,
+            -0.1111111111111111
+          ]
+        },
+        {
+          "accuracy_difference": -0.14814814814814814,
+          "cell": 8,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.4444444444444444,
+            0.0
+          ]
+        }
+      ],
+      "provider": "scripted",
+      "replicates_completed": 27,
+      "replicates_planned": 27,
+      "reserved_usd": 0.0,
+      "status": "complete",
+      "warning": "CIs resample independent population seeds. Small grids do not establish phase transitions."
+    },
+    "project-study": {
+      "calls": 0,
+      "cells": [
+        {
+          "cell": 0,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "market",
+            "project": "capital"
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.38303490745910695,
+          "tail_modularity_mean": 0.005583754373339043,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.2222222222222222
+        },
+        {
+          "cell": 1,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "round_robin",
+            "project": "capital"
+          },
+          "seed_bootstrap_95_ci": [
+            1.0,
+            1.0
+          ],
+          "tail_gini_mean": 0.4828772027348635,
+          "tail_modularity_mean": 0.2098324569588999,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 1.0
+        },
+        {
+          "cell": 2,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "single",
+            "project": "capital"
+          },
+          "seed_bootstrap_95_ci": [
+            1.0,
+            1.0
+          ],
+          "tail_gini_mean": 0.7236609833668944,
+          "tail_modularity_mean": 0.0,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 1.0
+        },
+        {
+          "cell": 3,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "market",
+            "project": "teams"
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.20791721401788657,
+          "tail_modularity_mean": 0.09617848947870279,
+          "tail_team_share_mean": 0.32916666666666666,
+          "test_accuracy_mean": 0.2222222222222222
+        },
+        {
+          "cell": 4,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "round_robin",
+            "project": "teams"
+          },
+          "seed_bootstrap_95_ci": [
+            1.0,
+            1.0
+          ],
+          "tail_gini_mean": 0.32509424043452717,
+          "tail_modularity_mean": 0.35369131541085297,
+          "tail_team_share_mean": 0.33749999999999997,
+          "test_accuracy_mean": 1.0
+        },
+        {
+          "cell": 5,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "single",
+            "project": "teams"
+          },
+          "seed_bootstrap_95_ci": [
+            1.0,
+            1.0
+          ],
+          "tail_gini_mean": 0.7236609833668944,
+          "tail_modularity_mean": 0.0,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 1.0
+        },
+        {
+          "cell": 6,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "market",
+            "project": "institutions"
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.22043500690272025,
+          "tail_modularity_mean": 0.0827789257714891,
+          "tail_team_share_mean": 0.3333333333333333,
+          "test_accuracy_mean": 0.25925925925925924
+        },
+        {
+          "cell": 7,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "round_robin",
+            "project": "institutions"
+          },
+          "seed_bootstrap_95_ci": [
+            1.0,
+            1.0
+          ],
+          "tail_gini_mean": 0.32509424043452717,
+          "tail_modularity_mean": 0.35369131541085297,
+          "tail_team_share_mean": 0.33749999999999997,
+          "test_accuracy_mean": 1.0
+        },
+        {
+          "cell": 8,
+          "independent_seeds": 3,
+          "parameters": {
+            "baseline": "single",
+            "project": "institutions"
+          },
+          "seed_bootstrap_95_ci": [
+            1.0,
+            1.0
+          ],
+          "tail_gini_mean": 0.7236609833668944,
+          "tail_modularity_mean": 0.0,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 1.0
+        }
+      ],
+      "paired_to_first_cell": [
+        {
+          "accuracy_difference": 0.7777777777777778,
+          "cell": 1,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.6666666666666667,
+            0.8888888888888888
+          ]
+        },
+        {
+          "accuracy_difference": 0.7777777777777778,
+          "cell": 2,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.6666666666666667,
+            0.8888888888888888
+          ]
+        },
+        {
+          "accuracy_difference": 0.0,
+          "cell": 3,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": 0.7777777777777778,
+          "cell": 4,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.6666666666666667,
+            0.8888888888888888
+          ]
+        },
+        {
+          "accuracy_difference": 0.7777777777777778,
+          "cell": 5,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.6666666666666667,
+            0.8888888888888888
+          ]
+        },
+        {
+          "accuracy_difference": 0.037037037037037035,
+          "cell": 6,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.1111111111111111
+          ]
+        },
+        {
+          "accuracy_difference": 0.7777777777777778,
+          "cell": 7,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.6666666666666667,
+            0.8888888888888888
+          ]
+        },
+        {
+          "accuracy_difference": 0.7777777777777778,
+          "cell": 8,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.6666666666666667,
+            0.8888888888888888
+          ]
+        }
+      ],
+      "provider": "scripted",
+      "replicates_completed": 27,
+      "replicates_planned": 27,
+      "reserved_usd": 0.0,
+      "status": "complete",
+      "warning": "CIs resample independent population seeds. Small grids do not establish phase transitions."
+    },
+    "institution-study": {
+      "calls": 0,
+      "cells": [
+        {
+          "cell": 0,
+          "independent_seeds": 3,
+          "parameters": {
+            "adaptive": false,
+            "shock": false
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.20791721401788657,
+          "tail_modularity_mean": 0.09617848947870279,
+          "tail_team_share_mean": 0.32916666666666666,
+          "test_accuracy_mean": 0.2222222222222222
+        },
+        {
+          "cell": 1,
+          "independent_seeds": 3,
+          "parameters": {
+            "adaptive": false,
+            "shock": true
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.2222222222222222
+          ],
+          "tail_gini_mean": 0.21113957894363028,
+          "tail_modularity_mean": 0.046198007023496586,
+          "tail_team_share_mean": 0.2625,
+          "test_accuracy_mean": 0.14814814814814814
+        },
+        {
+          "cell": 2,
+          "independent_seeds": 3,
+          "parameters": {
+            "adaptive": true,
+            "shock": false
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.22043500690272025,
+          "tail_modularity_mean": 0.0827789257714891,
+          "tail_team_share_mean": 0.3333333333333333,
+          "test_accuracy_mean": 0.25925925925925924
+        },
+        {
+          "cell": 3,
+          "independent_seeds": 3,
+          "parameters": {
+            "adaptive": true,
+            "shock": true
+          },
+          "seed_bootstrap_95_ci": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "tail_gini_mean": 0.24701141111452035,
+          "tail_modularity_mean": 0.061372746586076166,
+          "tail_team_share_mean": 0.2625,
+          "test_accuracy_mean": 0.2222222222222222
+        }
+      ],
+      "paired_to_first_cell": [
+        {
+          "accuracy_difference": -0.07407407407407407,
+          "cell": 1,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            -0.3333333333333333,
+            0.1111111111111111
+          ]
+        },
+        {
+          "accuracy_difference": 0.037037037037037035,
+          "cell": 2,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.1111111111111111
+          ]
+        },
+        {
+          "accuracy_difference": 0.0,
+          "cell": 3,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "provider": "scripted",
+      "replicates_completed": 12,
+      "replicates_planned": 12,
+      "reserved_usd": 0.0,
+      "status": "complete",
+      "warning": "CIs resample independent population seeds. Small grids do not establish phase transitions."
+    },
+    "capital-ablation": {
+      "calls": 0,
+      "cells": [
+        {
+          "cell": 0,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": false,
+            "investment": false,
+            "payments": false
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "tail_gini_mean": 0.524425411511526,
+          "tail_modularity_mean": 0.032109854463138854,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.0
+        },
+        {
+          "cell": 1,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": true,
+            "investment": false,
+            "payments": false
+          },
+          "seed_bootstrap_95_ci": [
+            0.16666666666666666,
+            0.16666666666666666
+          ],
+          "tail_gini_mean": 0.3927556258504815,
+          "tail_modularity_mean": 0.016665886366610896,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.16666666666666666
+        },
+        {
+          "cell": 2,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": false,
+            "investment": false,
+            "payments": true
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "tail_gini_mean": 0.47356026846575366,
+          "tail_modularity_mean": 0.030252712659467745,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.0
+        },
+        {
+          "cell": 3,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": true,
+            "investment": false,
+            "payments": true
+          },
+          "seed_bootstrap_95_ci": [
+            0.16666666666666666,
+            0.6666666666666666
+          ],
+          "tail_gini_mean": 0.30625295939663144,
+          "tail_modularity_mean": 0.0061032921946445546,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.3333333333333333
+        },
+        {
+          "cell": 4,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": false,
+            "investment": true,
+            "payments": false
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "tail_gini_mean": 0.542025563953197,
+          "tail_modularity_mean": 0.030865260969238553,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.0
+        },
+        {
+          "cell": 5,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": true,
+            "investment": true,
+            "payments": false
+          },
+          "seed_bootstrap_95_ci": [
+            0.3333333333333333,
+            0.6666666666666666
+          ],
+          "tail_gini_mean": 0.37597287285635705,
+          "tail_modularity_mean": 0.003900854003848582,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.4444444444444444
+        },
+        {
+          "cell": 6,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": false,
+            "investment": true,
+            "payments": true
+          },
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ],
+          "tail_gini_mean": 0.49059497859419204,
+          "tail_modularity_mean": 0.029816004518350724,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.0
+        },
+        {
+          "cell": 7,
+          "independent_seeds": 3,
+          "parameters": {
+            "evolution": true,
+            "investment": true,
+            "payments": true
+          },
+          "seed_bootstrap_95_ci": [
+            0.3333333333333333,
+            0.5
+          ],
+          "tail_gini_mean": 0.3183800702435912,
+          "tail_modularity_mean": 0.00031235372387425613,
+          "tail_team_share_mean": 0.0,
+          "test_accuracy_mean": 0.3888888888888889
+        }
+      ],
+      "paired_to_first_cell": [
+        {
+          "accuracy_difference": 0.16666666666666666,
+          "cell": 1,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.16666666666666666,
+            0.16666666666666666
+          ]
+        },
+        {
+          "accuracy_difference": 0.0,
+          "cell": 2,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": 0.3333333333333333,
+          "cell": 3,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.16666666666666666,
+            0.6666666666666666
+          ]
+        },
+        {
+          "accuracy_difference": 0.0,
+          "cell": 4,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": 0.4444444444444444,
+          "cell": 5,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.3333333333333333,
+            0.6666666666666666
+          ]
+        },
+        {
+          "accuracy_difference": 0.0,
+          "cell": 6,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "accuracy_difference": 0.3888888888888889,
+          "cell": 7,
+          "paired_seeds": 3,
+          "reference_cell": 0,
+          "seed_bootstrap_95_ci": [
+            0.3333333333333333,
+            0.5
+          ]
+        }
+      ],
+      "provider": "scripted",
+      "replicates_completed": 24,
+      "replicates_planned": 24,
+      "reserved_usd": 0.0,
+      "status": "complete",
+      "warning": "CIs resample independent population seeds. Small grids do not establish phase transitions."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "review_date_pacific": "2026-09-25",
+  "shared_conversation": "https://chatgpt.com/s/t_6ab6bcc55fa481919c2511bb318a2004",
+  "paper": "https://arxiv.org/abs/2606.02859",
+  "repositories": [
+    {"url":"https://github.com/zhentingqi/EoM","commit":"d608a2874340d08b5564cb16d558ffcefa5996a3","inspected":["hayekmas/base/agent.py","hayekmas/base/population.py","hayekmas/base/mas.py","README.md"]},
+    {"url":"https://github.com/Human-Agent-Society/CORAL","commit":"0123dfb939b35228cf2c1fde224cd0561e727408","inspected":["coral/grader/base.py","coral/hub/checkpoint.py","coral/hub/_island.py","coral/workspace/worktree.py","README.md"]}
+  ],
+  "live_verification": {
+    "public_openrouter_catalog_read": true,
+    "sfcompute_public_api_schema_read": true,
+    "sfcompute_usage_authenticated": false,
+    "llm_requests_sent": 0,
+    "gpu_nodes_provisioned": 0
+  },
+  "literature": ["2603.01045","2604.01658","2609.19759","2609.20889","2609.26481","2609.26781","2609.27822","2608.09128","2605.26203","2410.08948","2609.08452","2609.28547","2609.28900"]
+}

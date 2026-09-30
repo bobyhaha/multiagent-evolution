@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+runs/
+research/references/
+research/papers/
+research/*-models.json
+research/sfcompute-*.json
+research/sfcompute-llms.txt
+research/*-console.json
