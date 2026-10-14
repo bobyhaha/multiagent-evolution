@@ -1,0 +1,85 @@
+{
+  "origin": "actual recorded requests",
+  "prompts": [
+    {
+      "name": "recorded-bank-c0000001",
+      "request_bytes_including_schema": 14851,
+      "call_id": "c0000001"
+    },
+    {
+      "name": "recorded-discovery-c0000002",
+      "request_bytes_including_schema": 13979,
+      "call_id": "c0000002"
+    },
+    {
+      "name": "recorded-bank-c0000026",
+      "request_bytes_including_schema": 23901,
+      "call_id": "c0000026"
+    },
+    {
+      "name": "recorded-work-c0000027",
+      "request_bytes_including_schema": 34043,
+      "call_id": "c0000027"
+    },
+    {
+      "name": "recorded-work-c0000030",
+      "request_bytes_including_schema": 37014,
+      "call_id": "c0000030"
+    },
+    {
+      "name": "recorded-work-c0000033",
+      "request_bytes_including_schema": 37816,
+      "call_id": "c0000033"
+    },
+    {
+      "name": "recorded-work-c0000036",
+      "request_bytes_including_schema": 34871,
+      "call_id": "c0000036"
+    },
+    {
+      "name": "recorded-formation-c0000042",
+      "request_bytes_including_schema": 25211,
+      "call_id": "c0000042"
+    },
+    {
+      "name": "recorded-formation-c0000058",
+      "request_bytes_including_schema": 31742,
+      "call_id": "c0000058"
+    },
+    {
+      "name": "recorded-application-c0000061",
+      "request_bytes_including_schema": 28083,
+      "call_id": "c0000061"
+    },
+    {
+      "name": "recorded-bank-c0000064",
+      "request_bytes_including_schema": 31265,
+      "call_id": "c0000064"
+    },
+    {
+      "name": "recorded-work-c0000065",
+      "request_bytes_including_schema": 58159,
+      "call_id": "c0000065"
+    },
+    {
+      "name": "recorded-work-c0000071",
+      "request_bytes_including_schema": 49650,
+      "call_id": "c0000071"
+    },
+    {
+      "name": "recorded-work-c0000077",
+      "request_bytes_including_schema": 59220,
+      "call_id": "c0000077"
+    },
+    {
+      "name": "recorded-work-c0000083",
+      "request_bytes_including_schema": 53008,
+      "call_id": "c0000083"
+    },
+    {
+      "name": "recorded-review-c0000203",
+      "request_bytes_including_schema": 32851,
+      "call_id": "c0000203"
+    }
+  ]
+}

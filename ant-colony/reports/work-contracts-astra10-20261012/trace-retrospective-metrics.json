@@ -1,0 +1,22 @@
+{
+  "source_events": "runs/programbench-astra10-work-contracts-high-20261012-v18/v18-astra10-work-contracts-xsv/events.jsonl",
+  "events_sha256": "28c2ce95860f21eee6e7570d8dce4318605440212283ba6e4a405c821d6a7f52",
+  "v18_calls": 616,
+  "v18_cost_usd": "89.7758805",
+  "nonwork_calls": 210,
+  "nonwork_cost_usd": "19.8669450",
+  "nonwork_cost_percent": 22.129490559549566,
+  "tool_results": 373,
+  "truncated_tool_results": 78,
+  "work_calls": 406,
+  "valid_work_replies": 405,
+  "work_replies_with_memory": 92,
+  "first_25_of_27_public_score_seq": 5739,
+  "first_25_of_27_round": 15,
+  "calls_after_public_plateau": 108,
+  "cost_after_public_plateau_usd": "13.8799365",
+  "calls_round19_plus": 45,
+  "cost_round19_plus_usd": "5.0078440",
+  "scope": "Recorded public/operator evidence only; no hidden case contents inspected",
+  "caveat": "Coordination, unchanged checks and absent memory updates are not automatically waste; these counts are descriptive."
+}

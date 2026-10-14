@@ -1,0 +1,13 @@
+[OPERATOR_GUIDANCE v005]
+Preserve the original objective, strict fixtures and contracts.
+Replay warning: round15 verification audit4/25 compared base64 expected.stdout/stderr with decoded text. When adapting RAW /evidence/probes.json, decode these streams exactly once for run_case; leave capture_base64 encoded and retain missing-file assertions. Already-decoded fixtures need no decoding. This audit does not establish21 product regressions.
+For diagnostic scripts, print concise counts, failure IDs and bounded differences under6000 bytes; large dumps truncate evidence and displace context. Reuse hashes and targeted ranges. Keep exact declared checks unchanged.
+Persist new observed results, hashes, blocker and next action in replacement memory; retain essential prior facts. Pending actions are not completed results.
+Finish ALL tracked edits across teams, including tests/reports; integrate, freeze, run exact checks, then hand off and review without further tracked edits. Changed assignments need a current contract. Failed strict checks remain blockers.
+Return one compact complete actions-v1 JSON object, close all arrays/objects, then STOP.
+Notify verification of the replay encoding error once. Complete funded stats repair and retained regressions. Keep seeded expectations strict; the unsupported RNG investigation has stopped.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

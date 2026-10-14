@@ -1,0 +1,16 @@
+# Integration working memory
+
+## Ownership and interfaces
+Core integration: a0001 owns compile.sh, xsv_main.py, xsv_core.py and INTEGRATION_COVERAGE.md. Formatting and independent core follow-up: a0004, commands_format.py, FORMAT_COVERAGE.md and CORE_VERIFICATION.md. Transformations: a0002 integrates commands_order.py, commands_rel.py, commands_agg.py and delegated commands_stats.py. Independent conformance: a0003 and its members own retained fixtures and historical COVERAGE.md. The exhaustive command/file manifest and current boundaries are in INTEGRATION_COVERAGE.md.
+
+compile.sh produces ./executable independently from local Python sources. Shared CSV/CLI and selector handling remain in xsv_core.py; entry dispatch in xsv_main.py. Formatting exports COMMANDS; transformation modules expose run(command,args). Coordinate shared-file changes with a0001; do not weaken retained reference fixtures.
+
+## Integrated evidence and changed facts
+Public v27 diagnostic result was 23/23 agent-generated probes, not protected native tests. Production is unchanged by the recent documentation/fixture work. tests/selector_boundary.py adds ten documentation-derived selector-composition/rejection cases; they are not new reference observations. Its earlier clean-build run plus formatting, CSV/CLI and filesystem suites exited zero, but final documentation changes invalidate source-bound receipts.
+
+The former stats --types success hypothesis was local and contradicted native reference e335e628a4e4855e. Transformation integration preserves the old case as superseded history and makes the active fixture require the native rejection. Run the latest analysis suite before claiming that historical failure closed. Full floating-point accumulation, RNG, regex, index interoperability and other listed boundary parity remain unproven.
+
+## Final acceptance and next action
+Coverage documentation is finalized before receipt refresh. Freeze source/tests/docs unless a concrete reproduction warrants a correction. Required core commands: ./compile.sh && python3 tests/core_regression.py ; ./compile.sh && python3 tests/conformance.py . Review a0004 current selector/format/CSV/filesystem handoff and a0002 current transformation/analysis checks. Runtime receipts, not this note, establish passing counts and source currency. Final results belong in runtime reports without further documentation edits.
+
+Independent execution of conformance suites does not accept their unavailable owners' contracts. That separate readiness blocker remains unresolved. Core must not claim whole-society completion or full native parity. Preserve closeout reserves; no new recruitment requested.

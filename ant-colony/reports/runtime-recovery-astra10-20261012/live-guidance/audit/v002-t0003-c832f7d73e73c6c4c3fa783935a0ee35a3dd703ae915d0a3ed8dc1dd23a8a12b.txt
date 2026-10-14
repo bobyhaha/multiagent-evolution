@@ -1,0 +1,10 @@
+[OPERATOR_GUIDANCE v001]
+Preserve the original objective, ownership, strict fixtures and acceptance. Return one complete compact actions-v1 JSON object; close every array/object, then stop. Never invent pending tool results.
+Use last_evidence and memory to choose the next useful edit/check. Read only missing or changed lines; retrieve retained output with read_result instead of repeating full source/probe dumps. Persist observed counts, hashes, blocker and next action in memory or record.
+Finish tracked code/test/coverage edits across contributors before final verification. Agree a stable integrated revision, then run exact declared checks, handoffs and parent reviews without intervening edits. Historical passing evidence may guide work but cannot replace current receipts. Do not weaken assertions or claim parity from help/local checks.
+Finish the retained frequency NULL fixture and strict missing-command rejection guard once, then hold verifier files stable with production owners. Coordinate one integrated all-suite pass after pending modules/fixes arrive; avoid repeatedly checking unchanged green suites while tracked edits continue. Use record for historical evidence/status, not tracked coverage churn; current exact receipts and reviews are still required for final acceptance.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

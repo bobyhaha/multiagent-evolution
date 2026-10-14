@@ -1,0 +1,10 @@
+{
+  "version": "v005",
+  "rationale": "Trace4195 reference e335e628a4e4855e rejects stats --types with exact66-byte stderr (quoted flag and usage), while current analysis4130 recorded only Unknown flag: --types plus newline. Checkpoint4314 is21/22 with that reference case remaining. c383/c388 and formation messages classify the local success hypothesis correctly but omit the distinct real diagnostic-byte mismatch. Target that mismatch without implementing the unsupported flag or waiving strict fixtures/acceptance. Formatting now has39-pass receipt4307 and stats first acceptance4303; avoid another broad orientation/suite sweep before resolving the known mismatch.",
+  "common": "Keep task, ownership and strict acceptance. Finish actions-v1 JSON, then stop. Use current result/hash; read_result start>=1, lines1..100. Save evidence/next step in memory. Coordinate last edits before exact checks, handoff and review. Public diagnostics are not full parity.",
+  "teams": {
+    "t0001": "Format39 checks pass. Public v24 is21/22: stats --types rejection text still differs. Coordinate with stats owner if shared error handling needs changes. Refresh stale missing-stats/alias claims in notes from current evidence; avoid another broad SPEC/core reread.",
+    "t0002": "Reference e335e628a4e4855e rejects --types; do not implement it. A real mismatch remains: current stderr is Unknown flag: --types plus newline; reference has quoted flag plus blank line and stats Usage (66 bytes). Match the rejection protocol, add strict retained regression, then exact check/handoff; coordinate shared edits.",
+    "t0003": "Reference e335e628a4e4855e disproves local --types success hypothesis, but exact rejection stderr still mismatches. Preserve historical fixture/result; add the strict reference rejection separately. Do not waive acceptance or label all checks passing. Await relevant fix before repeating suites."
+  }
+}

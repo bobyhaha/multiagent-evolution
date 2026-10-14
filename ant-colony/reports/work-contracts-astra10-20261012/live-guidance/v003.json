@@ -1,0 +1,10 @@
+{
+  "version": "v003",
+  "rationale": "Trace round13 seq4724 rejects a0002 probe with >12 captures as Invalid probe; next call423 repeats oversized probe. Runtime errors are optional inbox context and may be omitted. Parent assignment changes also rejected a0009 old-contract check; all tracked files influence freshness, not only production.",
+  "common": "Operator efficiency guidance; preserve original objective, exact fixtures and contract criteria.\nPersist NEW observed facts with memory now: it replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Never infer a pending tool result. Check runtime rejections first: coding.result may still describe an older tool.\nCompare visible hashes before rereading. Reuse unchanged findings; inspect relevant ranges, not full files or repeated path inventories. Notify affected owners of new decisions once.\nContract receipts cover ALL tracked files, including tests/reports outside your ownership. Agree a brief freeze of all tracked edits across teams; integrate pending changes first, then exact declared checks, immediate handoffs and parent reviews. Keep final results in memory/handoff or PROJECT_NOTES. A production-only freeze cannot prevent stale receipts. Scope/assignment changes require a current replacement contract before execution.\nReturn one compact complete actions-v1 JSON object: close the action, actions array and root object, then STOP.",
+  "teams": {
+    "t0001": "Integration: operations has identified partition as the third public mismatch. Coordinate the repair; avoid duplicate evidence inventories.",
+    "t0002": "Partition probe rejection: capture allows at most 12 paths (your last requests exceed it). Use <=12 discriminating captures, not another unchanged retry. Preserve strict sampling expectations.",
+    "t0003": "Verification: reuse retained fixtures; test affected cases after fixes and the full suite once stable. Await repair when unchanged and blocked."
+  }
+}

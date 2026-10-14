@@ -1,0 +1,33 @@
+[OPERATOR_GUIDANCE v002]
+Operator efficiency guidance; preserve the original objective, exact fixtures and contract criteria.
+Persist NEW observed facts with memory in the same reply: memory replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Do not claim a pending tool result. Keep strategy for plans, memory for evidence.
+Before rereading a file, compare its visible hash with memory. If unchanged, reuse findings; if changed, inspect only relevant ranges. Avoid whole-source dumps and repeated path inventories. Read targeted evidence from documented paths. Notify affected owners of new facts/decisions once.
+Finish tracked code, tests AND coverage edits before checks. Agree a source-stable window; run exact declared checks standalone, then hand off next turn without tracked edits. Record final results in memory/handoff or PROJECT_NOTES; tracked report edits stale receipts. Review fresh handoffs promptly.
+Return one compact complete actions-v1 JSON object: close the last action, actions array and root object, then STOP.
+Integration: operations has identified partition as the third public mismatch. Coordinate the repair; avoid duplicate evidence inventories.
+[/OPERATOR_GUIDANCE]
+
+# Integration checkpoint
+Independent Python implementation; ./compile.sh builds ./executable. No original source used.
+
+## Ownership and interfaces
+- a0001: core.py, main.py, compile.sh, runtime_tests.py and integration.
+- a0002 and descendants: ops.py, ops_analytics.py, ops_relational.py; frequency/stats/sort/search/join/sample/reverse/index/partition.
+- a0004: structural.py, structural_tests.py, STRUCTURAL_COVERAGE.md; cat/fixlengths/flatten/fmt/headers/slice/split/table.
+- a0003 and descendants: independent verification/, COVERAGE.md, help_text.json.
+core.parse_args(argv,value_opts=None,flag_opts=None,defaults=None)->(opts,positionals); complete option spellings map to canonical keys. Common delimiter/no_headers/output flags. stream_csv(path,opts,flexible=False)->(header,record iterator), validating lazily; load_csv retains eager (header,list) compatibility. Header is None with -n, [] for empty headered input. write_csv(header,rows,opts) defaults to comma output unless output_delimiter set. select_indices(spec,header,width)->zero-based indices. fail raises XsvError. Modules dispatch(command,argv)->handled bool. help_text.json maps commands to exact help stdout, with __root__ reserved; main uses retained help before fallback.
+
+## Verified checkpoint, round 8
+Fresh ./compile.sh followed by runtime_tests.py, structural_tests.py and verification/regression.py passed: runtime CLI/selector/parser cases plus three ragged-prefix cases; 33 structural cases; 45 independent integration cases across all 20 command families. Independent fixtures label exact reference provenance versus documentation-derived expectations. Retained fixture core-reference-9714088b541872e3 now passes: select preserves valid output before a short record and reports record 3, line 5, byte 39. Runtime also checks no-header and output-file variants. Both declared contract checks passed with current receipts wr0000023 and wr0000025; --list includes all 20 commands.
+Checkpoint hashes: core.py 70a56f034b0fc3477eb35420d64efba12b6fe63670abaa443a122c19a75f8b93; main.py 17b2e51b499c4ad1d8ddf218b74dddf72d373e7f47b80cbfb8b2d404dc66251c; compile.sh 20f56c4a6323515462cd36bc838d00811de012a627c4ce709f29600acb27df6c; structural.py 366cc3fff902fbc36b178a707cf01c5bff6d6f48cb5d3c0533d5ae2c614d63d1. Full integrated source hashes appeared in the fresh verification output. Public probe scores are diagnostics, not completeness evidence.
+
+## Coverage and remaining uncertainty
+Implemented and locally exercised: shared count/select/input; stdin and files; header/no-header; delimiter and quoted multiline CSV; selectors; integrated structural, analytical and relational dispatch. Detailed matrices: COVERAGE.md, STRUCTURAL_COVERAGE.md, OPS_COVERAGE.md, ANALYTICS_COVERAGE.md, RELATIONAL_COVERAGE.md.
+Known diagnostic: retained sample --help differs; verification owner is repairing retained help. Numeric-sort rejected -u probe must not be treated as a valid numeric-sort behavior test. Unverified boundaries include native Rust regex parity, invalid UTF-8/input encoding, CRLF/blank-line diagnostic positions, malformed-prefix semantics outside streaming select/input/count, exact sampling RNG, and comprehensive index/table behavior. No claim of hidden-test completeness or final team readiness.
+Next: freshly execute all operations suites on the integrated build; collect source hashes. Coordinate focused CSV boundary checks and structural child evidence, then refresh current contract evidence if sources change and review handoffs before readiness.
+
+## Round 10 checkpoint repair
+Shared unknown flags now quote the rejected flag and append the retained command Usage block. Exact sort -N -u -s k reference bytes are preserved in runtime_tests.py; verification pending. Decoded help_text.json integrated (sample help 1382 bytes). Seeded sampling remains a known strict-oracle defect under operations ownership; no fixture weakening. Next: clean build and all six suites on a recorded source manifest.
+
+## Round 11 integration repair (verification pending)
+Source-stable full regression actually ran: runtime, structural (39 cases), analytics, and ordering suites exited 0; verification exited 1 (48/51 passed), relational exited 1 at seeded sample. Exact failures: c9288a5cf5091874 stderr expected record3 line5 byte44, got line7 byte47; sample seed1 size3 expected 8,7,2, got 5,7,6; seed2 size4 expected 12,18,10,3, got 14,1,8,12. All stdout/stderr/status comparisons remain strict. New core edit preserves previous record-end position across blank lines and treats CRLF record completion at CR; exact retained regression added. Not yet executed on this revision. Original LF ragged fixture remains retained. Seeded sampling remains operations-owned and unresolved. Latest audited help_text.json hash b11fdbf6b3de5a8d4a659f04d0523efa71a49861bf6728b5f200853547a9bcac. Next: separate clean build/runtime check, independent affected-case check, final short source freeze and all-suite manifest run.

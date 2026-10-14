@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "phase": "formation",
+      "call_id": "c0000344",
+      "round": 11,
+      "system_sha256": "c635614938e4bde320f7ba57b024f352a5dc44ef7ab27f19673834aeb577b299",
+      "contains_new_memory_instruction": false,
+      "contains_new_hiring_instruction": false
+    },
+    {
+      "phase": "work",
+      "call_id": "c0000337",
+      "round": 10,
+      "system_sha256": "735186ecc6d0333ff55e7c5dc3d5b05f0f389b44660095942b2606f45664f6d1",
+      "contains_new_memory_instruction": false,
+      "contains_new_hiring_instruction": false
+    },
+    {
+      "phase": "bank",
+      "call_id": "c0000309",
+      "round": 10,
+      "system_sha256": "a837d7311ba3e6e2fdcd54891f65a75fd2fa05c18504557ed3cef3c75163404f",
+      "contains_new_memory_instruction": false,
+      "contains_new_hiring_instruction": false
+    }
+  ],
+  "meaning": "Current refinement wording is absent from active v18 requests, consistent with the frozen run."
+}

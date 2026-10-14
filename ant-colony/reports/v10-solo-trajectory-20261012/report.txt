@@ -1,0 +1,110 @@
+V10 versus solo Astra: trajectory analysis
+2026-10-12 — historical, offline analysis; no model calls or benchmark reruns
+
+CONCLUSION
+V10 demonstrates useful specialization, but does not demonstrate a worthwhile overall advantage over solo Astra. On the same 1,182 native test identities, V10 passes 951 and solo passes 946. The colony spends $96.990195 versus $13.351125: about 7.26 times the money for five net additional passes. The colony uniquely passes 53 cases but loses 48 that solo passes. Its specialized gains are offset by regressions in shared CLI behavior. More agents and more messages are not independently evidence of better problem solving.
+
+The best observed pattern is a coherent integrator with bounded specialist assignments and one independent check of consequential changes. The weakest pattern is expensive organizational activity and repeated acceptance paperwork while untested interface behavior remains unresolved.
+
+METHOD AND LIMITS
+Read both full events.jsonl files, recorded prompts/actions/tool receipts, configurations, frozen runtime code, checkpoint history and terminal native evaluations. Matched tests by (branch, test name), applying ProgramBench active-branch and ignored-test filters. The earlier raw V10 score, 1096/1332, includes 150 extra entries outside the benchmark manifest, of which 145 passed and five were skipped. Those extra agent-test entries must not count as a benchmark gain. Historical raw artifacts were preserved. See reports/common-tests-v10-solo-20261012.json for the matching audit.
+
+Both runs used high reasoning, the same pinned evaluator revision and benchmark task, but had different prompts, budgets, round horizons and populations. Each is one uncontrolled provider-seed run. Terminal hidden results are used here only for retrospective diagnosis; agents did not receive them. Public-probe curves are not native-accuracy curves. There is no hidden score at each round, so this analysis cannot establish when native accuracy peaked or whether an earlier checkpoint was better.
+
+MEASUREMENTS
+                              V10                   Solo Astra
+Common native pass count      951/1182               946/1182
+Common native accuracy        80.4569%               80.0338%
+Actual API dollars            $96.990195             $13.351125
+Rounds                        60                     30
+Completed calls               779                    120
+Work-phase calls              454                    120
+Other calls                   325                    0
+Input tokens                  5,325,887              859,726
+Output tokens                 608,449                52,109
+Invalid replies               66                     4
+Cost of invalid replies       $10.1346925            $0.474645
+Final self-selected probes    32/32                  14/14
+Working identities            11                     1
+Maximum recruitment depth     2                      0
+
+V10 started with 39 workers plus the bank, not 40 productive workers. Eleven identities made work-phase calls and tool calls. Four hires and four new spawns were recorded. The depth-two fmt worker did real implementation/testing; this is genuine nested work, but only one such productive depth-two worker is established.
+
+V10 spending by phase: work $75.7270575 (454 calls); formation $9.03631 (122); discovery $4.67826 (117); applications $3.2762675 (51); bank $3.865825 (30); local reviews $0.406475 (5). Non-work phases cost $21.2631375, about 21.9% of the total. This is organizational overhead, not necessarily all waste. Invalid-reply cost overlaps these phase categories and must not be added as a separate disjoint bucket.
+
+All 66 V10 invalid replies are JSON Extra data errors. The system demanded one object, but these responses contained additional material. The runtime therefore could not safely apply the intended actions. That is a protocol failure, not lack of model capability or proof the underlying proposed code was wrong.
+
+V10 TRAJECTORY
+Rounds 1–2: establish core interfaces, build/entry point, help fixtures and teams. Broad scaffolding exists, but the selected probes are initially failing (0/3, then 0/11).
+Rounds 3–5: specialized modules arrive. Analytics, presentation/fmt and related tests raise public diagnostics to 8/16, 13/19, then 19/24.
+Rounds 6–10: data/file/partition work and integration bring diagnostics to 22/27, 27/29, 27/30, 29/30 and 30/30.
+Rounds 11–14: acceptance records and additional investigations; a new failure appears as 30/31 and is repaired to 31/31.
+Rounds 15–20: increasingly concentrated verification and release reconciliation. The final probe exposes split partial-output semantics. A concrete repair produces 32/32 and receives an independent check.
+Rounds 21–24: documentation, coverage reconciliation and local cat/input checks. Agents explicitly acknowledge unverified malformed input, partial outputs, regex/Unicode, index compatibility and other gaps. No further reference slots remain.
+Rounds 25–60: no further checkpoint source integration. Only $3.0047575 is spent across these 36 rounds. Thus the long idle tail is a stopping/liveness problem, but is not the main cause of the $97 bill. Most money was spent earlier.
+
+WHAT WORKED IN V10: A REAL NESTED ASSIGNMENT
+Integrator a0001 delegated presentation to a0040, which delegated fmt to a0042. The child had an isolated presentation_fmt.py interface, bounded scope and two reference probes. At round 3, seq 1454, it reported that the remaining probe would test ASCII/CRLF/delimiter precedence and quoting/escaping. At round 4, seq 1849, it reported the observed rules and committed to isolated implementation. At seq 2073, it delivered run(argv), a successful integrated build and 14 passing local tests, with unprobed diagnostics explicitly listed.
+
+This is useful hierarchy: a question, limited evidence budget, owned module, concrete integration interface and testable handoff. The terminal common fmt group was 12/12 for both runs. It proves delegation produced useful work; it does not prove delegation improved fmt accuracy over solo.
+
+WHAT WORKED IN V10: SPLIT FAILURE -> REPAIR -> INDEPENDENT CHECK
+The prepared fixture combined quoted multiline CSV with a later malformed-width record. In round 18, seq 6309, the new reference check exposed failure and public diagnostics became 31/32. Correct behavior included an exit error while preserving the right partially written files and avoiding an extra trailing file.
+
+The owner changed file_ops.py from eager chunk materialization to a one-record peek followed by streaming writes. Round 20, seq 6672, documents why: retain part-2.csv on the CSV error and avoid creating part-4.csv. Then a0040 independently built the selected public artifact in a temporary copy, removed its source tree, executed it and compared exit status, stdout/stderr, complete filename set, exact bytes and absence of the unwanted file (seq 6742–6743).
+
+This is stronger than multiple agents agreeing with one another: an observed discrepancy led to a narrowly owned code change and an independent, reproducible acceptance check. Preserve this mechanism.
+
+WHAT DID NOT WORK IN V10
+1. Cross-cutting behavior remained weak. Specialized modules received sustained attention while shared argument parsing and errors remained inconsistent. Common argument-parsing tests: V10 11/67, solo 28/67. Both pass only 13/34 error tests. Naming a core owner was not sufficient to ensure systematic negative-case coverage.
+
+2. The probe bank was narrow and exhausted. Passing 32/32 meant matching 32 selected examples, not completing xsv. Final common-test failures were still 231. At round 24 the roots explicitly reported cat/input lacked direct saved-reference coverage and listed consequential unverified behaviors. The problem was visible uncertainty that did not become a prioritized testing strategy, not simply agents falsely claiming perfect hidden accuracy.
+
+3. Communication actions were unnecessarily brittle. There were 71 rejected message batches, all containing a recipient named bank. The worker messaging API did not accept that recipient; rejecting the batch also lost valid intended teammate messages. For example, round 17 seq 6088 says the final split-slot request may have been lost to a neighborhood rejection. The agent then waits for explicit allocation; the probe happens in round 18. Expose valid channels clearly and handle recipient errors individually, without silently inventing delivery.
+
+4. Protocol errors consumed money. The 66 rejected replies cost about $10.13, versus four at $0.47 for solo. Prompts alone did not enforce the JSON contract. Strict phase-specific structured output and validation are the right kind of repair; preserve valid billing and never infer missing actions.
+
+5. Administrative effort was substantial. 325 calls occurred outside work, and 696 messages were delivered. There were repeated ownership acknowledgements, release manifests and evidence reconciliation. Some of this prevented conflicting edits and caught split defects; the trace does not support calling all verification waste. But coordination should be judged by the code change, resolved dependency or verified discrepancy it enables, not message volume.
+
+6. Completion deadlocked on stale readiness. At the round-27 bank call, core readiness was current, but data and analytics readiness were not. Their reports had been recorded in round 24 before subsequent synchronization changed workspace revisions. The frozen coding_workspace.py increments revision for any synchronized source-file difference, including documentation. The bank marked tasks done and attempted finalization. finalize_society required every readiness receipt to match the current revision; TaskBoard.can_work meanwhile disallowed further work on done tasks. Nine finish attempts (27,31,35,39,43,47,51,55,59) failed the same gate. Round 60 exported automatically. The final report also has detached team references after cleanup, but that later state was not the initial cause of the failed finish attempts.
+
+SOLO TRAJECTORY: WHY IT WAS EFFICIENT
+Solo started with a compact xsv.py and compile.sh, expanded broad command support immediately, then directly alternated source inspection, targeted reference probes, repairs and replay. The same actor owned parsing, CSV semantics, command dispatch and integration. There was no discovery, application, bank or liaison model-call loop. This avoided both communication loss and much of the need to restate interfaces.
+
+Concrete example: round 11 seq 345 probes a full join containing duplicate keys, unmatched rows and blank keys. Round 12 seq 370 updates join handling so blank keys do not match unless null matching is requested; all seven accumulated diagnostics pass. A headers probe at round 12 seq 385 then leads to a formatting change at round 13 seq 415 and 8/8 replay at seq 422.
+
+Second example: round 22 seq 682 probes table width, padding, condensation and quoted/tab-containing content. The first adjustment is incomplete. Round 23 seq 722 rewrites the relevant formatting block and reaches 13/13 saved probes. The one agent owns observation, implementation and the regression loop; there is no separate approval/handoff chain.
+
+This is a plausible explanation of efficiency, not a causal experiment proving single-agent architectures universally superior. Solo's simple architecture also makes broad shared behavior easier to keep consistent on this particular task. It still re-read large source sections and repeatedly replayed unchanged checks; not every work call was a productive edit.
+
+WHAT DID NOT WORK IN SOLO
+The final 14/14 probes also overstated completeness if interpreted as accuracy: 236 common native tests still failed. It left important partition/filename and analytics behavior behind V10, and its error/argument handling was far from complete. A single generalist's broad implementation had limited semantic depth in some commands. It also lacked an independent checker; reproducing one's own assumptions in tests can leave blind spots.
+
+Its original prompt emphasizes society wealth and contribution per cost, while V10's emphasizes correctness/completeness, hierarchy and integration. Solo nevertheless performs strongly without the organizational mechanism. This indicates that API-dollar accounting and quality-first wording are not, by themselves, sufficient reasons for a colony to outperform. The absence of coordination overhead is a more immediate explanation supported by the actual call allocation.
+
+WHERE THE RESULTS DIFFER
+Family                              V10             Solo
+Argument parsing                    11/67           28/67
+Analysis                            44/49           37/49
+Partition + partition gapfill       20/25           10/25
+Frequency                           15/15           11/15
+Integration                         28/30           25/30
+Errors                              13/34           13/34
+Fmt                                 12/12           12/12
+Table                               6/6             6/6
+Stats                               61/62           60/62
+These categories are retrospective localization of strengths, not feedback available to the agents during the runs.
+
+RECOMMENDED CHANGES, IN ORDER
+A. Correct the evaluation boundary first. Use the fixed native test manifest; exclude agent-authored tests from benchmark totals. Report absent expected tests explicitly and never improve a score by dropping them. Keep original raw reports alongside corrected analyses.
+B. Fix the demonstrated mechanics before adding more agents: strict output schemas, explicit bank-report channel, independent validation of message recipients, and actionable reasons for failed finalization. Persist readiness against relevant dependency fingerprints; allow completed teams to refresh a receipt without reopening paid implementation. Do not weaken actual build or integration checks.
+C. Use a coherent integrator as the default execution path. Recruit a small temporary team only for a concrete uncertainty or separable implementation with an interface and acceptance test. Keep hierarchy when a subproblem warrants it, not as a numerical target. This proposal needs an ablation to validate; the current runs do not prove the optimum team size.
+D. Allocate exploration by uncertainty and cross-cutting impact. Track command/option/input-class coverage from public documentation and observed behavior. Reserve probes for invalid arguments, error channels, malformed inputs, output files/partial effects and interface interactions, rather than spending all slots on already-working happy paths. Future prompts must remain benchmark-general and not include protected test identities from this audit.
+E. Turn repeated confirmations into durable state: owner, files, interface, dependencies, evidence, blocker, next decision. Deliver updates when one of these changes. Keep one genuinely independent acceptance check for risky integration; avoid several layers restating the same successful receipt.
+F. Compare mechanisms under equal caps/horizons and fixed manifest scoring, with multiple runs. Compare solo-plus-targeted-specialists against solo before returning to a 40-agent population. Do not launch a run from this analysis; prior authorization has expired.
+
+EVIDENCE FILES
+analysis.json: recomputed full phase/cost statistics, per-round trajectory, invalid replies and common-test family outcomes.
+evidence.json: selected original event excerpts with sequence and round identifiers.
+analyze.py: offline analysis script.
+Original logs: runs/programbench-astra40-quality-first-high-20261011-v10/v10-all-astra40-quality-first-xsv/events.jsonl and runs/programbench-mixed-high-20261010/solo-xsv/events.jsonl.

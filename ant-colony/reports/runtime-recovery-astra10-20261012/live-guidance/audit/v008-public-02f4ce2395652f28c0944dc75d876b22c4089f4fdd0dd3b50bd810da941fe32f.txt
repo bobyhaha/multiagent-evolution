@@ -1,0 +1,7 @@
+[OPERATOR_GUIDANCE v007]
+Keep original task, ownership and strict acceptance. Finish actions-v1 JSON, then stop. Accepted/ready contracts prohibit writes (even PROJECT_NOTES), exec and probes until explicitly replaced. Do not retry rejected actions unchanged. Preserve valid receipts and covered file ranges in memory; avoid unchanged reads/tests. Hand off only with current source-bound receipts. Conformance fixture-owner approval remains unresolved; passing suites do not supply that consent.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

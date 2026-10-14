@@ -1,0 +1,12 @@
+{
+  "astra": {
+    "id": "openai/gpt-6-astra",
+    "input_usd_per_million": 10,
+    "output_usd_per_million": 50,
+    "input_token_ceiling": 100000,
+    "reasoning_effort": "high",
+    "provider_ignore": [
+      "openai/flex"
+    ]
+  }
+}

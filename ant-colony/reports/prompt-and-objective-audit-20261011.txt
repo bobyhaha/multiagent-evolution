@@ -1,0 +1,151 @@
+Prompt and objective audit — 11 October 2026
+
+Scope
+Read the frozen v8 all-Astra prompts and runtime, plus recorded calls from the
+completed v5 and v6 mixed colonies. No experiment, frozen prompt, budget, STOP
+file, or historical charge was changed. These findings motivate an experiment;
+they do not establish that any single prompt clause caused the observed scores.
+
+Accounting
+The current ProgramBench configuration already uses cost_mode=api_usd and zero
+rent. Settled calls cost ceil(provider usage.cost * 1,000,000) internal credits.
+Input and billed reasoning are included through the receipt; visible output
+length is not the economic penalty. Transfers and allowance assignments are not
+expenses. Native rewards are simulated credits and do not increase the real cap.
+
+Verified every completed call in v6 (965), v5 (1,475), and v8 (6): no discrepancy
+between charged credits and the ceiling-rounded actual receipt. Their actual
+spends are $7.847733490, $13.153097435, and $0.4189810. Total rounding differences
+are $0.000406510, $0.000740565, and $0.0000030, respectively.
+
+Unresolved reservations are not verified expenses. The internal conservative
+wealth report subtracts uncertain reserves to prevent reuse; its `burned` field
+therefore includes such holds. Use `api_spent_usd` and the campaign ledger for
+confirmed dollars and report holds separately. Do not erase or release holds
+without reconciliation. The generic offline/demo default still supports token
+pricing; the inspected paid ProgramBench treatment uses actual dollar pricing.
+
+Five existing targeted tests passed: both dollar-priced run/audit variants,
+heterogeneous prices and permissions, provider reservation settlement, and
+uncertain-call retention without retry. No model calls were made for these tests.
+
+Prioritized findings
+
+1. Funding precedes discovery (runtime plus prompt; high-confidence constraint).
+   Unfunded agents receive only admitted sponsored application calls. Application
+   schema permits proposal, accept, and memory, with no tools or ordinary chat.
+   Four bank slots per round couple proposal generation to central review capacity.
+   Agents must describe valuable work before being able to investigate it. All
+   39 initial workers eventually applied in each completed mixed run, but only
+   10/11 worked: the failure is conversion to useful work, not just first contact.
+   Candidate change: bounded sponsor-paid discovery, evidence-backed reusable
+   offers, and direct queued applications to existing owners at every tree level.
+
+2. Economic justification precedes evidence (objective; plausible inhibition).
+   The opening instruction maximizes wealth after generation costs. Recruitment
+   repeatedly requires predicted net value and retained reserves. Agents lack
+   calibrated probabilities of score improvement, so conservative inactivity can
+   appear preferable. Cost aversion is a hypothesis, not an identified cause.
+   Candidate change: maximize verified task quality subject to the hard budget;
+   record cost as a separate outcome during mechanism development.
+
+3. Maximum reservations resemble estimated prices (runtime and presentation).
+   Hiring needs a minimum of two maximum child-call reserves; managers must also
+   cover screening and retained capacity. For Astra the child minimum is 3,082,240
+   credits, although actual calls can cost much less. These are liquidity bounds,
+   not actual fees. Cheap small trial work cannot bypass them merely via prompting.
+   Candidate change: genuinely smaller capped trial calls, explicit distinction
+   between expected charge and reservation, and sponsor-backed bounded trials.
+   Keep each real call's conservative budget reservation intact.
+
+4. Broad board ownership narrows entry paths (runtime plus prompt).
+   Three exclusive root portfolios can cover the whole task early. Later agents
+   must convince existing owners to recruit them. Complementary-work wording was
+   added, but spontaneous contact by unfunded applicants still is not an action.
+   Candidate change: distinguish responsibility for integration from permission
+   to investigate, propose, verify, and contribute; preserve clear edit ownership.
+
+5. Productive managers are described as individual implementers (prompt).
+   Every worker is told to leave an edit or verified test before the round ends,
+   with four work calls per round. A useful delegation plan, accepted interface,
+   integration decision, or reproduced blocker can be real progress without that
+   manager editing code. Runtime standing renewal already counts descendants'
+   productive steps, so the prompt is stricter than that existing funding signal.
+   Candidate change: recognize evidence of team progress; distinguish exploration,
+   implementation, integration and coordination without assigning permanent roles.
+
+6. Communication identities are constrained (runtime plus prompt).
+   Work messages may target only parent, direct children, or two rotating peers.
+   The prompt says agents may communicate across teams, but cannot choose any
+   useful recipient. v6 had 14 rejected message actions; v5 had 18. This does not
+   establish the value of those messages, but confirms the restriction is exercised.
+   Candidate change: addressable bounded mailboxes and compact topic subscriptions,
+   retaining constant message/context volume. Funding hierarchy need not define
+   the entire communication graph. Reading/replying still needs paid inference.
+
+7. Large generic instructions cross phase boundaries (prompt).
+   v8's first work system message is 10,190 UTF-8 bytes of a 21,557-byte serialized
+   request. Recruitment-funding instructions appear even when the current schema
+   does not permit recruitment_request; worker application and review calls also
+   carry substantial work/recruitment policy. Current phase rules do restrict the
+   legal schema, but the repeated instructions increase cognitive and token cost.
+   v6 had 43 invalid replies and v5 had 96, including unexpected decision fields;
+   attribution to prompt length or phase mixing is not proven by these logs.
+   Candidate change: short common objective plus only current-phase actions and
+   relevant local contracts, with one valid example and durable runtime checks.
+
+8. Knowledge is bounded by text truncation rather than retrieval (runtime).
+   Proposal plans, assignments, strategies and individual notes are short; board
+   scope/acceptance are clipped to 240 bytes. Compact ownership summaries can lose
+   interface requirements. The observed v8 board contains mid-word truncation.
+   Candidate change: compact summaries with stable references to retrievable
+   specifications and evidence; retain constant retrieval and context limits.
+
+9. Progress/finalization incentives can favor premature convergence (both).
+   Repeated inspection is discouraged, renewal requires changed source or a fresh
+   test, and stagnation can terminate an episode. These are useful against loops
+   but do not recognize all bounded exploration that reduces uncertainty. Readiness
+   of the current board is not proof of full task coverage.
+   Candidate change: explicit exploration hypothesis and stopping condition;
+   coverage and regression evidence before finalization. Hidden tests remain
+   unavailable during work. Do not reward aimless edits or mere tree growth.
+
+10. Execution throughput is a separate confound (runtime).
+    Worker calls are collected synchronously in a list before actions are applied.
+    More logical agents does not mean concurrent API execution. A slow first call
+    blocks the wave. Constant per-agent context does not guarantee scalable wall
+    time or constant total system cost. Any future parallel scheduler should retain
+    the accounting cap, bounded concurrency and deterministic action barriers.
+
+Recommended research order
+First optimize solve rate (or the benchmark's native test pass fraction) within a
+fixed authorized episode/campaign cap, retaining actual-dollar accounting. Use a
+quality-first prompt, funded bounded discovery, accessible local sponsorship,
+addressable bounded messaging and explicit integration ownership. Preserve agent-
+chosen roles and recursive authority. Treat useful hierarchy as a measured result,
+not a rewarded population/depth quota. Keep any hierarchy bias identical in a
+paired comparison or separately ablate it.
+
+Then compare against the same-model single-agent baseline under matched spending
+caps and tool access, with sufficient repeated tasks/runs to assess reliability.
+Choose tasks before inspecting hidden outcomes. Measure final native quality,
+wall time, actual cost/holds, application-to-work conversion, useful accepted
+contributions, regression/conflict rates, and productive depth. Add cost penalties
+and heterogeneous model routing only once collaboration has demonstrated value.
+
+Suggested common objective (proposal only, not installed):
+"Maximize the correctness and completeness of the final integrated solution within
+the authorized budget. Investigate uncertainty through bounded experiments, ask
+for help, and delegate independently testable outcomes when useful. Own interfaces
+and integration; share concise evidence and failures. Roles may change with the
+work. All calls are charged at actual API cost and the spending cap is mandatory.
+Do not stop merely to preserve unused money while a useful affordable next step
+remains. Judge progress by verified task outcomes, not number of agents or depth."
+
+Sources relative to the ant-colony project
+- runs/programbench-astra40-hierarchy-high-20261011/runtime/ant_colony/protocol.py
+- same runtime: funding.py, engine.py, pricing.py, recruitment.py, adaptation.py,
+  board.py and context.py
+- v5/v6/v8 events.jsonl and report.json under their respective run directories
+- runs/programbench-mixed-high-20261010/campaign.sqlite (read-only inspection)
+- reports/programbench-astra40-prompts-20261011/ (exact recorded prompt exports)

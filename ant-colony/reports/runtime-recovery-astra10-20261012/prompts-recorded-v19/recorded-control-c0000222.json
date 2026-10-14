@@ -1,0 +1,143 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Resolve the concrete execution bottleneck in the observation.\nThis is a small paid control call, not a coding turn. Transfer existing allowance\nonly between yourself and your direct children. Negative amounts reclaim rights;\nassignments, membership and contract acceptance remain unchanged. Retain the\ndisplayed control reserve when giving money away. Pool enough for a useful work\ncall rather than leaving every worker below its minimum. Route one specific task\nor evidence request to a listed sleeping descendant when useful; delivery wakes\nit without requiring intermediate managers to buy calls. Routing grants no money\nand changes no assignment. Cancel an obsolete funding request explicitly. Do not\nrepeat status, fabricate evidence, weaken checks or recruit to increase headcount.\nIf no useful transition exists, return no actions. This decision is not repeated\nuntil relevant state changes. All amounts are integer spending rights.\n\nOUTPUT ENCODING (actions-v1): Return one object with an actions array, for example\n{\"actions\":[{\"action\":\"memory\",\"value\":\"evidence from this turn\"}]}.\nThe observation's schema is an ACTION CATALOG, not the top-level output shape.\nChoose only actions in that catalog, at most once each; omit unused actions.\nReturn {\"actions\":[]} for no actions. Never concatenate replies or simulate the\nnext turn. Every selected action uses the provider's typed value schema. Nested\noptional fields listed in the provider schema must be present with null when\nunused, even if the catalog describes them as optional or says to omit them.\nA null action value is permitted only for\nopening, recruitment_request or liaison and explicitly clears/cancels that item.\nFor tool.files use [{\"path\":\"relative/path\",\"content\":\"file text\"}], not a\nfilename-keyed object. No duplicate actions, keys or file paths. JSON only.\nThe runtime validates the complete reply before executing actions. Tool results\narrive next turn; never invent them or include a simulated follow-up response.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"phase\":\"control\",\"self\":\"a0003\",\"task\":\"Rebuild ProgramBench instance burntsushi__xsv.f430466 from its bundled documentation and normal reference behavior. No original source, internet, tracing or decompilation. Use coding tools; read /reference-docs and SPEC.md. Write an independent implementation and compile.sh producing executable. Keep compact PROJECT_NOTES.md. Public probe tests are diagnostics; the protected native tests run once after final artifact selection. Maximize correctness and completeness within the authorized spending cap. Track actual costs; unused budget is not an objective. Model tiers do not assign worker roles or authority. The bank should post a few BROAD, complementary outcomes with interface/acceptance constraints, leaving subdivision, hiring, spawning, approaches and stopping decisions to recipients. Any funded agent can hire or spawn any allowed model within its 3-child cap. Root teams integrate conflict-free source changes between rounds; team members share files. Avoid duplicate investigation, record reusable evidence, and finish a working build before the deadline. The integrated public artifact is selected automatically at the round/dollar limit. Roots report team readiness; only the bank may end the society episode early.\",\"assignment\":\"Own an independent documentation-derived coverage inventory, regression fixtures and compatibility checks across the integrated executable. Coordinate scarce reference probes and share concise reproductions with implementation owners. Do not duplicate production implementations or edit their files without agreement; complementary investigation and regression contributions are encouraged. Acceptance: Provide a compact command/flag/edge-case coverage matrix grounded in SPEC.md and /reference-docs, reproducible checks against the current integrated revision, and an actionable unresolved-failure list. Check build/launch behavior and cross-command interactions as well as individual commands. Clearly separate reference-backed checks, local invariants and untested boundaries; public probes do not establish complete parity.\",\"minimum_work\":1541120,\"control_reserve\":424320,\"state\":{\"allowance\":1727748,\"children\":[{\"id\":\"a0009\",\"allowance\":3269891,\"minimum_work\":1541120,\"assignment\":\"Own independent shared CSV/CLI conformance only. After runtime confirms membership, exclusively edit tests/csv_cli_conformance.py and tests/CSV_CLI_COVERAGE.md (plus uniquely prefixed tests/fixtures/csv_cli_* if needed); do not edit production files. Read SPEC.md and bundled documentation. Cover selection expressions, headers/no-headers, delimiter input/output, quoting, stdin/files and malformed input. Coordinate with a0001's existing help/core probes; use at most 3 reference probes, preferably compound fixtures addressing material uncertainties, and report probe IDs. Check ./compile.sh then ./executable once available. Deliver runnable checks, documentation-grounded expected behavior, revision-specific results and concise owner-directed reproductions. Clearly label reference-backed, documentation-backed, invariant-only and untested cases. Stop after a focused verification pass and relevant-fix reruns, or report a concrete blocker; retain final-check runway. Parent owns overall COVERAGE.md and tests/conformance.py integration.\"},{\"id\":\"a0005\",\"allowance\":2614463,\"minimum_work\":1541120,\"assignment\":\"Own independent filesystem-output conformance for split and partition only, complementary to a0009's shared CSV/CLI checks and my transformation regression inventory. Read SPEC.md and bundled documentation; reuse recorded reference evidence and coordinate additional probes through a0003. Exclusively create tests/filesystem_conformance.py, tests/filesystem_fixtures.json and tests/FILESYSTEM_COVERAGE.md. Check documented naming, output-directory behavior, headers, chunk boundaries, partition keys, --prefix-length and --drop where documented; distinguish reference-backed expectations from documentation-derived checks. Do not edit production modules or other test files. Acceptance: runnable fixtures against the integrated executable, revision-specific exit/counts, and minimal actionable failures or explicitly untested boundaries. First deliver documentation-derived fixtures, then rerun when implementations land; stop exploration that cannot affect an implementation decision.\"},{\"id\":\"a0007\",\"allowance\":2702110,\"minimum_work\":1541120,\"assignment\":\"Own independent stats/frequency compatibility verification only, complementary to existing CSV/CLI, filesystem and ordering checks. Read SPEC.md and bundled documentation; coordinate uncovered questions before reference probing. Do not edit production files or other contributors' tests. Own tests/analysis_conformance.py, tests/analysis_fixtures.json and tests/ANALYSIS_COVERAGE.md. Prioritize documented flags, headers, missing values, type handling, frequency ordering/counts and statistical definitions. Label captured reference expectations separately from documentation-derived checks and local invariants. Acceptance: reproducible fixtures, current-source hash/build and strict test exit/counts, actionable failures routed through a0003, and explicit untested boundaries. Stop expanding once core documented behavior is represented; preserve runway to rerun after implementation integration. No reference probes until an uncovered question and probe allocation are agreed with a0003.\"}],\"route_targets\":[],\"application\":null,\"revision\":16},\"schema\":{\"allocate\":[{\"agent\":\"direct child ID\",\"amount\":1000}],\"route\":[{\"to\":\"listed sleeping descendant ID\",\"text\":\"specific next task within existing scope\"}],\"cancel_proposal\":false,\"memory\":\"compact blocker, changed fact and next useful action\"},\"last_action_errors\":[],\"last_protocol_error\":null,\"context\":[{\"memory\":\"Review r6: approved a0007 partial liquidity grant of 1,000,000; existing allowance was 2,623,725. Three complementary children remain active: a0009 CSV/CLI and liaison, a0005 filesystem, a0007 independent stats/frequency verification. No incoming handoff. Own contract wc000003 evidence is stale; no readiness claim. Core reports CR quoting fix e0c2a9c2/wr0000015, but independent CSV rerun is pending; prior 33/35 predates fix. Filesystem artifacts expanded to 23 fixtures including two local conservation checks; syntax passed, behavior rerun pending. Transformations high.py previously 16/16 on e9a1aa8e, but subsequent help edits invalidate currency. Primary earlier 15/15 also requires current rerun; public 7/11 diagnostic failure list was incomplete. a0007 next creates tests/analysis_conformance.py, tests/analysis_fixtures.json and tests/ANALYSIS_COVERAGE.md; share retained analysis captures and coordinate any targeted probe. a0008 stats implementation membership remains pending under transformations. Next work: inspect refreshed COVERAGE.md/current integration, run missing declared checks, reconcile child results and route repros. Final clean build and contributed suites must share a current source identity; preserve strict fixtures and separate reference-backed, local-only, failing and untested coverage.\"}],\"reply_format\":\"actions-v1\"}"
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "colony_control",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "actions": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "action": {
+                      "type": "string",
+                      "enum": [
+                        "allocate"
+                      ]
+                    },
+                    "value": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "agent": {
+                            "type": "string"
+                          },
+                          "amount": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "agent",
+                          "amount"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "action",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "action": {
+                      "type": "string",
+                      "enum": [
+                        "route"
+                      ]
+                    },
+                    "value": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "to": {
+                            "type": "string"
+                          },
+                          "text": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "to",
+                          "text"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "action",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "action": {
+                      "type": "string",
+                      "enum": [
+                        "cancel_proposal"
+                      ]
+                    },
+                    "value": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "action",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "action": {
+                      "type": "string",
+                      "enum": [
+                        "memory"
+                      ]
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "action",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "actions"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

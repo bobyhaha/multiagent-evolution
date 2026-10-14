@@ -1,0 +1,12 @@
+{
+  "authorization": "User requested continuous trace-based prompt refinement throughout the current run.",
+  "first_applied_utc": "2026-10-12T20:33:52.850604+00:00",
+  "first_applied_after_trace_seq": 4587,
+  "run": "v18-astra10-work-contracts-xsv",
+  "channel": "existing work-observation project_notes, bounded and optional",
+  "system_prompts": "unchanged in running process",
+  "source_implementation": "unchanged by operator; auxiliary PROJECT_NOTES only",
+  "cap_usd_including_pilot": 100,
+  "classification": "operator-assisted adaptive prompting from first verified delivery; no longer a wholly fixed-prompt baseline",
+  "evaluation": "Compare observed actions and progress across interventions descriptively; differences are not causal estimates. No private benchmark feedback used."
+}

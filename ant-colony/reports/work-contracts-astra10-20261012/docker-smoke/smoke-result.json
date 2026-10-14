@@ -1,0 +1,7 @@
+{
+  "isolation": true,
+  "probe": true,
+  "build": true,
+  "integration": true,
+  "cost_usd": 0
+}

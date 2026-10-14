@@ -1,0 +1,10 @@
+{
+  "version": "v004",
+  "rationale": "Stats creation and flatten repair supersede v003 implementation instructions: stats check3904 passes17/17 (3 references) and integrated checkpoint3924 passes20/20. Repeated global receipt invalidation still drives reruns before a stable review window. Control3931 reclaimed exactly958667 credits, but burn3930 left parent1487752 below minimum1541120; sponsored applications reduced the displayed review allowance to1258994. Shift guidance to current integrated verification, stable checks/review and fee-aware liquidity coordination. Preserve original task, strict fixtures and frozen runtime.",
+  "common": "Keep task, ownership and strict acceptance. Finish actions-v1 JSON, then stop. Use current result/hash before reporting failures; read_result start>=1, lines1..100. Save evidence and next step in memory. Agree last edits before exact checks, handoff and parent review. Passing public probes is not full parity.",
+  "teams": {
+    "t0001": "Stats and flatten are integrated; do not repeat their old failures. Run current formatting/analysis checks. Prioritize reproduced owned gaps, including assigned input help. Freeze outputs before checks; coordinate shared edits.",
+    "t0002": "Stats passed17 checks incl3 references; public r9 passed20/20. Next verify stats via ./executable and independent analysis, then current contract handoff. Reuse existing COMMANDS wiring; no orientation reread.",
+    "t0003": "Renew stale contract once, run analysis on integrated stats, retain strict fixtures. Wait for stable inputs before other reruns. Tell parent to pool work minimum plus control/coordination fees; reclaiming958667 left it below1541120 after fees. No new scope."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-12T22:23:34.976437+00:00",
+  "last_reviewed_trace_seq": 7297,
+  "active_policy": "v008",
+  "automation_id": "refine-the-active-astra-run-from-traces",
+  "automation_status": "PAUSED",
+  "action": "Verified experiment completion, native aggregate result and settled accounting. Final validation/review/results and exact prompts saved. Heartbeat paused; no more guidance or inference.",
+  "observations": [
+    "Native score978/1182=0.8274111675126904. Public25/27 remains a separate diagnostic. Inference selected an automatic stagnation checkpoint; current team readiness was incomplete.",
+    "report.json, audit.json and outcomes.json match; completed status, returncode0, usage_verified/accounting_identity/accounting_valid/complete_evaluation true, no uncertain credits or unresolved calls.",
+    "Read-only campaign reconciliation confirms combined actual$93.6256285, pending0, v18$89.7758805 and pilot$3.849748, below100. Caps and deadline unchanged; unrelated holds$4.94717 unchanged.",
+    "Exact16 recorded prompt variants and39 representative guidance requests verified against source events. Versionsv001-v007 delivered111 requests;v008 never delivered. System prompts were frozen and no native feedback was used for agent continuation.",
+    "VALIDATION.md and implementation-review.txt updated with final result, trace-based limits and adaptive-run caveat. Last source-code validation432 passing; final reporting required no new code tests. Heartbeat PAUSED confirmed in saved automation, other fields preserved."
+  ],
+  "metrics": {
+    "metrics_trace_seq": 7297,
+    "native_passed": 978,
+    "native_total": 1182,
+    "native_score": 0.8274111675126904,
+    "combined_settled_usd": "93.6256285",
+    "combined_pending_usd": "0",
+    "public_checkpoint": {
+      "version": 39,
+      "passed": 25,
+      "total": 27
+    },
+    "guidance_requests": 111,
+    "completed_calls": 616
+  },
+  "next_review": []
+}

@@ -1,0 +1,11 @@
+[OPERATOR_GUIDANCE v004]
+Operator efficiency guidance; preserve original objective, exact fixtures and contract criteria.
+Persist NEW observed facts with memory now: it replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Never infer a pending tool result. Check runtime rejections first: coding.result may still describe an older tool.
+Compare visible hashes before rereading. Reuse unchanged findings; inspect relevant ranges, not full files or repeated path inventories. Notify affected owners of new decisions once.
+Contract receipts cover ALL tracked files, including tests/reports outside your ownership. Agree a brief freeze of all tracked edits across teams; integrate pending changes first, then exact declared checks, immediate handoffs and parent reviews. Keep final results in memory/handoff or PROJECT_NOTES. A production-only freeze cannot prevent stale receipts. Scope/assignment changes require a current replacement contract before execution.
+Return one compact complete actions-v1 JSON object: close the action, actions array and root object, then STOP.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

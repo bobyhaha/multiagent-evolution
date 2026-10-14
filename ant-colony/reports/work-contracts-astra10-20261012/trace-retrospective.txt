@@ -1,0 +1,139 @@
+TRACE RETROSPECTIVE — V18 ASTRA WORK-CONTRACT RUN
+
+Assessment
+The implementation phase produced substantial useful work; the closing phase
+failed to turn available results and money into accepted completion. Native result
+was 978/1,182 (82.74%) on $93.63 combined pilot/run spend. Protocol reliability was
+acceptable with enforced validation, while scheduling and evidence delivery were
+major bottlenecks. This was adaptive/operator-assisted, not a causal comparison.
+
+What went well
+- Broad ownership separated shared runtime, operations, and independent validation.
+  Seven funded workers produced integrated command families and preserved exact
+  reference fixtures. Late real repairs included partition collisions (seq 5259),
+  selected-position stats labels (seq 5662), and missing-file errors (seq 5717).
+- Strict validation rejected both malformed replies without executing actions.
+  Two malformed responses among 616 calls is0.325%; malformed output was contained
+  but not eliminated by contracts. Fourteen action rejections are a separate issue.
+- Evidence contracts enforced current receipts and honest blockers. There were
+  81 receipts, 18 handoffs, 7 accept decisions and 5 revise decisions. Known seeded
+  failures were retained, and 635 local invariants were not sold as exact PRNG parity.
+- Targeted factual guidance sometimes produced the intended action: bounded probe
+  captures, decoding raw base64 correctly, and read-only integration checks. Receipt
+  wr0000080 confirms source_unchanged=true with exit1 preserved. This demonstrates
+  observed behavior, not a causal score gain.
+- Spending was auditable: no pending charges, no budget increase, protected native
+  evaluation only after selection, all exact prompts/deliveries retained.
+
+Measured bottlenecks
+- 210 of 616 calls were outside work phases, costing$19.866945 (22.13% of v18 spend).
+  Coordination is necessary, so this is an overhead measure, not all wasted money.
+- 78 of 373 tool results were truncated (20.91%; all were exec results).
+-Only 92 of 405 valid work replies updated memory (22.72%). Not every reply needs
+  an update, but repeated new diagnostic reads without memory were visibly harmful.
+-After the first25/27 public checkpoint in round 15,108 more calls cost $13.8799365.
+  No later repair to the implementation or public-score improvement occurred. Verification,
+  fixture corrections and integration reporting continued, so not all $13.88 was waste.
+-Rounds19–32 spent$5.007844 over45 calls; only three tool executions occurred, all
+  rerunning the integrated checkpoint. No new contract receipts were recorded.
+
+Priority 1: Make funding and wakeups executable without a funded work call
+Round 19 runtime parent/child rights were 1,439,766 and1,371,546, versus a reported
+1,541,120 work reservation. Their combined 2,811,312 could fund work, but only the
+parent's WORK action could reclaim child allowance. The parent could not afford
+that action. Repeated requests did not change this circular requirement.
+The other surviving executor, a0006, had 1,819,598 rights but slept until round 42;
+the run ended in round 32. Root messages kept asking the underfunded operations
+parent to relay tasks. Its parent's inability to call prevented the routing.
+Proposed change: a bounded control path for allowance transfers, wakeups and task
+routing, with explicit authority, conservation and assignment-preservation checks.
+Reserve enough owner/control capacity before funding children. Represent and
+cancel pending funding requests explicitly; zero-amount proposals are not withdrawal.
+Do not lower accounting reservations without actually lowering the call token cap.
+
+Priority 2: Make evidence durable and compact in the host
+Truncated diagnostics caused agents to keep planning inspections of results that
+had already run. Some current beliefs still referred to old stats/help failures.
+Calls603/604 rebuilt a full suite because /tmp reports were missing; c605 repeated
+it again. Every tool execution uses a new sandbox. The three calls cost $0.667385,
+with roughly130 seconds of execution and repeated oversized dumps.
+Proposed change: host-retained immutable tool-result artifacts with source hashes,
+compact required summaries (exit, counts, failure IDs, changed paths), and bounded
+range reads. Summaries should survive across phases without relying on optional
+PROJECT_NOTES or the agent volunteering a memory update. Preserve full logs outside
+the submitted source so inspection neither changes acceptance hashes nor loses data.
+
+Priority 3: Keep strict contracts, reduce avoidable freshness churn
+Whole-source fingerprints invalidated useful scoped receipts after coverage/report
+edits. Example: integration check seq 6287 wrote tests/integration_results.json and
+invalidated its own source-stability claim; after repair seq 6485 was truly read-only.
+Later coverage edits again made prior evidence stale. Final states were working 4,
+revise 3; there was no verified current team completion.
+Proposed change: separate implementation/test dependencies from reporting artifacts,
+while retaining conservative invalidation for shared runtime and real dependencies.
+Track documentation completeness separately. Agree one final source freeze, collect
+exact receipts and handoffs, then keep end-of-run reporting outside tracked source.
+Do not simply ignore arbitrary files or trust unsupported agent dependency claims.
+
+Priority 4: Stop purchasing coordination when it cannot unlock useful work
+Cheap formation/review calls remained affordable after work became unaffordable.
+They repeated requests, status and instructions that recipients could not execute.
+The bank's attempted incomplete finish was rejected by the readiness guard before
+an automatic stagnation checkpoint eventually ended the run.
+Proposed change: schedule a paid control call only for a concrete feasible decision;
+respect sleeping/waiting workers while allowing authorized job wakeups. Use a
+separate explicit incomplete-checkpoint operation from verified completion, with
+machine-readable blockers. Reserve a bounded completion budget. Do not label
+missing readiness as success merely to force an exit.
+
+Priority 5: Expand measured behavioral coverage without optimizing public counts
+25/27 public probes (92.59%) did not imply native 82.74%, and204 native checks did
+not pass. Public fixtures were a small agent-selected diagnostic set. The two known
+seeded failures cannot explain all native failures from the available evidence.
+Proposed change: a coverage matrix by command/option and input boundary; independent
+public checks for documented malformed-input, encoding, selection, output and
+file-effect behavior. Use a new paid comparison only after deterministic runtime
+checks, with fixed prompts/configuration and a declared cap; do not feed protected
+native feedback back into the same agents.
+
+Prompt changes worth making
+- State the phase's available actions and feasibility explicitly: can_transfer,
+  can_wake, can_run_check, minimum/maximum allocation and exact retry round.
+- Give each work reply one next useful action and a compact observed-state update:
+  tested revision, result/blocker, changed fact, next action. Never invent results
+  for the pending tool call.
+- State that /tmp is execution-local. Consume temporary results in the producing
+  execution; persist compact findings in host evidence, not full repeated dumps.
+- Ask for read-only inspection, then only the missing current check. A passing
+  invariant is not reference parity; failed strict fixtures remain failures.
+- Keep funding, hiring, ownership, handoff and acceptance distinct. Funding every
+  possible worker is not an objective; fund a concrete uncovered independent slice.
+
+Operator refinement lessons
+I should have checked sandbox lifetime when v007 recommended /tmp. That fixed
+tracked writes but left persistence assumptions unclear. V008 corrected the model,
+but no work request ever received it. Formation and bank phases did not receive
+notes guidance, although much late inefficiency occurred there. Future experiments
+need explicit policy version delivery/acknowledgement across affected roles, or
+frozen treatment configurations. The delivered memory-update rate was higher in
+guided calls (40/111) than unguided calls (52/294), but time, phase and task mix are
+confounded; this is not evidence of causal effectiveness.
+
+Before another paid run
+Use deterministic zero-API scenarios for stranded funds, sleeping funded workers,
+receipt invalidation after report-only changes, vanished temporary artifacts,
+funding-request cancellation, and incomplete checkpoint selection. Then compare
+fixed configurations across more than one task. Keep the proven safety properties:
+budget conservation, strict assertions, current receipts and protected final grading.
+The existing offline hiring/memory/error-context/receipt-display fixes were not in
+the frozen v18 treatment. Current ask/allocate/deliver/finalize_society,
+execute_command and contract_waiting functions still match the frozen versions;
+the architectural improvements above remain to implement.
+
+Evidence
+Raw episode: runs/programbench-astra10-work-contracts-high-20261012-v18/v18-astra10-work-contracts-xsv/events.jsonl
+Derived metrics: trace-retrospective-metrics.json
+Final verified aggregate: final-verification.json
+Recorded system prompts: prompts-recorded-v18/system-prompts.txt
+Live guidance and delivery manifest: prompts-live.txt and prompts-recorded-v18/guidance-delivery-manifest.json
+No code, prompt policy, automation or paid-run state was changed for this analysis.

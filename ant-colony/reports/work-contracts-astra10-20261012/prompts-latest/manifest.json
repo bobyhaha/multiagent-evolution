@@ -1,0 +1,61 @@
+{
+  "origin": "offline preview using production prompt builders; illustrative state, no inference",
+  "prompts": [
+    {
+      "name": "preview-bank-1",
+      "request_bytes_including_schema": 15474
+    },
+    {
+      "name": "preview-discovery-1",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-2",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-3",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-4",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-5",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-6",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-7",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-discovery-8",
+      "request_bytes_including_schema": 10969
+    },
+    {
+      "name": "preview-application-1",
+      "request_bytes_including_schema": 11811
+    },
+    {
+      "name": "preview-formation-1",
+      "request_bytes_including_schema": 17213
+    },
+    {
+      "name": "preview-review-1",
+      "request_bytes_including_schema": 14292
+    },
+    {
+      "name": "preview-work-1",
+      "request_bytes_including_schema": 25012
+    },
+    {
+      "name": "preview-work-2",
+      "request_bytes_including_schema": 26154
+    }
+  ]
+}

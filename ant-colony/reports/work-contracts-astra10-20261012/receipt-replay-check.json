@@ -1,0 +1,8 @@
+{
+  "recorded_receipts_replayed": 137,
+  "status_and_exit_code_preserved": true,
+  "audit_data_unchanged": true,
+  "max_visible_receipt_bytes": 15174,
+  "large_commands_abbreviated": 3,
+  "paid_inference_calls": 0
+}

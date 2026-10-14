@@ -1,0 +1,97 @@
+V19 final result — 2026-10-13
+
+The fresh 10-Astra runtime-recovery experiment completed at round 25. Native
+benchmark score: 999/1182 = 84.5178%; 183 checks did not pass. Public checkpoint29
+scored24/24 agent-generated diagnostics, a separate and much narrower measure.
+There were25 total reference probes: the last BOM/CSV probe was collected after
+that checkpoint, without a local comparison or regression before selection.
+Only aggregate native results were read, after selection; protected test contents
+and per-case failure breakdowns were not inspected or returned to agents.
+
+The bank explicitly selected an incomplete checkpoint. Transformations had current
+accepted root/member contracts and team readiness. Core's original handoff was
+accepted, then renewed for a final boundary investigation that remained unfinished.
+Independent-conformance owners remained unable to complete current verification
+and approval. The runtime's completed status means the experiment and evaluation
+finished; it does not mean all task obligations or benchmark cases passed.
+
+Accounting and preservation
+608 calls cost $84.9015470, with zero pending or uncertain v19 reservations.
+$15.0984530 remains below this run's separate $100 cap. report.json, audit.json,
+outcomes.json, trace costs and the episode ledger agree. Accounting validity,
+usage verification, accounting identity and complete evaluation are all true.
+All nine workers plus the bank were Astra; all nine workers made work calls.
+The prior v17/v18 cost remains $93.6256285 under its separate authorization.
+Six historical holds totaling $4.94717, old caps and both deadlines remain intact.
+All58 frozen runtime file hashes match. Simulated reward/returned credits are not
+API refunds and do not change the settled dollar cost. No extra inference, restart,
+reservation release or native-feedback continuation was performed by monitoring.
+
+Descriptive comparison with v18
+                                     v18                 v19
+Native passes / total                978/1182            999/1182
+Native score                         82.7411%            84.5178%
+Episode API cost                     $89.7758805         $84.9015470
+Calls / rounds                       616 / 32            608 / 25
+Workers with work calls               7                   9
+Malformed replies                    2                   1
+Action rejections                    14                  14
+Contracts / verification receipts         39 / 81             25 / 92
+Handoffs / acceptance events          18 / 7              33 / 14
+Contract invalidations               12                  25
+Non-work calls / share of cost        210 / 22.13%        227 / 24.90%
+Work replies with memory             92/406 (22.66%)     202/381 (53.02%)
+
+V19 passed21 more native checks (+1.77665 percentage points) for $4.8743335 less.
+Acceptance counts are historical events, not unique final accepted obligations.
+Multiple runtime mechanisms and prompts changed, and both runs had operator
+assistance. V19 had a fixed-prompt prefix followed by adaptive work guidance.
+This is not a controlled causal comparison and does not isolate a prompt effect.
+
+What worked
+All nine workers contributed, and typed output validation limited malformed
+replies to one; malformed actions were not executed. Source-bound receipts and
+reviews gave honest, scoped completion evidence rather than treating public24/24
+as full correctness. The final freeze avoided a redundant stats coverage edit;
+eight declared checks then passed on one source and three children were accepted.
+Memory use increased. Durable host evidence was used twice for reports and four
+times for retrieval, although adoption remained limited. The bank could explicitly
+select an incomplete checkpoint without waiving unresolved acceptance criteria.
+
+Priority improvements for a later run
+1. Reserve enough rights for an actual work-and-review sequence across phases.
+   Fifteen control calls cost $0.7016625, but repeated exact-minimum topups were
+   immediately consumed by formation fees. Sponsored applications further reduced
+   parent runway. Skip unnecessary coordination when it would spend that reserve.
+2. Drain pending handoff reviews and expose authoritative contract status in every
+   relevant phase. Core waited rounds20-23 after another handoff consumed the bank
+   review slot. Formation omitted contract state, prompting status questions and
+   messages that woke already-accepted workers.
+3. Keep established acceptance separate from a new bounded investigation. The
+   final probe first hit an accepted-contract tool restriction; replacing the
+   contract reopened core without preserving completed readiness as a distinct
+   milestone. Any renewal must retain original obligations and strict checks.
+4. Give an authorized final investigation enough bounded steps to compare its
+   observation and close it. The bank requested a new boundary in round24, then
+   selected before the returned probe could be compared locally in round25.
+   Count useful evidence progress while preserving a strict time/spend bound.
+5. Reduce avoidable receipt invalidation. Tracked coverage edits repeatedly made
+   all-source receipts stale; use retained reports for status and establish one
+   final source freeze before acceptance checks. Invalidations rose12 to25.
+
+Exact recorded prompts and provenance
+Frozen system/phase prompt variants: prompts-recorded-v19/system-prompts.txt
+Full first recorded requests and schemas: prompts-recorded-v19/manifest.json
+All immutable guidance policies: prompts-recorded-v19/guidance-policies.txt
+Direct-delivery examples: prompts-recorded-v19/guidance-manifest.json
+Latest applied work guidance: prompts-live.txt
+18 prompt variants and31 representative requests match the source trace exactly.
+Guidance v001-v008 reached154 work requests (10,5,23,16,17,43,20,20 respectively).
+Guidance arrived through PROJECT_NOTES.md; system prompts never hot reloaded.
+All guidance edits stopped at inference completion; none followed native feedback.
+
+Validation and completion
+Runtime validation remains445 tests and recorded Ruff checks passing; this final
+review changed reporting files only. Reports, exports and accounting assertions
+passed. Detailed checks: final-verification.json; comparison-v18-v19.json.
+The heartbeat is PAUSED after verified completion; the chat remains open.

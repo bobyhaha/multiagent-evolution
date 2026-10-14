@@ -1,0 +1,76 @@
+FINAL V18 RESULTS — WORK CONTRACTS / ASTRA
+
+Completed: 2026-10-12. Final native score: 978 / 1,182 = 82.7411%.
+204 native checks did not pass. Hidden case contents and failure details were not
+inspected, and native feedback was never fed back into the agents.
+
+The public diagnostic was 25/27 = 92.5926%; the independent agent-authored suite
+was 57/59. These are separate, narrower diagnostics and did not predict complete
+native correctness. The two known seeded-sampling mismatches remained strict
+failures. They are not asserted to explain every native failure.
+
+The run selected its public checkpoint automatically after stagnation in round32.
+This is a completed experiment with an incomplete implementation, not a verified
+team-readiness success. Final contract states: working4, revise3. There were39
+contracts,81 receipts,18 handoffs,12 reviews and12 invalidations. The system
+rejected2 malformed responses and14 invalid actions; malformed replies executed
+no actions. The current repository's last code validation remains432 passing
+tests; that does not mean432 benchmark cases passed.
+
+Budget and population
+V18: $89.7758805,616 calls; pilot v17: $3.849748,56 calls.
+Combined: $93.6256285 of the authorized $100. No pending or unresolved run charges.
+Report, audit, outcomes and campaign accounting agree. Usage and accounting
+identity are verified; complete_evaluation=true. The existing v17/v18 caps were
+$3.849748/$96.15 and the inference deadline was not extended. Six unrelated
+historical holds totaling$4.94717 remain untouched. Native reward credits in the
+simulation are not an API refund or extra spending authority.
+Configured population was10 including the bank:9 workers plus1 bank. Seven
+workers received funding, two stayed unfunded; one funded structural worker
+retired itself in round22. Its returned rights briefly restored runtime work.
+No replacement agent, additional run or operator-initiated paid call was launched.
+
+What worked, and what still needs improvement
+Strict response validation contained malformed output. Contracts distinguished
+passing/current evidence from stale, blocked or incomplete work. The agents kept
+strict reference fixtures and reported the seeded failures rather than weakening
+them. Delivered guidance was followed by a bounded12-capture probe, correct raw
+base64 replay and a report check that no longer modified tracked source. These
+are observed sequences, not causal estimates.
+
+The largest efficiency failures were runtime and context constraints:
+1. Rights were split among agents, while returning child allowance required the
+   parent to afford a work call first. Coordination calls continued after useful
+   work was unaffordable; renewal proposals repeatedly hit cooldown/minimum rules.
+2. Large tool output was truncated and findings were not consistently retained
+   in replacement memory. Agents repeatedly described already repaired stats/help
+   behavior as unresolved because they lacked current complete evidence.
+3. Global source freshness invalidated scoped receipts after report/coverage edits,
+   producing repeated checks and preventing current handoff acceptance.
+4. Moving reports to /tmp fixed tracked-source writes, but every execution creates
+   a fresh sandbox. Agents regenerated whole suites to recover vanished reports.
+   V008 clarified same-execution consumption, but arrived too late for delivery.
+
+Future implementation priorities: affordable control-phase funding decisions;
+clear proposal withdrawal/cooldown semantics; durable compact tool summaries;
+explicit temporary-file lifetime; coordinated final source freeze; and separate
+incomplete-checkpoint selection from verified completion. These follow-up changes
+were not hot-loaded or used to rerun this experiment. Existing repository fixes
+for hiring/memory instructions, large-command receipts, required private action
+errors and probe bounds remain separate from the frozen v18 treatment.
+
+Prompts and provenance
+Frozen recorded system prompts: prompts-recorded-v18/system-prompts.txt
+All16 exact recorded request variants and response schemas: prompts-recorded-v18/manifest.json
+Actual delivery evidence: prompts-recorded-v18/guidance-delivery-manifest.json
+Exact live policy text: prompts-live.txt
+Versionsv001-v007 reached111 requests;39 representative full requests are saved
+under live-guidance/requests and verified byte-content-equivalent after JSON
+parsing to the original call_reserved events. V008 was applied to notes but NEVER
+delivered. No system-prompt hot reload occurred. The repository prompts-current.txt
+is an offline preview, not the actual paid-run prompt treatment.
+
+This was an operator-assisted adaptive run, not a controlled causal comparison;
+one run cannot establish that MASS-inspired contracts or prompt changes caused
+the final score. Final aggregate artifacts are verified in final-verification.json.
+Live guidance stopped when evaluation began; the heartbeat is now PAUSED.

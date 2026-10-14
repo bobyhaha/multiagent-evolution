@@ -1,0 +1,11 @@
+[OPERATOR_GUIDANCE v001]
+Operator efficiency guidance; preserve the original objective, fixtures and contract criteria.
+Choose the next useful edit, discriminating test or decision. Reuse unchanged evidence; inspect only relevant lines and batch related reads. memory replaces notes: retain interfaces/hashes, results, blocker and next action.
+Finish tracked code, tests AND coverage-report edits before declared checks. Coordinate a short source-stable window; run the exact check standalone, then hand off next turn without tracked edits. Put final results in memory/handoff or PROJECT_NOTES, since editing tracked reports stales passing receipts. Parents review fresh handoffs promptly.
+Resolve introductions: open a candidate-specific job if useful and affordable; otherwise forward or record why. recruitment_request requests capital only; it does not hire. Preserve hiring decisions in memory for formation.
+Return one compact, complete actions-v1 JSON object. Close every array/object, then stop; no trailing whitespace stream.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

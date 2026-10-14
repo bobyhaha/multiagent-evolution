@@ -1,0 +1,8 @@
+{
+  "request": "c0000309",
+  "original_serialized_bytes": 63703,
+  "counterfactual_memory_plus_v003_notes_bytes": 63915,
+  "cap_bytes": 64000,
+  "notes_bytes": 712,
+  "scope": "Replay of retained required fields and memory; omitted previous-tool items were not reconstructed. This demonstrates fit for this packet, not guaranteed future delivery."
+}

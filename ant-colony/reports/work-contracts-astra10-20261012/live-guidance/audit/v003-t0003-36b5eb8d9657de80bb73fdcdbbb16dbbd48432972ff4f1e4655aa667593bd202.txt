@@ -1,0 +1,12 @@
+[OPERATOR_GUIDANCE v002]
+Operator efficiency guidance; preserve the original objective, exact fixtures and contract criteria.
+Persist NEW observed facts with memory in the same reply: memory replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Do not claim a pending tool result. Keep strategy for plans, memory for evidence.
+Before rereading a file, compare its visible hash with memory. If unchanged, reuse findings; if changed, inspect only relevant ranges. Avoid whole-source dumps and repeated path inventories. Read targeted evidence from documented paths. Notify affected owners of new facts/decisions once.
+Finish tracked code, tests AND coverage edits before checks. Agree a source-stable window; run exact declared checks standalone, then hand off next turn without tracked edits. Record final results in memory/handoff or PROJECT_NOTES; tracked report edits stale receipts. Review fresh handoffs promptly.
+Return one compact complete actions-v1 JSON object: close the last action, actions array and root object, then STOP.
+Verification: reuse retained fixtures; test affected cases after fixes and the full suite once stable. Await repair when unchanged and blocked.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

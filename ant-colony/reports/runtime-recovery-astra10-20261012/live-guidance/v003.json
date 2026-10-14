@@ -1,0 +1,10 @@
+{
+  "version": "v003",
+  "rationale": "Request c309/a0008 omitted v001 entirely under the 64000-byte context ceiling; context_omitted3410 dropped two items while memory and two small messages fit. v002 had no recorded work delivery through3562. Compress operational guidance so the stats team block fits the recorded budget instead of attributing its broad reread to ignored guidance. Preserve full original agent notes and immutable versions.",
+  "common": "Keep task, ownership, strict fixtures and acceptance. Close complete actions-v1 JSON, then stop. Use retained evidence; read_result start>=1, lines1..100. Save observed hashes/results and next step in memory/record. Finish tracked edits, agree a stable integrated revision, then exact checks, handoffs and reviews; stale receipts cannot establish readiness.",
+  "teams": {
+    "t0001": "Fix the demonstrated fmt -t alias mismatch in owned code, then run the declared format check. Parent/child coordinate pinned-input edits and the actual dispatcher interface. Read only missing lines; no broad orientation pass.",
+    "t0002": "Stats a0008: core and three reference captures are already read. Next action: write runnable commands_stats.py with focused tests/coverage using the agreed COMMANDS interface. No broad reread. Frequency fix verified; join needs current handoff/review.",
+    "t0003": "Finalize the strict frequency fixture/negative guard, then hold verifier files stable with production owners. Wait for changed implementation before repeating checks. Record historical results without tracked-file churn; current exact receipts and parent reviews remain required."
+  }
+}

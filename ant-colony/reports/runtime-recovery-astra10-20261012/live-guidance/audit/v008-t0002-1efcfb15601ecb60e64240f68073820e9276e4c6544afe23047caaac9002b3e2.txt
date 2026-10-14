@@ -1,0 +1,8 @@
+[OPERATOR_GUIDANCE v007]
+Keep original task, ownership and strict acceptance. Finish actions-v1 JSON, then stop. Accepted/ready contracts prohibit writes (even PROJECT_NOTES), exec and probes until explicitly replaced. Do not retry rejected actions unchanged. Preserve valid receipts and covered file ranges in memory; avoid unchanged reads/tests. Hand off only with current source-bound receipts. Conformance fixture-owner approval remains unresolved; passing suites do not supply that consent.
+a6 accepted the numeric-boundary request in formation but unchanged accepted contracts are excluded from work. A genuine follow-up requires an explicit assignment amendment via allocate amount=0, retaining the full original assignment/ownership/acceptance; then the worker replaces the contract and obtains fresh evidence/review. A message alone cannot reopen work. Preserve your accepted checkpoint if no material follow-up is needed. The observed integrated analysis28 pass does not resolve a3/a7 approval of the fixture diff; retain original archived case and exact reference rejection.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

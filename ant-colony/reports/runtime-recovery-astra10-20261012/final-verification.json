@@ -1,0 +1,70 @@
+{
+  "verified_at": "2026-10-13T03:21:12.996476+00:00",
+  "status": "completed",
+  "worker_exit_code": 0,
+  "native_score": 0.8451776649746193,
+  "native_passed": 999,
+  "native_total": 1182,
+  "native_failed": 183,
+  "public_diagnostic_passed": 24,
+  "public_diagnostic_total": 24,
+  "public_checkpoint_version": 29,
+  "reference_probes_observed": 25,
+  "submission_mode": "bank_selected_incomplete_checkpoint",
+  "verified_complete": false,
+  "rounds": 25,
+  "settled_usd": "84.9015470",
+  "pending_usd": "0",
+  "cap_usd": "100.0",
+  "remaining_under_cap_usd": "15.0984530",
+  "historical_holds": [
+    [
+      "quarantined_timeout",
+      1,
+      1.21638
+    ],
+    [
+      "reserved_error",
+      5,
+      3.73079
+    ]
+  ],
+  "unrelated_holds_usd": "4.94717",
+  "unresolved_api_calls": 0,
+  "usage_verified": true,
+  "accounting_valid": true,
+  "accounting_identity": true,
+  "complete_evaluation": true,
+  "report_outcome_match": true,
+  "audit_outcome_match": true,
+  "ledger_report_trace_cost_match": true,
+  "v19_model_calls": 608,
+  "configured_population_including_bank": 10,
+  "worker_births": 9,
+  "workers_with_work_calls": 9,
+  "source_hashes_verified": 58,
+  "system_prompt_variants": 18,
+  "guidance_delivered_versions": [
+    "v001",
+    "v002",
+    "v003",
+    "v004",
+    "v005",
+    "v006",
+    "v007",
+    "v008"
+  ],
+  "guidance_deliveries": 154,
+  "guidance_representatives": 31,
+  "no_model_calls_after_selection": true,
+  "no_guidance_edits_after_selection": true,
+  "classification": "Descriptive only: multiple runtime mechanisms differ, and both experiments include operator assistance. V19 has a fixed-prompt prefix followed by adaptive work guidance. No causal attribution.",
+  "heartbeat_status": "PAUSED",
+  "files": {
+    "runs/programbench-astra10-runtime-recovery-high-20261012-v19/v19-astra10-runtime-recovery-xsv/report.json": "5ddafc1d0d03a2cb5c3bd33453f79d55725f2c77567d765d4a2031ef0c415479",
+    "runs/programbench-astra10-runtime-recovery-high-20261012-v19/v19-astra10-runtime-recovery-xsv/audit.json": "86d659245193f41416d5db81fd59057cb530bfc1498542ea90da34837918119d",
+    "runs/programbench-astra10-runtime-recovery-high-20261012-v19/outcomes.json": "415ba0324cf71acb0986843403b1c6aeb234e4440047752499dc7e3e23135bb2",
+    "runs/programbench-astra10-runtime-recovery-high-20261012-v19/v19-astra10-runtime-recovery-xsv/events.jsonl": "9b45e101f4791ef9633172a69f31404ba00b31f84d8e20c24a8455ad40d67a21"
+  },
+  "heartbeat_paused_at": "2026-10-13T03:23:25.766628+00:00"
+}

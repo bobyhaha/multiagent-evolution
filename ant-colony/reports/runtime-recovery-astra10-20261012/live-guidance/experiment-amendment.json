@@ -1,0 +1,22 @@
+{
+  "authorization": "you are allowed to constantly analyze the trace and modify the prompts of the agents",
+  "authorized_at_utc": "2026-10-13T01:01:46.063910+00:00",
+  "run": "v19-astra10-runtime-recovery-xsv",
+  "last_fixed_monitor_review_seq": 3144,
+  "trace_reviewed_before_first_policy_seq": 3233,
+  "channel": "existing bounded work-observation project_notes through auxiliary PROJECT_NOTES.md",
+  "system_prompts": "remain frozen in the running process; no hot reload",
+  "changes_allowed": "audited operator guidance only; preserve agent-authored notes, runtime, source, fixtures, task and acceptance",
+  "cap_usd": 100,
+  "inference_deadline_epoch": 1791864928.070796,
+  "classification": "fixed-prompt prefix followed by user-authorized operator-assisted adaptive work guidance from first verified delivery",
+  "evaluation": "Descriptive comparison only; not a wholly fixed-prompt experiment or controlled causal comparison. No private benchmark feedback.",
+  "first_applied_utc": "2026-10-13T01:01:46.200369+00:00",
+  "first_applied_after_trace_seq": 3288,
+  "first_verified_delivery": {
+    "seq": 3293,
+    "call_id": "c0000297",
+    "actor": "a0002",
+    "team": "t0002"
+  }
+}

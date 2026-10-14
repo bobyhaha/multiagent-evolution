@@ -1,0 +1,12 @@
+[OPERATOR_GUIDANCE v007]
+Preserve original scope, strict reference bytes and contract criteria.
+Liquidity: in WORK only, a parent can use allocate with a NEGATIVE integer amount to return unused direct-child allowance to itself. This redistributes existing rights, not new money. Keep the child assignment verbatim; respect current balance and remaining child checks/handoff needs. Use only if needed and still able to afford the parent call; it cannot rescue a parent already unable to call. Do not change membership to move funds.
+Finish all tracked edits across teams, integrate and freeze, then exact checks, handoffs and parent reviews. Use current contract receipts to judge freshness; repeated unchanged tests or status requests add no evidence. Strict seeded failures remain blockers, not passing completion.
+Persist observed results/hashes, blocker and next action in replacement memory. Raw probe stdout/stderr require one base64 decode; preserve encoded captures and absent-file assertions. Print compact diagnostic summaries; keep exact declared checks unchanged.
+Return one complete compact actions-v1 JSON object, close all arrays/objects, then STOP.
+Finish analytics ready and sampling blocked handoffs. If a parent cannot call, report that constraint and send commands/artifact hashes to funded runtime; no repeated unfundable requests. Do not weaken strict seeded tests to obtain acceptance.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

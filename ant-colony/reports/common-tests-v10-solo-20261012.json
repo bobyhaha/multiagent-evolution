@@ -1,0 +1,62 @@
+{
+  "comparison": "Same branch + test name; upstream active-branch and ignored-test filters; no tests rerun",
+  "runs": {
+    "V10": {
+      "total": 1332,
+      "resolved": 1096,
+      "statuses": {
+        "passed": 1096,
+        "failure": 231,
+        "skipped": 5
+      },
+      "source": "/Users/baiyu/Documents/ChatGPT/Multiagent/ant-colony/runs/programbench-astra40-quality-first-high-20261011-v10/v10-all-astra40-quality-first-xsv/coding/submission/burntsushi__xsv.f430466/burntsushi__xsv.f430466.eval.json",
+      "sha256": "22e0716c6de10a2f8be508988d0ca33663a985db1de2e24bd3064133f00fb53d",
+      "common": {
+        "total": 1182,
+        "resolved": 951,
+        "score": 0.8045685279187818,
+        "statuses": {
+          "failure": 231,
+          "passed": 951
+        }
+      },
+      "extra": {
+        "total": 150,
+        "resolved": 145,
+        "statuses": {
+          "passed": 145,
+          "skipped": 5
+        }
+      }
+    },
+    "solo": {
+      "total": 1182,
+      "resolved": 946,
+      "statuses": {
+        "passed": 946,
+        "failure": 236
+      },
+      "source": "/Users/baiyu/Documents/ChatGPT/Multiagent/ant-colony/runs/programbench-mixed-high-20261010/solo-xsv/coding/submission/burntsushi__xsv.f430466/burntsushi__xsv.f430466.eval.json",
+      "sha256": "1390a1671708ca2053278347ae6d57f4cb2d3dac3c5b8a5c9b5d9154a5282e16",
+      "common": {
+        "total": 1182,
+        "resolved": 946,
+        "score": 0.8003384094754653,
+        "statuses": {
+          "passed": 946,
+          "failure": 236
+        }
+      },
+      "extra": {
+        "total": 0,
+        "resolved": 0,
+        "statuses": {}
+      }
+    }
+  },
+  "common_ids": 1182,
+  "colony_only_resolved": 53,
+  "solo_only_resolved": 48,
+  "both_resolved": 898,
+  "neither_resolved": 183
+}

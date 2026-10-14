@@ -1,0 +1,47 @@
+{
+  "verified_at": "2026-10-12T22:22:19.556535+00:00",
+  "status": "completed",
+  "native_score": 0.8274111675126904,
+  "native_passed": 978,
+  "native_total": 1182,
+  "public_diagnostic_passed": 25,
+  "public_diagnostic_total": 27,
+  "submission_mode": "automatic_stagnation_checkpoint",
+  "rounds": 32,
+  "v17_settled_usd": "3.8497480",
+  "v18_settled_usd": "89.7758805",
+  "combined_settled_usd": "93.6256285",
+  "pending_usd": "0",
+  "combined_cap_usd": "100",
+  "remaining_under_cap_usd": "6.3743715",
+  "unrelated_holds_usd": "4.94717",
+  "unrelated_hold_count": 6,
+  "unresolved_api_calls": 0,
+  "usage_verified": true,
+  "accounting_identity": true,
+  "complete_evaluation": true,
+  "report_outcome_match": true,
+  "v18_model_calls": 616,
+  "configured_population_including_bank": 10,
+  "total_worker_births": 9,
+  "nonretired_workers_at_finish": 8,
+  "guidance_delivered_versions": [
+    "v001",
+    "v002",
+    "v003",
+    "v004",
+    "v005",
+    "v006",
+    "v007"
+  ],
+  "applied_but_undelivered": [
+    "v008"
+  ],
+  "guidance_deliveries": 111,
+  "classification": "operator-assisted adaptive run; not a controlled causal comparison",
+  "files": {
+    "runs/programbench-astra10-work-contracts-high-20261012-v18/v18-astra10-work-contracts-xsv/report.json": "9b28b9b2c5b3dd40da29fa8ecd25aec98c499a4bcec15a9ae68024177bdeb95a",
+    "runs/programbench-astra10-work-contracts-high-20261012-v18/v18-astra10-work-contracts-xsv/audit.json": "5c6c4c913cd54e2821f6ba637cc2dbbdb5dc21e62188448a6a3cbe0187b073a6",
+    "runs/programbench-astra10-work-contracts-high-20261012-v18/outcomes.json": "e30206322d839c53106363542a597b2bfc24ca2d304d8e91600ea72fae197fff"
+  }
+}

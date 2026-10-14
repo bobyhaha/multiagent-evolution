@@ -1,0 +1,74 @@
+{
+  "source": "/Users/baiyu/Documents/ChatGPT/Multiagent/ant-colony/runs/programbench-astra40-open-contact-high-20261012-v12/v12-astra40-open-contact-xsv/events.jsonl",
+  "invalid_replies_checked": 17,
+  "recoverable": 7,
+  "still_rejected": 10,
+  "rejection_reasons": {
+    "Ambiguous multiple JSON objects": 8,
+    "Expecting value: line 1 column 1 (char 0)": 2
+  },
+  "recoverable_calls": [
+    {
+      "call_id": "c0000073",
+      "phase": "work",
+      "actions": [
+        "messages",
+        "tool"
+      ]
+    },
+    {
+      "call_id": "c0000074",
+      "phase": "work",
+      "actions": [
+        "memory",
+        "messages",
+        "tool"
+      ]
+    },
+    {
+      "call_id": "c0000082",
+      "phase": "work",
+      "actions": [
+        "messages",
+        "note",
+        "tool"
+      ]
+    },
+    {
+      "call_id": "c0000145",
+      "phase": "work",
+      "actions": [
+        "messages",
+        "tool"
+      ]
+    },
+    {
+      "call_id": "c0000146",
+      "phase": "work",
+      "actions": [
+        "messages",
+        "note",
+        "tool"
+      ]
+    },
+    {
+      "call_id": "c0000148",
+      "phase": "work",
+      "actions": [
+        "messages",
+        "tool"
+      ]
+    },
+    {
+      "call_id": "c0000151",
+      "phase": "work",
+      "actions": [
+        "messages",
+        "tool"
+      ]
+    }
+  ],
+  "actions_executed": 0,
+  "paid_calls": 0,
+  "scope": "Offline syntax/schema recovery only; no inference about task score"
+}

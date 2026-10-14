@@ -1,0 +1,95 @@
+{
+  "origin": "actual recorded requests",
+  "prompts": [
+    {
+      "name": "recorded-bank-c0000001",
+      "request_bytes_including_schema": 15756,
+      "call_id": "c0000001"
+    },
+    {
+      "name": "recorded-discovery-c0000002",
+      "request_bytes_including_schema": 14280,
+      "call_id": "c0000002"
+    },
+    {
+      "name": "recorded-bank-c0000026",
+      "request_bytes_including_schema": 24866,
+      "call_id": "c0000026"
+    },
+    {
+      "name": "recorded-work-c0000027",
+      "request_bytes_including_schema": 35328,
+      "call_id": "c0000027"
+    },
+    {
+      "name": "recorded-work-c0000030",
+      "request_bytes_including_schema": 34459,
+      "call_id": "c0000030"
+    },
+    {
+      "name": "recorded-work-c0000033",
+      "request_bytes_including_schema": 38615,
+      "call_id": "c0000033"
+    },
+    {
+      "name": "recorded-work-c0000036",
+      "request_bytes_including_schema": 43398,
+      "call_id": "c0000036"
+    },
+    {
+      "name": "recorded-formation-c0000042",
+      "request_bytes_including_schema": 26930,
+      "call_id": "c0000042"
+    },
+    {
+      "name": "recorded-application-c0000045",
+      "request_bytes_including_schema": 21824,
+      "call_id": "c0000045"
+    },
+    {
+      "name": "recorded-formation-c0000063",
+      "request_bytes_including_schema": 32823,
+      "call_id": "c0000063"
+    },
+    {
+      "name": "recorded-application-c0000067",
+      "request_bytes_including_schema": 27088,
+      "call_id": "c0000067"
+    },
+    {
+      "name": "recorded-bank-c0000070",
+      "request_bytes_including_schema": 35121,
+      "call_id": "c0000070"
+    },
+    {
+      "name": "recorded-work-c0000071",
+      "request_bytes_including_schema": 63962,
+      "call_id": "c0000071"
+    },
+    {
+      "name": "recorded-work-c0000078",
+      "request_bytes_including_schema": 54603,
+      "call_id": "c0000078"
+    },
+    {
+      "name": "recorded-work-c0000085",
+      "request_bytes_including_schema": 46370,
+      "call_id": "c0000085"
+    },
+    {
+      "name": "recorded-work-c0000092",
+      "request_bytes_including_schema": 62904,
+      "call_id": "c0000092"
+    },
+    {
+      "name": "recorded-review-c0000106",
+      "request_bytes_including_schema": 35744,
+      "call_id": "c0000106"
+    },
+    {
+      "name": "recorded-control-c0000222",
+      "request_bytes_including_schema": 10571,
+      "call_id": "c0000222"
+    }
+  ]
+}

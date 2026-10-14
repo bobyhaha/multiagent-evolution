@@ -1,0 +1,20 @@
+[
+  {
+    "id": "562bb61109be13b6",
+    "input": {
+      "args": [
+        "count"
+      ],
+      "stdin": "name\na\nb\n",
+      "files": {},
+      "capture": []
+    },
+    "expected": {
+      "stdout": "Mgo=",
+      "stderr": "",
+      "exit_code": 0,
+      "files": {},
+      "truncated": false
+    }
+  }
+]

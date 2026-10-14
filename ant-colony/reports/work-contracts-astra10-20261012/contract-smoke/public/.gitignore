@@ -1,0 +1,3 @@
+executable
+build/
+__pycache__/

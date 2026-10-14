@@ -1,0 +1,47 @@
+{
+  "first_delivery": {
+    "seq": 3582,
+    "call_id": "c0000323",
+    "actor": "a0001",
+    "team": "t0001",
+    "delivery_channel": "context.project_notes"
+  },
+  "observed_requests": [
+    {
+      "seq": 3582,
+      "call_id": "c0000323",
+      "actor": "a0001",
+      "team": "t0001",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3590,
+      "call_id": "c0000324",
+      "actor": "a0002",
+      "team": "t0002",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3599,
+      "call_id": "c0000325",
+      "actor": "a0004",
+      "team": "t0001",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3614,
+      "call_id": "c0000327",
+      "actor": "a0006",
+      "team": "t0002",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3630,
+      "call_id": "c0000329",
+      "actor": "a0008",
+      "team": "t0002",
+      "delivery_channel": "context.project_notes"
+    }
+  ],
+  "verified_through_seq": 6792
+}

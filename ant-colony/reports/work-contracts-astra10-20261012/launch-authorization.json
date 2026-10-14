@@ -1,0 +1,18 @@
+{
+  "authorization": {
+    "deadline_epoch": 1791848764.337653,
+    "reason": "User authorized a new ten-Astra experiment capped at $100 after implementation and review. Apply a six-hour operational stop; retain all existing campaign charges, holds and dollar ceilings."
+  },
+  "episode_cap_usd": 100,
+  "initial_and_max_agents_including_bank": 10,
+  "accounting_before": {
+    "reported_usd": 210.299214045,
+    "unconfirmed_usd": 4.94717,
+    "accounted_usd": 215.246384045,
+    "calls": 6318,
+    "ceiling_usd": 500.0,
+    "blocked": false,
+    "quarantined_timeouts": 1,
+    "pending": 0
+  }
+}

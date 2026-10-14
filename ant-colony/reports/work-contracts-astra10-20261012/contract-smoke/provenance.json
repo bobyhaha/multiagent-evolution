@@ -1,0 +1,10 @@
+{
+  "benchmark": "programbench",
+  "task": "burntsushi__xsv.f430466",
+  "source_revision": "27f02157c785f8da3647aa6dbbe6b9137f99f10e",
+  "image": "sha256:90251a56081e0730d09f3732965772d87ee286de8169d07e1f0c80760306acfa",
+  "seed_hashes": {
+    ".gitignore": "cbd37b89c3d5c6e28f75e10ee1cb8f9e6ad70049d53b60a6b54127611cbf4cac"
+  },
+  "hidden_tests": "terminal only"
+}

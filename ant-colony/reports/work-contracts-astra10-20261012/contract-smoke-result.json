@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "sandbox_check": true,
+  "receipt": [
+    "wr0000001"
+  ],
+  "recipient_acceptance": true,
+  "paid_calls": 0,
+  "source_is_test_fixture_not_agent_seed": true
+}

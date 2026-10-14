@@ -1,0 +1,82 @@
+{
+  "first_delivery": {
+    "seq": 3293,
+    "call_id": "c0000297",
+    "actor": "a0002",
+    "team": "t0002",
+    "delivery_channel": "context.project_notes"
+  },
+  "observed_requests": [
+    {
+      "seq": 3293,
+      "call_id": "c0000297",
+      "actor": "a0002",
+      "team": "t0002",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3302,
+      "call_id": "c0000298",
+      "actor": "a0004",
+      "team": "t0001",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3309,
+      "call_id": "c0000299",
+      "actor": "a0005",
+      "team": "t0003",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3316,
+      "call_id": "c0000300",
+      "actor": "a0006",
+      "team": "t0002",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3323,
+      "call_id": "c0000301",
+      "actor": "a0007",
+      "team": "t0003",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3331,
+      "call_id": "c0000302",
+      "actor": "a0008",
+      "team": "t0002",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3338,
+      "call_id": "c0000303",
+      "actor": "a0009",
+      "team": "t0003",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3395,
+      "call_id": "c0000307",
+      "actor": "a0005",
+      "team": "t0003",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3403,
+      "call_id": "c0000308",
+      "actor": "a0007",
+      "team": "t0003",
+      "delivery_channel": "context.project_notes"
+    },
+    {
+      "seq": 3418,
+      "call_id": "c0000310",
+      "actor": "a0009",
+      "team": "t0003",
+      "delivery_channel": "context.project_notes"
+    }
+  ],
+  "verified_through_seq": 6792
+}

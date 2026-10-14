@@ -1,0 +1,54 @@
+Terminal monitoring report — 11 October 2026
+
+The v8 all-Astra hierarchy run stopped in round 1 during its first work call.
+The recorded transport/accounting exception is KeyError (campaign scope), not a
+recorded TimeoutError. The log does not identify the missing field. Billing could
+not be settled, so the full $1.11669 reservation remains held as uncertain. The
+controller installed the shared STOP file. Do not remove it or retry automatically.
+
+Both controller and runner have exited. No native evaluation started for v8 and
+no evaluator remains for it. Score is missing, not zero. Six paid coordination
+calls completed; the seventh attempted call is unresolved. Four initial workers
+applied, plus the bank participated. No worker completed a work call. Two grants
+created root teams; hires, new spawns, recruitment-funding requests/reviews/
+executions, maximum depth, and productive workers at depth >=2 were all zero.
+
+Accounting
+- v8 actual: $0.4189810; uncertain hold: $1.11669; ceiling: $99.199200.
+- v7 superseded attempt: $0.8007995 actual; no holds; cap sealed at $0.8007995.
+- Combined all-Astra experiment actual: $1.2197805; held: $1.11669;
+  accounted exposure: $2.3364705 against $100 total authorization.
+- Combined ledger ceilings: $99.9999995.
+- Shared campaign actual: $75.864616045; held: $1.48053 (including the historical
+  $0.36384 unresolved reservation); accounted: $77.345146045 against $500.
+- v8 ledger accounting identity/audit passes with one explicitly unresolved API
+  call and incomplete evaluation. This is not a fully settled financial result.
+- All 49 frozen v8 runtime hashes match. v7 frozen artifacts and local STOP remain.
+
+Native comparison (counts verified from programbench_final events)
+
+Condition             Native passed/total  Score       Rounds  Actual API dollars  Working agents       Hires/spawns  Max depth
+v8 Astra40 hierarchy  missing              missing     1       0.418981000         0                    0/0           0
+v6 mixed delegation   692/1185             58.396624%   27      7.847733490         10 (2 Sol, 8 Luna)   6/1           1
+v5 mixed capacity     728/1182             61.590525%   44      13.153097435        11 (2 Sol, 9 Luna)   7/1           1
+v2 solo Astra         853/1183             72.104818%   30      13.211010000        1 Astra              0/0           0
+original solo Astra   946/1182             80.033841%   30      13.351125000        1 Astra              0/0           0
+
+V8 row is attempt cost; the entire Astra40 experiment includes v7 and the hold as
+shown above. V7 was operator-stopped for the budget/prompt amendment; its early
+checkpoint evaluation was unscored native_result_with_errors, not a completed
+treatment result. No completed mixed colony had productive work at depth >=2.
+All four scored reference runs have passing audits with complete evaluation and
+no unresolved calls. Both mixed runs began with 40 agents including the bank;
+initial population differs from working participation.
+
+Limitations
+One run per condition, no controlled provider seed. Budgets, stopping horizons,
+model composition and prompting differ. V8 changed composition, budget and explicit
+hierarchy preference together and failed before work; it cannot be used to infer
+the quality of an all-Astra colony. Public probes are not native hidden scores.
+Observed hires and depth alone do not establish useful emergent specialization.
+
+All monitored attempts are terminal and no grading remains. The 20-minute monitor
+is to be paused under its existing terminal-condition instruction. No new paid
+attempt, retry, budget change, treatment change or STOP removal is authorized here.

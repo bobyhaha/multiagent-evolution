@@ -1,0 +1,38 @@
+{
+  "reason": "Operator stopped repeated public-path/contract mismatch before protected evaluation.",
+  "protected_evaluation_started": false,
+  "audit": {
+    "accounting_valid": true,
+    "final_wealth": 96150236,
+    "burned": 3849764,
+    "rewards": 0,
+    "calls": 57,
+    "output_tokens": 31945,
+    "max_context_bytes": 49531,
+    "uncertain_credits": 0,
+    "application_spent": 0,
+    "discovery_spent": 1064898,
+    "unresolved_api_calls": 0,
+    "complete_evaluation": false,
+    "scripted_demo": false
+  },
+  "accounting": {
+    "reported_usd": 3.849748,
+    "unconfirmed_usd": 0.0,
+    "accounted_usd": 3.849748,
+    "calls": 56,
+    "ceiling_usd": 500.0,
+    "blocked": false,
+    "quarantined_timeouts": 0,
+    "pending": 0
+  },
+  "sealed_budget": {
+    "run": "v17-astra10-work-contracts-xsv",
+    "old_cap": 100.0,
+    "new_cap": 3.849748,
+    "accounted_usd": 3.849748,
+    "reason": "Seal the operator-stopped interface pilot at its fully settled cost; all charges count toward the user-authorized $100 total."
+  },
+  "restart_cap_usd": 96.15,
+  "combined_maximum_usd": 99.999748
+}

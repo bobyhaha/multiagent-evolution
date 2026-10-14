@@ -1,0 +1,10 @@
+{
+  "recorded_requests_repacked": 263,
+  "fixed_context_cap_bytes": 64000,
+  "max_request_bytes_including_schema": 63932,
+  "formal_contracts_tasks_money_and_schemas_preserved": true,
+  "additional_optional_blocks_omitted": 4,
+  "previously_lost_latest_receipts_restored": 1,
+  "paid_inference_calls": 0,
+  "scope": "Offline replay of current prompts and receipt presentation against recorded v18 states; not a live efficacy test."
+}

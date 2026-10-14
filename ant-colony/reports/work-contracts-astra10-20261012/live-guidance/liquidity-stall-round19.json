@@ -1,0 +1,138 @@
+{
+  "reviewed_through_seq": 6663,
+  "window_after_seq": 6502,
+  "completed_coordination_calls": 15,
+  "window_cost_usd": 1.422755,
+  "work_calls": 0,
+  "new_tools": 0,
+  "new_receipts": 0,
+  "new_reviews": 0,
+  "runtime_parent_rights_round19": 1439766,
+  "runtime_child_rights_round19": 1371546,
+  "combined_runtime_rights_round19": 2811312,
+  "reported_work_minimum": 1541120,
+  "actual_admission": "Frozen engine.ask compares individual rights against call_budget for the actual work request. allocate is parent-owned and available during work; the work call must already be affordable. No negative allocation occurred.",
+  "requests": [
+    {
+      "call": "c0000573",
+      "actor": "a0002",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1090682
+    },
+    {
+      "call": "c0000574",
+      "actor": "a0003",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1094453
+    },
+    {
+      "call": "c0000575",
+      "actor": "a0004",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1458478
+    },
+    {
+      "call": "c0000576",
+      "actor": "a0005",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1223728
+    },
+    {
+      "call": "c0000577",
+      "actor": "a0006",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 2089545
+    },
+    {
+      "call": "c0000578",
+      "actor": "a0009",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1116228
+    },
+    {
+      "call": "c0000579",
+      "actor": "a0005",
+      "kind": "application",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1140833
+    },
+    {
+      "call": "c0000580",
+      "actor": "a0003",
+      "kind": "review",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 980228
+    },
+    {
+      "call": "c0000581",
+      "actor": "bank",
+      "kind": "bank",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": null
+    },
+    {
+      "call": "c0000582",
+      "actor": "a0001",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1439766
+    },
+    {
+      "call": "c0000583",
+      "actor": "a0003",
+      "kind": "application",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 894641
+    },
+    {
+      "call": "c0000584",
+      "actor": "a0004",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1371546
+    },
+    {
+      "call": "c0000585",
+      "actor": "a0005",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1140833
+    },
+    {
+      "call": "c0000586",
+      "actor": "a0006",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 2030463
+    },
+    {
+      "call": "c0000587",
+      "actor": "a0009",
+      "kind": "formation",
+      "allocate_in_schema": false,
+      "guidance_present": false,
+      "allowance": 1054496
+    }
+  ],
+  "classification": "Runtime liquidity/admission limitation; no live system-prompt or financial mutation. Policy v007 unchanged."
+}

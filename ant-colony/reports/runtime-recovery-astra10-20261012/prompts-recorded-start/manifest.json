@@ -1,0 +1,15 @@
+{
+  "origin": "actual recorded requests",
+  "prompts": [
+    {
+      "name": "recorded-bank-c0000001",
+      "request_bytes_including_schema": 15756,
+      "call_id": "c0000001"
+    },
+    {
+      "name": "recorded-discovery-c0000002",
+      "request_bytes_including_schema": 14280,
+      "call_id": "c0000002"
+    }
+  ]
+}

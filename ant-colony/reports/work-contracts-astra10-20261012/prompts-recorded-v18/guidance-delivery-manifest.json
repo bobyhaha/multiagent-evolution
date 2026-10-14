@@ -1,0 +1,296 @@
+{
+  "inference_end_seq": 7281,
+  "native_evaluation_started_seq": 7283,
+  "classification": "operator-assisted adaptive run; not a controlled causal comparison",
+  "system_prompts": "frozen",
+  "delivery_counts": {
+    "v001": 8,
+    "v002": 6,
+    "v003": 27,
+    "v004": 26,
+    "v005": 24,
+    "v006": 9,
+    "v007": 11
+  },
+  "applied_not_delivered": [
+    "v008"
+  ],
+  "representatives": [
+    {
+      "file": "live-guidance/requests/c0000415-a0001-v001.json",
+      "sha256": "bf80409ede99dbfd4708a7d205f6f1198f78b5a6d82a83fd40c32ef03fd81ff6",
+      "call_id": "c0000415",
+      "actor": "a0001",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000416-a0002-v001.json",
+      "sha256": "6ecae2ffe925a6506e8db1e9fe7793b0e28bca530eb23328e1e9f0da16ce4adc",
+      "call_id": "c0000416",
+      "actor": "a0002",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000417-a0003-v001.json",
+      "sha256": "9e1a4b78e6b7ae02263854f8ced85a20423a21d9409b39211dc690488a41e351",
+      "call_id": "c0000417",
+      "actor": "a0003",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000418-a0004-v001.json",
+      "sha256": "02cfdb7a79135512fb55f3a4d3bb87a2c0fa6188f9337949d1a9f0d8c64deaf2",
+      "call_id": "c0000418",
+      "actor": "a0004",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000419-a0005-v001.json",
+      "sha256": "16e87d322dedfe4a97c76e2eaeae9e587302b1c7f87fb73f81367ebb4dbb75c0",
+      "call_id": "c0000419",
+      "actor": "a0005",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000420-a0006-v001.json",
+      "sha256": "d7d3630555a5c433098aeefa1251211eacb7dca368ebd6d7c56d7c69878d7d04",
+      "call_id": "c0000420",
+      "actor": "a0006",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000421-a0009-v001.json",
+      "sha256": "9d07c669eb37e312cd8e458a253da5b634f43a9a68b8d8776e773589be54d4e5",
+      "call_id": "c0000421",
+      "actor": "a0009",
+      "guidance_version": "v001"
+    },
+    {
+      "file": "live-guidance/requests/c0000423-a0002-v002.json",
+      "sha256": "65c4bd03b5bc4f5d062e816cf24a9a6052bfd781b44e1a0bef3450ed3da6e3a6",
+      "call_id": "c0000423",
+      "actor": "a0002",
+      "guidance_version": "v002"
+    },
+    {
+      "file": "live-guidance/requests/c0000424-a0003-v002.json",
+      "sha256": "dedf00f24730a589e5f48f0e0b3184c1cf84bd83bc3d4bde9519ae284cd7e47b",
+      "call_id": "c0000424",
+      "actor": "a0003",
+      "guidance_version": "v002"
+    },
+    {
+      "file": "live-guidance/requests/c0000425-a0004-v002.json",
+      "sha256": "a1bfe8933d1dca8ef118a73753b75b9d005a4e4676e7cc46fb7d8aeeb3acecb5",
+      "call_id": "c0000425",
+      "actor": "a0004",
+      "guidance_version": "v002"
+    },
+    {
+      "file": "live-guidance/requests/c0000426-a0005-v002.json",
+      "sha256": "9508413230fa68f784f26ef99f3c79f8950a0162b768a1215c55fc7ef890afe8",
+      "call_id": "c0000426",
+      "actor": "a0005",
+      "guidance_version": "v002"
+    },
+    {
+      "file": "live-guidance/requests/c0000427-a0006-v002.json",
+      "sha256": "e0f0f9c2afa51c90ee82df24a9f23997f7e706c712c010b7acdcc0a3ac4b1072",
+      "call_id": "c0000427",
+      "actor": "a0006",
+      "guidance_version": "v002"
+    },
+    {
+      "file": "live-guidance/requests/c0000428-a0009-v002.json",
+      "sha256": "62a7189a9b208a432af8550a8726b5023d1357c5bcaac2a41a6e6f5d82afe68a",
+      "call_id": "c0000428",
+      "actor": "a0009",
+      "guidance_version": "v002"
+    },
+    {
+      "file": "live-guidance/requests/c0000429-a0001-v003.json",
+      "sha256": "3a2e3f1e16ff26969f706e771ce2c7c3a297568b4e7ebd38435a1e53ddca3ce0",
+      "call_id": "c0000429",
+      "actor": "a0001",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000430-a0002-v003.json",
+      "sha256": "4ab75d6786e6141e7edcf0454ae2e7b5066cb868c96e8fd182e6d4ae6c9cfdcc",
+      "call_id": "c0000430",
+      "actor": "a0002",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000431-a0003-v003.json",
+      "sha256": "99df7e4265f9c831855f107d79812acd3a3cf26a941d47c11d7c3c08b5f84d3b",
+      "call_id": "c0000431",
+      "actor": "a0003",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000432-a0004-v003.json",
+      "sha256": "18c5a05aff8c6daadd9a9b99003a9a9c478e77e25d4af9888afbdac713dc1167",
+      "call_id": "c0000432",
+      "actor": "a0004",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000433-a0005-v003.json",
+      "sha256": "b290a735462e12bac9594c8da9924466647433349845c2836045151bb4267428",
+      "call_id": "c0000433",
+      "actor": "a0005",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000434-a0006-v003.json",
+      "sha256": "cfc23a6f58314f955c55ea08a7b2384da8df3a2a5a6b66230f3e5bdafb5104c6",
+      "call_id": "c0000434",
+      "actor": "a0006",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000435-a0009-v003.json",
+      "sha256": "3b81a0fad48900c9d20cad09e91ee74214daf88839757a8ff5c42434f5b98fcd",
+      "call_id": "c0000435",
+      "actor": "a0009",
+      "guidance_version": "v003"
+    },
+    {
+      "file": "live-guidance/requests/c0000466-a0003-v004.json",
+      "sha256": "ce814752ae43fe866cc975ce01595a94b6b475c89d9a05db60b767c49ce6ced6",
+      "call_id": "c0000466",
+      "actor": "a0003",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000467-a0004-v004.json",
+      "sha256": "47739e38f438072b12fc19c450bd7dd83066a8cc6f9d57a6ebee88f5b1ac7302",
+      "call_id": "c0000467",
+      "actor": "a0004",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000468-a0006-v004.json",
+      "sha256": "c1e1448f0a1576d757071666b413b254cdbe6752b86f4b1708e4f9366d988492",
+      "call_id": "c0000468",
+      "actor": "a0006",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000469-a0009-v004.json",
+      "sha256": "5ceaebc5edccbb01ea188655466450b2e433001d2632d78969d7108723021e8d",
+      "call_id": "c0000469",
+      "actor": "a0009",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000470-a0001-v004.json",
+      "sha256": "29e32ad2d682a69d022f17d3f370feb8f554150440f97a3c34b3cd769e114627",
+      "call_id": "c0000470",
+      "actor": "a0001",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000471-a0002-v004.json",
+      "sha256": "6f8fdaf142c24f69e59dfeae7c94b49d5c40fc203b9248b77ea7fb7a60cfaeb3",
+      "call_id": "c0000471",
+      "actor": "a0002",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000496-a0005-v004.json",
+      "sha256": "5703c8ed4ce42129e006e4fbc87b494518fba8e200ce95a25c3ccb9e04f62417",
+      "call_id": "c0000496",
+      "actor": "a0005",
+      "guidance_version": "v004"
+    },
+    {
+      "file": "live-guidance/requests/c0000505-a0002-v005.json",
+      "sha256": "7430d5d2c8ca8b26e952abd902f0c1a23ebcd970e716959d85d54c47da0b8b4c",
+      "call_id": "c0000505",
+      "actor": "a0002",
+      "guidance_version": "v005"
+    },
+    {
+      "file": "live-guidance/requests/c0000506-a0004-v005.json",
+      "sha256": "c65e4787756b5703c0d4ff03a59d4d146685fbb111d2660af42db95af658c78e",
+      "call_id": "c0000506",
+      "actor": "a0004",
+      "guidance_version": "v005"
+    },
+    {
+      "file": "live-guidance/requests/c0000507-a0005-v005.json",
+      "sha256": "beaffc1990de0441cb02c019ed98c6ea6be148e6e8a824c414f8121fc4fbf96b",
+      "call_id": "c0000507",
+      "actor": "a0005",
+      "guidance_version": "v005"
+    },
+    {
+      "file": "live-guidance/requests/c0000508-a0006-v005.json",
+      "sha256": "3ba9ba346f75a978d92a8dfb91f32ecc8084f4743a8a996d860e323d3506c0f7",
+      "call_id": "c0000508",
+      "actor": "a0006",
+      "guidance_version": "v005"
+    },
+    {
+      "file": "live-guidance/requests/c0000517-a0001-v005.json",
+      "sha256": "224fdab8507a08a4099e0775a114a7f49395e2c191b7cdcbf3574ec6b79751f0",
+      "call_id": "c0000517",
+      "actor": "a0001",
+      "guidance_version": "v005"
+    },
+    {
+      "file": "live-guidance/requests/c0000546-a0001-v006.json",
+      "sha256": "855c0932daccb4b8503f924995aa8de47847053e54b6bfa0ae844270513e2a6a",
+      "call_id": "c0000546",
+      "actor": "a0001",
+      "guidance_version": "v006"
+    },
+    {
+      "file": "live-guidance/requests/c0000547-a0004-v006.json",
+      "sha256": "f5768c9bf1f886093cc22a0f553a3956ad26831133b5126652a5326d7caac095",
+      "call_id": "c0000547",
+      "actor": "a0004",
+      "guidance_version": "v006"
+    },
+    {
+      "file": "live-guidance/requests/c0000548-a0005-v006.json",
+      "sha256": "359839b1ed079e88c1d5897bbe894c7bca0e9b93c8b7301aea7001981caa0afd",
+      "call_id": "c0000548",
+      "actor": "a0005",
+      "guidance_version": "v006"
+    },
+    {
+      "file": "live-guidance/requests/c0000549-a0006-v006.json",
+      "sha256": "211cf600bb1ddfdda04a5309344f3c7c885f3fb55d9682e1d9684fc748551fcc",
+      "call_id": "c0000549",
+      "actor": "a0006",
+      "guidance_version": "v006"
+    },
+    {
+      "file": "live-guidance/requests/c0000565-a0001-v007.json",
+      "sha256": "abfb8bfd27be4023884d74d9e43097b3153e57adaba4e49c0ab0867babaff83e",
+      "call_id": "c0000565",
+      "actor": "a0001",
+      "guidance_version": "v007"
+    },
+    {
+      "file": "live-guidance/requests/c0000566-a0004-v007.json",
+      "sha256": "c8d95302931dd2288f30ed30e84f05b48d88b1f6609d77664c7c17b075e54273",
+      "call_id": "c0000566",
+      "actor": "a0004",
+      "guidance_version": "v007"
+    },
+    {
+      "file": "live-guidance/requests/c0000596-a0006-v007.json",
+      "sha256": "df272515e360436b04da4715aca896218e138f9d43c15a7dda096131fbe6942e",
+      "call_id": "c0000596",
+      "actor": "a0006",
+      "guidance_version": "v007"
+    }
+  ],
+  "exported_distinct_recorded_prompts": 16,
+  "recorded_messages_verified": true,
+  "rules_match_frozen_runtime": true
+}

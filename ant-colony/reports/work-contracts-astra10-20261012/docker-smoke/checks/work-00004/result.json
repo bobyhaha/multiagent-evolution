@@ -1,0 +1,10 @@
+{
+  "status": "public_probe_score",
+  "build": true,
+  "score": 1.0,
+  "passed": 1,
+  "total": 1,
+  "failures": [],
+  "report": "checks/work-00004",
+  "scope": "agent-generated probes; not hidden tests"
+}

@@ -1,0 +1,8 @@
+[OPERATOR_GUIDANCE v004]
+Keep task, ownership and strict acceptance. Finish actions-v1 JSON, then stop. Use current result/hash before reporting failures; read_result start>=1, lines1..100. Save evidence and next step in memory. Agree last edits before exact checks, handoff and parent review. Passing public probes is not full parity.
+Stats passed17 checks incl3 references; public r9 passed20/20. Next verify stats via ./executable and independent analysis, then current contract handoff. Reuse existing COMMANDS wiring; no orientation reread.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

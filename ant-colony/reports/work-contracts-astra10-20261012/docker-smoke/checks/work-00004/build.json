@@ -1,0 +1,8 @@
+{
+  "command": "test -x compile.sh && ./compile.sh && test -x executable",
+  "output": "",
+  "exit_code": 0,
+  "status": "ok",
+  "output_truncated": false,
+  "seconds": 0.165
+}

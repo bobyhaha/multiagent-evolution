@@ -1,0 +1,277 @@
+{
+  "created": 21,
+  "replacements": [
+    {
+      "id": "wc000006",
+      "worker": "a0003",
+      "round": 3,
+      "changed_spec_fields": [
+        "objective",
+        "outputs",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "python3 verification/regression.py --validate",
+        "./compile.sh && python3 verification/regression.py --exe ./executable"
+      ],
+      "new_checks": [
+        "python3 verification/regression.py --validate",
+        "./compile.sh && python3 verification/regression.py --exe ./executable"
+      ],
+      "objective": "Maintain independent documentation-derived command coverage, exact normal-reference expectations and integrated CSV/CLI regressions across all documented families; supply saved exact help text for runtime integration and route failures to owners.",
+      "acceptance": "Coverage distinguishes implementation, independent checks, failures and untested boundaries. Regressions exercise all documented families, cross-command CSV/header/selection semantics and malformed/boundary inputs. Reference expectations retain provenance, help matches saved observations, and implementation failures and revisions are reported truthfully."
+    },
+    {
+      "id": "wc000007",
+      "worker": "a0005",
+      "round": 4,
+      "changed_spec_fields": [
+        "inputs",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "sh compile.sh && python3 tests/analytics_regression.py"
+      ],
+      "new_checks": [
+        "sh compile.sh && python3 tests/analytics_regression.py"
+      ],
+      "objective": null,
+      "acceptance": null
+    },
+    {
+      "id": "wc000010",
+      "worker": "a0004",
+      "round": 4,
+      "changed_spec_fields": [
+        "objective",
+        "inputs",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "new_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "objective": "Implement cat, fixlengths, flatten, fmt, headers, slice, split and table through structural.dispatch using the shared core runtime; deliver reproducible boundary and option regressions with compact coverage notes.",
+      "acceptance": "Assigned commands integrate through ./executable. Regressions exercise normal behavior, empty inputs, headers, quoting, documented options, formatting and representative failures; reference-uncertain boundaries are explicitly recorded."
+    },
+    {
+      "id": "wc000011",
+      "worker": "a0006",
+      "round": 7,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "new_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "objective": "Implement documented join, sample and index commands in ops_relational.py using the shared runtime, retaining reference fixtures and separately reporting direct and index-consumer regressions.",
+      "acceptance": "Integrated checks pass for duplicate/null join keys, modes, selections and headers; sampling boundaries and documented determinism; index bytes, paths/errors and downstream count/slice behavior. Retained reference comparisons and unresolved parity are explicit."
+    },
+    {
+      "id": "wc000012",
+      "worker": "a0009",
+      "round": 7,
+      "changed_spec_fields": [
+        "objective",
+        "checks",
+        "acceptance"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "python3 verification/regression.py --validate",
+        "sh compile.sh && python3 verification/regression.py --exe ./executable --filter core-"
+      ],
+      "new_checks": [
+        "python3 verification/regression.py --validate && sh compile.sh && python3 verification/regression.py --exe ./executable --filter core-"
+      ],
+      "objective": "Independently verify shared CSV, header, selection, file/stdin and malformed-input behavior using retained exact reference fixtures and source-hashed integrated comparisons, without changing command implementations.",
+      "acceptance": "Reusable core fixtures preserve exact reference stdout, stderr, status and provenance. A fresh integrated core run passes after owner fixes, or exact unresolved mismatches and remaining boundaries are reported as blocked rather than accepted."
+    },
+    {
+      "id": "wc000013",
+      "worker": "a0006",
+      "round": 8,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "new_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "objective": "Implement and verify documented join, sample and index behavior with explicit retained-reference seeded-sampling comparison and current shared-runtime integration.",
+      "acceptance": "Integrated checks exercise duplicate/null join keys, modes, selections, headers, sampling boundaries and reproducibility, exact index bytes and downstream count/slice. Compare the retained seeded-sample reference exactly; document unresolved parity rather than asserting equivalence."
+    },
+    {
+      "id": "wc000014",
+      "worker": "a0004",
+      "round": 8,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "new_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "objective": "Validate and repair cat, fixlengths, flatten, fmt, headers, slice, split and table against the integrated streaming core while preserving structural.dispatch and reproducible option/boundary regressions.",
+      "acceptance": "Fresh executable passes structural regressions covering normal behavior, empty inputs, headers, quoted CSV, options, formatting, file outputs and representative failures. Coverage distinguishes reference-backed fixtures from documentation-derived expectations and untested boundaries."
+    },
+    {
+      "id": "wc000015",
+      "worker": "a0005",
+      "round": 8,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "sh compile.sh && python3 tests/analytics_regression.py"
+      ],
+      "new_checks": [
+        "sh compile.sh && python3 tests/analytics_regression.py"
+      ],
+      "objective": "Complete stats and frequency implementations using the current shared CSV runtime; preserve documented options and reference fixtures, and repair the stale frequency no-header-label regression using retained reference evidence.",
+      "acceptance": "Both commands integrate through dispatch(command,argv)->bool. Current-build regressions cover selections, headers, empty input/fields, numeric types, lengths, null treatment, frequency ordering/limits, and invalid arguments. Exact reference checks are distinguished from local checks; approximations and untested boundaries remain explicit."
+    },
+    {
+      "id": "wc000016",
+      "worker": "a0009",
+      "round": 8,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "python3 verification/regression.py --validate && sh compile.sh && python3 verification/regression.py --exe ./executable --filter core-"
+      ],
+      "new_checks": [
+        "python3 verification/regression.py --validate && sh compile.sh && python3 verification/regression.py --exe ./executable --filter core-"
+      ],
+      "objective": "Independently rerun retained shared CSV, header, selection, file/stdin and malformed-input cases after the integrated runtime repair; preserve exact reference expectations and report source-hashed results without command edits.",
+      "acceptance": "All retained core cases pass a fresh build after owner fixes; reference stdout, stderr, exit status and provenance remain unchanged. Notes distinguish constructed expectations from reference observations and explicitly identify untested boundaries. Report unresolved mismatches as blocked."
+    },
+    {
+      "id": "wc000017",
+      "worker": "a0006",
+      "round": 9,
+      "changed_spec_fields": [
+        "objective",
+        "inputs",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "new_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "objective": "Verify documented join, sample and index behavior against retained references, investigate general seeded-sampling semantics within a bounded trial, and preserve current shared-runtime integration.",
+      "acceptance": "Checks exercise duplicate/null join keys, modes, selections, headers, sampling boundaries and reproducibility, exact index bytes and downstream count/slice. Retained seeded-sample output is compared exactly; unresolved parity is reported explicitly, never replaced by fixture-specific behavior."
+    },
+    {
+      "id": "wc000018",
+      "worker": "a0004",
+      "round": 10,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "new_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "objective": "Validate assigned structural commands on the integrated runtime, then add bounded output-file regressions for successful redirection, existing-file replacement and reference-backed malformed-input effects without expanding command scope.",
+      "acceptance": "Current structural suite passes a fresh build; added checks compare stdout, status and output-file bytes for representative commands and retain any normal-reference malformed-input expectations. Coverage records provenance, source hashes and unresolved boundaries."
+    },
+    {
+      "id": "wc000019",
+      "worker": "a0006",
+      "round": 10,
+      "changed_spec_fields": [
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "new_checks": [
+        "sh compile.sh && python3 tests/relational_regression.py"
+      ],
+      "objective": null,
+      "acceptance": "Checks exercise duplicate/null join keys, modes, selections, headers, sampling boundaries and reproducibility, exact index bytes and downstream count/slice. Retained seeded-sample outputs are compared exactly; unresolved parity is reported explicitly, never replaced by fixture-specific behavior."
+    },
+    {
+      "id": "wc000020",
+      "worker": "a0009",
+      "round": 10,
+      "changed_spec_fields": [
+        "objective",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "python3 verification/regression.py --validate && sh compile.sh && python3 verification/regression.py --exe ./executable --filter core-"
+      ],
+      "new_checks": [
+        "python3 verification/regression.py --validate && sh compile.sh && python3 verification/regression.py --exe ./executable --filter core-"
+      ],
+      "objective": "Extend independent core verification with at most two authorized normal-reference CSV position probes, prioritizing CRLF and blank lines before a ragged record. Preserve existing fixtures, exact transport-decoded reference bytes and provenance; compare fresh integrated builds without implementation edits.",
+      "acceptance": "Reusable core fixtures retain exact reference stdout, stderr and status without double decoding. Notes record source hashes, actual comparisons and untested boundaries. A ready handoff requires all core cases passing after any owner repair; otherwise report concrete mismatches as blocked."
+    },
+    {
+      "id": "wc000021",
+      "worker": "a0004",
+      "round": 11,
+      "changed_spec_fields": [
+        "objective",
+        "inputs",
+        "acceptance",
+        "stop_when"
+      ],
+      "same_original_scope": true,
+      "old_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "new_checks": [
+        "./compile.sh && python3 structural_tests.py"
+      ],
+      "objective": "Repair split's demonstrated malformed-input file effects using the shared streaming CSV interface, retain exact reference regression da164fad8772b9d2, and verify all assigned structural commands on a fresh build.",
+      "acceptance": "The structural suite passes, including exact split stdout/stderr/status and retained out/0.csv bytes with absent out/1.csv after a later malformed record. Valid splitting, empty/header-only input, output redirection, quoting and formatting remain checked; coverage distinguishes reference-backed cases and untested boundaries."
+    }
+  ],
+  "note": "Descriptive review data, not a proof of semantic coverage."
+}

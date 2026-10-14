@@ -1,0 +1,180 @@
+LIVE WORK-PROMPT GUIDANCE
+System prompts remain frozen. These user-authorized blocks enter optional project-note context; recorded requests establish actual delivery. Original agent notes are preserved. Operator-assisted adaptive run, not a controlled causal comparison.
+
+
+VERSION v008
+
+Rationale: After v007 corrected tracked report writes, c603 and c604 each found /tmp/xsv-integration-results.json missing and regenerated the entire suite; both outputs were truncated by full replay/source dumps. Frozen execute_command creates a fresh temporary sandbox each call. c605 reran again and changed coverage, staling receipts. Consume ephemeral diagnostics in the producing execution, persist compact observed evidence, freeze once, then exact checks.
+
+COMMON TEXT
+Preserve original scope, strict reference bytes and contract criteria.
+Liquidity: WORK-only parent allocate with a NEGATIVE integer returns unused direct-child allowance. It redistributes existing rights, not new money; retain the child assignment verbatim and enough funds for needed child work. It cannot rescue a parent already unable to call. Do not change membership to move funds.
+Finish tracked edits across teams, integrate and freeze, then exact checks, handoffs and parent reviews. Use current contract receipts for freshness. Repeated unchanged tests/status add no evidence; strict seeded failures remain blockers.
+Persist OBSERVED results/hashes, blocker and next action in replacement memory; never invent a pending tool result. Raw probe streams require one base64 decode; preserve encoded captures and absent-file assertions. Keep exact declared checks and emit compact diagnostics.
+Return one complete compact actions-v1 JSON object, close all arrays/objects, then STOP.
+
+TEAM t0001 ADDITION
+Each exec has a fresh sandbox: /tmp reports do NOT survive the next call (c603/c604). Read/summarize them in the SAME execution; emit <5000 bytes of suite exits, failure IDs and hashes, no full source/output dumps. Persist findings in memory/PROJECT_NOTES. Finish coverage edits once, freeze, then remaining exact checks and an honest blocked handoff; do not regenerate unchanged suites just to reopen /tmp.
+
+TEAM t0002 ADDITION
+Finish analytics ready and sampling blocked handoffs. If a parent cannot call, report that constraint and send commands/artifact hashes to funded runtime; no repeated unfundable requests. Do not weaken strict seeded tests to obtain acceptance.
+
+TEAM t0003 ADDITION
+The valid normalized suite is reported57/59 with two seeded failures; raw4/25 was an adapter error. Send correction instructions and frozen artifact hashes to funded runtime if unable to execute. Do not repeat searches of absent historical checkpoint paths.
+
+Confirmed requests: none; applied to notes but never delivered before inference ended at seq7281
+
+VERSION v007
+
+Rationale: At seq6287 the exact integrated check writes tracked tests/integration_results.json. Receipt78 reports source_unchanged=false despite the harness printing SOURCE_UNCHANGED True because its private manifest excludes that file. Preserve the diagnostic snapshot, avoid self-invalidating final checks and keep strict seeded failures unchanged.
+
+COMMON TEXT
+Preserve original scope, strict reference bytes and contract criteria.
+Liquidity: in WORK only, a parent can use allocate with a NEGATIVE integer amount to return unused direct-child allowance to itself. This redistributes existing rights, not new money. Keep the child assignment verbatim; respect current balance and remaining child checks/handoff needs. Use only if needed and still able to afford the parent call; it cannot rescue a parent already unable to call. Do not change membership to move funds.
+Finish all tracked edits across teams, integrate and freeze, then exact checks, handoffs and parent reviews. Use current contract receipts to judge freshness; repeated unchanged tests or status requests add no evidence. Strict seeded failures remain blockers, not passing completion.
+Persist observed results/hashes, blocker and next action in replacement memory. Raw probe stdout/stderr require one base64 decode; preserve encoded captures and absent-file assertions. Print compact diagnostic summaries; keep exact declared checks unchanged.
+Return one complete compact actions-v1 JSON object, close all arrays/objects, then STOP.
+
+TEAM t0001 ADDITION
+Receipt78: your check wrote tests/integration_results.json, so runtime source_unchanged=false despite its own manifest. Preserve that snapshot; make final checks read-only for tracked source (stdout or /tmp report). Keep strict exit1 for seeded failures. Rerun only after the fix and freeze.
+
+TEAM t0002 ADDITION
+Finish analytics ready and sampling blocked handoffs. If a parent cannot call, report that constraint and send commands/artifact hashes to funded runtime; no repeated unfundable requests. Do not weaken strict seeded tests to obtain acceptance.
+
+TEAM t0003 ADDITION
+The valid normalized suite is reported57/59 with two seeded failures; raw4/25 was an adapter error. Send correction instructions and frozen artifact hashes to funded runtime if unable to execute. Do not repeat searches of absent historical checkpoint paths.
+
+Confirmed requests: c0000565 a0001, c0000566 a0004, c0000567 a0001, c0000568 a0004, c0000569 a0001, c0000570 a0001, c0000571 a0004, c0000596 a0006, c0000603 a0001, c0000604 a0001, c0000605 a0001
+
+VERSION v006
+
+Rationale: Round17 c538/c539: operations and verification parents are below work-call reserves while child allowances remain; bank cannot meet minimum grants. Frozen allocate implementation and actions-v1 schema permit negative amounts to return direct-child rights; offline check confirms conservation, assignment preservation and bounds. Avoid waiting on unfundable parents and repeated stale tests; prioritize current handoffs and final integrated evidence.
+
+COMMON TEXT
+Preserve original scope, strict reference bytes and contract criteria.
+Liquidity: in WORK only, a parent can use allocate with a NEGATIVE integer amount to return unused direct-child allowance to itself. This redistributes existing rights, not new money. Keep the child assignment verbatim; respect current balance and remaining child checks/handoff needs. Use only if needed and still able to afford the parent call; it cannot rescue a parent already unable to call. Do not change membership to move funds.
+Finish all tracked edits across teams, integrate and freeze, then exact checks, handoffs and parent reviews. Use current contract receipts to judge freshness; repeated unchanged tests or status requests add no evidence. Strict seeded failures remain blockers, not passing completion.
+Persist observed results/hashes, blocker and next action in replacement memory. Raw probe stdout/stderr require one base64 decode; preserve encoded captures and absent-file assertions. Print compact diagnostic summaries; keep exact declared checks unchanged.
+Return one complete compact actions-v1 JSON object, close all arrays/objects, then STOP.
+
+TEAM t0001 ADDITION
+Review the frozen structural handoff before reclaiming surplus rights for integration. Verification lacks work runway: coordinate via available messages and execute its existing independent suite; avoid waiting repeatedly for an unaffordable check. Respect artifact ownership.
+
+TEAM t0002 ADDITION
+Finish analytics ready and sampling blocked handoffs. If a parent cannot call, report that constraint and send commands/artifact hashes to funded runtime; no repeated unfundable requests. Do not weaken strict seeded tests to obtain acceptance.
+
+TEAM t0003 ADDITION
+The valid normalized suite is reported57/59 with two seeded failures; raw4/25 was an adapter error. Send correction instructions and frozen artifact hashes to funded runtime if unable to execute. Do not repeat searches of absent historical checkpoint paths.
+
+Confirmed requests: c0000546 a0001, c0000547 a0004, c0000548 a0005, c0000549 a0006, c0000550 a0001, c0000551 a0004, c0000552 a0005, c0000553 a0001, c0000555 a0004
+
+VERSION v005
+
+Rationale: At seq5584 the verifier reported4/25 because its adapter passed raw base64 expected.stdout/stderr into run_case, which compares decoded text. The first failure visibly compares encoded help with identical decoded help. Broad dumps at seq5514/5590 truncated at12KB; large prior context omitted guidance in c494/c497. Prevent false regression work and reduce diagnostic output without weakening checks.
+
+COMMON TEXT
+Preserve the original objective, strict fixtures and contracts.
+Replay warning: round15 verification audit4/25 compared base64 expected.stdout/stderr with decoded text. When adapting RAW /evidence/probes.json, decode these streams exactly once for run_case; leave capture_base64 encoded and retain missing-file assertions. Already-decoded fixtures need no decoding. This audit does not establish21 product regressions.
+For diagnostic scripts, print concise counts, failure IDs and bounded differences under6000 bytes; large dumps truncate evidence and displace context. Reuse hashes and targeted ranges. Keep exact declared checks unchanged.
+Persist new observed results, hashes, blocker and next action in replacement memory; retain essential prior facts. Pending actions are not completed results.
+Finish ALL tracked edits across teams, including tests/reports; integrate, freeze, run exact checks, then hand off and review without further tracked edits. Changed assignments need a current contract. Failed strict checks remain blockers.
+Return one compact complete actions-v1 JSON object, close all arrays/objects, then STOP.
+
+TEAM t0001 ADDITION
+Notify verification of the replay encoding error once. Finish existing bounded repairs and coordinated verification before expanding investigation.
+
+TEAM t0002 ADDITION
+Notify verification of the replay encoding error once. Complete funded stats repair and retained regressions. Keep seeded expectations strict; the unsupported RNG investigation has stopped.
+
+TEAM t0003 ADDITION
+Correct the raw-probe adapter and supersede the misleading4/25 coverage summary; preserve raw expected bytes. Validate one known-passing replay before rerunning the batch. Do not search absent checkpoint paths again.
+
+Confirmed requests: c0000505 a0002, c0000506 a0004, c0000507 a0005, c0000508 a0006, c0000517 a0001, c0000518 a0002, c0000519 a0004, c0000520 a0005, c0000521 a0006, c0000522 a0001, c0000523 a0002, c0000524 a0004, c0000525 a0005, c0000526 a0006, c0000527 a0001, c0000528 a0002, c0000529 a0004, c0000530 a0005, c0000531 a0006, c0000532 a0001, c0000533 a0002, c0000534 a0004, c0000535 a0005, c0000536 a0006
+
+VERSION v004
+
+Rationale: Round14 seq5083 rejected bank approval of a0003 request2000000 below minimum_grant3082240. No transfer to t0003 occurred; root still sees pending request2000000. Replace an illegal small request at next proposal-capable turn rather than repeatedly wait. Partition capture limit correction succeeded; stage-specific guidance now emphasizes using retained evidence for repair.
+
+COMMON TEXT
+Operator efficiency guidance; preserve original objective, exact fixtures and contract criteria.
+Persist NEW observed facts with memory now: it replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Never infer a pending tool result. Check runtime rejections first: coding.result may still describe an older tool.
+Compare visible hashes before rereading. Reuse unchanged findings; inspect relevant ranges, not full files or repeated path inventories. Notify affected owners of new decisions once.
+Contract receipts cover ALL tracked files, including tests/reports outside your ownership. Agree a brief freeze of all tracked edits across teams; integrate pending changes first, then exact declared checks, immediate handoffs and parent reviews. Keep final results in memory/handoff or PROJECT_NOTES. A production-only freeze cannot prevent stale receipts. Scope/assignment changes require a current replacement contract before execution.
+Return one compact complete actions-v1 JSON object: close the action, actions array and root object, then STOP.
+
+TEAM t0001 ADDITION
+Coordinate all owners finishing tracked edits before final verification. Use current failing case IDs rather than older aggregate failure counts.
+
+TEAM t0002 ADDITION
+Partition probe29aae9f5abfc6c35 was accepted. Reuse its exact bytes and the original oracle for a general repair. Capture limit12 still applies; preserve strict sampling expectations.
+
+TEAM t0003 ADDITION
+Funding: round14 bank approval of your2000000 request was rejected; no grant occurred. If more runway is needed, replace it next proposal-capable turn with >=3082240 (current minimum_grant), keeping scope bounded. Confirm funding from observed allowance.
+
+Confirmed requests: c0000466 a0003, c0000467 a0004, c0000468 a0006, c0000469 a0009, c0000470 a0001, c0000471 a0002, c0000472 a0003, c0000473 a0006, c0000474 a0009, c0000486 a0001, c0000487 a0002, c0000488 a0003, c0000489 a0004, c0000490 a0006, c0000491 a0009, c0000492 a0001, c0000493 a0002, c0000495 a0004, c0000496 a0005, c0000498 a0001, c0000499 a0002, c0000500 a0004, c0000501 a0005, c0000502 a0006, c0000503 a0009, c0000504 a0001
+
+VERSION v003
+
+Rationale: Trace round13 seq4724 rejects a0002 probe with >12 captures as Invalid probe; next call423 repeats oversized probe. Runtime errors are optional inbox context and may be omitted. Parent assignment changes also rejected a0009 old-contract check; all tracked files influence freshness, not only production.
+
+COMMON TEXT
+Operator efficiency guidance; preserve original objective, exact fixtures and contract criteria.
+Persist NEW observed facts with memory now: it replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Never infer a pending tool result. Check runtime rejections first: coding.result may still describe an older tool.
+Compare visible hashes before rereading. Reuse unchanged findings; inspect relevant ranges, not full files or repeated path inventories. Notify affected owners of new decisions once.
+Contract receipts cover ALL tracked files, including tests/reports outside your ownership. Agree a brief freeze of all tracked edits across teams; integrate pending changes first, then exact declared checks, immediate handoffs and parent reviews. Keep final results in memory/handoff or PROJECT_NOTES. A production-only freeze cannot prevent stale receipts. Scope/assignment changes require a current replacement contract before execution.
+Return one compact complete actions-v1 JSON object: close the action, actions array and root object, then STOP.
+
+TEAM t0001 ADDITION
+Integration: operations has identified partition as the third public mismatch. Coordinate the repair; avoid duplicate evidence inventories.
+
+TEAM t0002 ADDITION
+Partition probe rejection: capture allows at most 12 paths (your last requests exceed it). Use <=12 discriminating captures, not another unchanged retry. Preserve strict sampling expectations.
+
+TEAM t0003 ADDITION
+Verification: reuse retained fixtures; test affected cases after fixes and the full suite once stable. Await repair when unchanged and blocked.
+
+Confirmed requests: c0000429 a0001, c0000430 a0002, c0000431 a0003, c0000432 a0004, c0000433 a0005, c0000434 a0006, c0000435 a0009, c0000436 a0001, c0000437 a0002, c0000438 a0003, c0000439 a0005, c0000440 a0006, c0000441 a0009, c0000452 a0001, c0000453 a0002, c0000454 a0003, c0000455 a0004, c0000456 a0005, c0000457 a0009, c0000458 a0001, c0000459 a0002, c0000460 a0003, c0000461 a0004, c0000462 a0006, c0000463 a0009, c0000464 a0001, c0000465 a0002
+
+VERSION v002
+
+Rationale: First v001 work requests delivered. Calls 415-419 still omit memory; 415/419 request full unchanged-file dumps and overlapping evidence-location inventory. Bank/operations already identified the third diagnostic as partition; avoid rediscovery. Clarify persistent memory and delta inspection, keep checks/frozen criteria.
+
+COMMON TEXT
+Operator efficiency guidance; preserve the original objective, exact fixtures and contract criteria.
+Persist NEW observed facts with memory in the same reply: memory replaces prior notes, so retain essential interfaces/hashes, confirmed results, blocker and next action. Do not claim a pending tool result. Keep strategy for plans, memory for evidence.
+Before rereading a file, compare its visible hash with memory. If unchanged, reuse findings; if changed, inspect only relevant ranges. Avoid whole-source dumps and repeated path inventories. Read targeted evidence from documented paths. Notify affected owners of new facts/decisions once.
+Finish tracked code, tests AND coverage edits before checks. Agree a source-stable window; run exact declared checks standalone, then hand off next turn without tracked edits. Record final results in memory/handoff or PROJECT_NOTES; tracked report edits stale receipts. Review fresh handoffs promptly.
+Return one compact complete actions-v1 JSON object: close the last action, actions array and root object, then STOP.
+
+TEAM t0001 ADDITION
+Integration: operations has identified partition as the third public mismatch. Coordinate the repair; avoid duplicate evidence inventories.
+
+TEAM t0002 ADDITION
+Operations: bound sampling to one evidence-backed discriminator; preserve strict expected outputs. Resolve useful hiring introductions explicitly.
+
+TEAM t0003 ADDITION
+Verification: reuse retained fixtures; test affected cases after fixes and the full suite once stable. Await repair when unchanged and blocked.
+
+Confirmed requests: c0000423 a0002, c0000424 a0003, c0000425 a0004, c0000426 a0005, c0000427 a0006, c0000428 a0009
+
+VERSION v001
+
+Rationale: Trace through round 12: repeated unchanged inspection, check receipts invalidated by tracked coverage edits, introductions without hiring decisions, one incomplete JSON reply followed by whitespace.
+
+COMMON TEXT
+Operator efficiency guidance; preserve the original objective, fixtures and contract criteria.
+Choose the next useful edit, discriminating test or decision. Reuse unchanged evidence; inspect only relevant lines and batch related reads. memory replaces notes: retain interfaces/hashes, results, blocker and next action.
+Finish tracked code, tests AND coverage-report edits before declared checks. Coordinate a short source-stable window; run the exact check standalone, then hand off next turn without tracked edits. Put final results in memory/handoff or PROJECT_NOTES, since editing tracked reports stales passing receipts. Parents review fresh handoffs promptly.
+Resolve introductions: open a candidate-specific job if useful and affordable; otherwise forward or record why. recruitment_request requests capital only; it does not hire. Preserve hiring decisions in memory for formation.
+Return one compact, complete actions-v1 JSON object. Close every array/object, then stop; no trailing whitespace stream.
+
+TEAM t0001 ADDITION
+Integration: agree a stable verification window; avoid low-value source churn.
+
+TEAM t0002 ADDITION
+Operations: preserve exact failing sampling/partition fixtures; one discriminating test per hypothesis. Delegate uncovered checks when useful.
+
+TEAM t0003 ADDITION
+Verification: reuse reference fixtures; test affected cases after fixes, full suite once stable. If unchanged and blocked, await the repair.
+
+Confirmed requests: c0000415 a0001, c0000416 a0002, c0000417 a0003, c0000418 a0004, c0000419 a0005, c0000420 a0006, c0000421 a0009, c0000422 a0001

@@ -1,0 +1,213 @@
+{
+  "round": 32,
+  "counts": {
+    "call": 616,
+    "invalid_reply": 2,
+    "reply_recovered": 0,
+    "action_rejected": 14,
+    "review_rejected": 2,
+    "work_contract_created": 39,
+    "work_contract_receipt": 81,
+    "work_contract_handoff": 18,
+    "work_contract_reviewed": 12,
+    "work_contract_invalidated": 12,
+    "hire": 4,
+    "stopped": 0
+  },
+  "accounting": {
+    "reported_usd": 89.7758805,
+    "unconfirmed_usd": 0.0,
+    "accounted_usd": 89.7758805,
+    "calls": 616,
+    "ceiling_usd": 500.0,
+    "blocked": false,
+    "quarantined_timeouts": 0,
+    "pending": 0
+  },
+  "last_event": "finished",
+  "last_call": {
+    "actor": "a0003",
+    "kind": "review",
+    "round": 32
+  },
+  "snapshot_round": 32,
+  "teams": 3,
+  "recent_notable": [
+    {
+      "event": "work_contract_receipt",
+      "round": 18,
+      "worker": "a0001",
+      "contract_id": "wc000039",
+      "status": "ok",
+      "exit_code": 1,
+      "passed": false
+    },
+    {
+      "event": "work_contract_receipt",
+      "round": 18,
+      "worker": "a0004",
+      "contract_id": "wc000036",
+      "status": "ok",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "event": "action_rejected",
+      "round": 20,
+      "agent": "a0003",
+      "action": "proposal",
+      "reason": "Wait until funding_retry_round before another funding request"
+    },
+    {
+      "event": "action_rejected",
+      "round": 21,
+      "agent": "a0002",
+      "action": "proposal",
+      "reason": "Wait until funding_retry_round before another funding request"
+    },
+    {
+      "event": "work_contract_reviewed",
+      "round": 21,
+      "decision": "revise",
+      "worker": "a0006",
+      "contract_id": "wc000038"
+    },
+    {
+      "event": "action_rejected",
+      "round": 22,
+      "agent": "a0002",
+      "action": "proposal",
+      "reason": "Wait until funding_retry_round before another funding request"
+    }
+  ],
+  "phase": "settle",
+  "coding_tools": {
+    "read": 48,
+    "probe": 29,
+    "exec": 292,
+    "list": 4
+  },
+  "changed_paths": [
+    "ANALYTICS_COVERAGE.md",
+    "COVERAGE.md",
+    "INTEGRATION_COVERAGE.md",
+    "OPS_COVERAGE.md",
+    "RELATIONAL_COVERAGE.md",
+    "STRUCTURAL_COVERAGE.md",
+    "compile.sh",
+    "core.py",
+    "help_text.json",
+    "main.py",
+    "ops.py",
+    "ops_analytics.py",
+    "ops_relational.py",
+    "runtime_tests.py",
+    "structural.py",
+    "structural_tests.py",
+    "tests/analytics_reference.json",
+    "tests/analytics_regression.py",
+    "tests/integration_checkpoint.py",
+    "tests/integration_results.json",
+    "tests/ops_regression.py",
+    "tests/relational_regression.py",
+    "tests/sampling_invariants.py",
+    "verification/CORE_NOTES.md",
+    "verification/core_cases.json",
+    "verification/core_coverage.md",
+    "verification/reference_cases.json",
+    "verification/regression.py"
+  ],
+  "public_checkpoint": {
+    "version": 39,
+    "status": "public_probe_score",
+    "passed": 25,
+    "total": 27
+  },
+  "experiment_settled_usd": 93.625629,
+  "experiment_accounted_usd": 93.625629,
+  "report": {
+    "status": "completed",
+    "task_id": "burntsushi__xsv.f430466",
+    "rounds": 32,
+    "final_answer": "Selected integrated public artifact after a stalled-work review and grace period.",
+    "author": "__public__",
+    "submission_mode": "automatic_stagnation_checkpoint",
+    "work_contracts": {
+      "enabled": true,
+      "events": {
+        "work_contract_created": 39,
+        "work_contract_receipt": 81,
+        "work_contract_handoff": 18,
+        "work_contract_reviewed": 12,
+        "work_contract_invalidated": 12
+      },
+      "latest_status_counts": {
+        "working": 4,
+        "revise": 3
+      },
+      "acceptance_is_not_benchmark_score": true
+    },
+    "score": 0.8274111675126904,
+    "initial_wealth": 96150000,
+    "final_wealth": 89115088,
+    "bank": 89115088,
+    "burned": 89776029,
+    "rewarded": 82741117,
+    "net_gain": -7034912,
+    "calls": 616,
+    "output_tokens": 554418,
+    "estimated_tokens": 0,
+    "uncertain_credits": 0,
+    "application_spent": 598457,
+    "discovery_spent": 1019385,
+    "application_budget": 96150000,
+    "max_context_bytes": 63985,
+    "context_cap_bytes": 64000,
+    "population": 8,
+    "bank_board": {
+      "capacity": 3,
+      "version": 12,
+      "tasks": [
+        {
+          "id": "runtime-integration",
+          "title": "Working executable, shared CSV runtime, and integrated command surface",
+          "scope": "Own final integration, compile.sh, executable entry point, shared argument/CSV/error handling, and compact PROJECT_NOTES.md. Read SPEC.md and /reference-docs first. Implement the documented input/output, structural, and presentation command families; agree an explicit command/file partition and module interface with the operations owner before parallel edits. Maintain a working build while integrating other teams.",
+          "acceptance": "compile.sh produces the required executable from the delivered files. Documented invocation, CSV dialect/header behavior, stdin/file handling, errors, and assigned commands have reproducible checks. Final artifact incorporates other teams' changes and a compact coverage/limitations matrix.",
+          "feedback": "Publish the module interface and command partition early. You own integration, not every implementation task; delegate useful bounded subprojects.",
+          "status": "open",
+          "owner": null,
+          "team": null,
+          "claimed_round": 1
+        },
+        {
+          "id": "data-operations",
+          "title": "Complete documented analytical and relational command behavior",
+          "scope": "Read SPEC.md and /reference-docs. Own analytical, ordering/filtering, relational, and sampling operations in separate modules under the interface agreed with runtime-integration. Establish the exact command partition from the documentation, including indexing or other documented behavior rather than assuming a fixed command list. Own integration correctness of your descendants' work.",
+          "acceptance": "Assigned documented commands and options are implemented and compile in the shared executable. Provide reference comparisons and local regressions covering headers, selections, types, empty inputs, ordering, duplicates, and relevant edge cases; distinguish verified behavior from approximations.",
+          "feedback": "Coordinate shared parsing/selection/type semantics with runtime-integration; avoid duplicate runtime implementations or conflicting entry-point edits. Form subteams where they impr",
+          "status": "open",
+          "owner": null,
+          "team": null,
+          "claimed_round": 15
+        },
+        {
+          "id": "behavior-verification",
+          "title": "Independent specification coverage and integrated behavioral verification",
+          "scope": "Independently read SPEC.md and /reference-docs, build a compact command/option coverage matrix, and maintain reusable behavioral tests and bounded normal-reference investigations. Test the shared executable across both implementation scopes. Own verification artifacts, not competing command implementations; arrange targeted fixes with existing owners.",
+          "acceptance": "Report exact commands, current artifact revisions, representative output/error comparisons, and remaining failures or untested boundaries. Exercise compilation, every documented command family, cross-command CSV semantics, and adversarial fixtures. After fixes, rerun affected tests and integrated smoke/regression checks; public probes alone do not establish completeness.",
+          "feedback": "Prioritize high-information reference queries and independently checked fixtures. Share concise reproductions with owners; retain reference results for local regression and use met",
+          "status": "open",
+          "owner": null,
+          "team": null,
+          "claimed_round": 13
+        }
+      ]
+    },
+    "total_births": 9,
+    "api_spent_usd": "89.7758805",
+    "api_reserved_usd": "0.00000",
+    "scripted_demo": false,
+    "usage_verified": true,
+    "accounting_identity": true
+  }
+}

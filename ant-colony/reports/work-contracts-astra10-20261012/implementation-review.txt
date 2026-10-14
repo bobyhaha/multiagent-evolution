@@ -1,0 +1,226 @@
+Artifact work contracts — implementation and review, 2026-10-12
+
+Scope reviewed: ant_colony runtime and phase prompts; structured decoding; funding,
+recruitment and team membership; coding adapters and integration; provider and
+campaign accounting; sandbox and protected grading; ProgramBench launcher; replay.
+Vendored upstream code and immutable prior experiment snapshots were preserved.
+Ruff was run across all first-party runtime, scripts and tests.
+
+Implemented:
+- Separate opt-in work_contracts setting alongside strict_outputs (still on).
+- Frozen outcome/input/output/check/acceptance/stop specification, explicit replacement IDs.
+- Host-owned verification receipts bound to owner, contract and tracked-source hashes.
+- Prior-observation requirement; all checks passing and all outputs present before ready.
+- Parent/bank acceptance; no self-acceptance; blocked and failed handoffs are visible.
+- Evidence invalidation after membership, assignment, dependency or source changes.
+- Bounded complete review context, paused waiting work calls, auditable replay events.
+- Exact ten-Astra population controls, still subject to original campaign accounting.
+- Offline and recorded prompt export through the production prompt builders.
+
+Review fixes:
+- Validate a complete allocation batch before changing money or assignments.
+- Reopen done tasks when readiness becomes stale so their owner can verify again.
+- Feed finalization rejection reasons back to the bank.
+- Freeze an explicitly bank-approved public artifact before terminal evaluation.
+- Handle retired workers without stale authorization or missing-identity crashes.
+- Propagate actual tool results through progress accounting to the receipt recorder.
+- Use review-specific bank prompts; keep task meaning and hidden grading fixed.
+
+Verification at this checkpoint:
+415 tests passed; Ruff passed. Tests include strict-schema roundtrips, a complete
+scripted contract/check/handoff/bank-acceptance flow, spoofed/unseen receipts,
+failed and source-changing checks, stale dependencies and memberships, missing
+outputs, blocked/failed reports, funding atomicity, retirement, scheduler waiting,
+large quality-mode prompt contexts, final-selection immutability and ten-agent caps.
+Offline production prompt previews passed without API calls; largest sampled
+request was 25,207 bytes including the separately transmitted strict response schema.
+
+Limits:
+Receipts verify matching before/after tracked-source snapshots and command status,
+not semantic coverage or the absence of temporary modifications inside a command.
+Reviewers still assess commands and behavior. Contracts do not impose exclusive
+write locks. Any tracked source change conservatively stales all prior checks.
+Deadline/budget checkpoint exports can be incomplete. No claim of improved benchmark
+quality is justified before the paid run, and one run cannot establish causality.
+
+Free Docker validation passed: isolated adapter, public probe, build and integration;
+also a real sandbox verification command, runtime receipt and recipient acceptance.
+No API calls were made by either smoke test. The paid v17 run uses a fresh benchmark
+seed, not either smoke-test artifact.
+
+Pilot-driven interface correction:
+The v17 live pilot encountered repeated public-documentation path errors and
+contract declarations naming SPEC.md/PROJECT_NOTES.md. Operator stopped it before
+protected evaluation, after all paid requests settled ($3.849748). Added safe
+documentation reads to work tools, immutable SPEC.md input pinning, path-specific
+contract errors, line-preserving documentation pagination and explicit liaison
+guidance. Ruff and 419 tests pass. v18 has a $96.15 cap; combined maximum across
+both attempts is $99.999748, with no earlier charges erased.
+
+Recruitment diagnosis during v18 (not injected into the frozen run):
+Round 2 funded three outcome owners. Owners a0001 and a0003 used
+recruitment_request despite sufficient existing capital; the runtime recorded
+recruitment_already_affordable, which creates a funding plan rather than a job.
+Owner a0002 opened a job for a0006, but that candidate occupied a bank-review slot
+that round. In round 3, a0001/a0003 opened actual jobs; a0002 replaced its opening
+with a0005 and incorrectly described a separate funding request as another hire.
+Three hires then completed in round 3, so six workers became funded. This is
+prompt/interface ambiguity plus bounded scheduling latency, not a cash shortage.
+Updated formation/bank guidance distinguishes funding, offers, consent and active
+membership; clarifies the single-opening replacement rule; and adds explicit
+activation action/phase metadata to funding plans. No automatic hire or spending
+authority was added. Tests: 419 passed, Ruff passed. Production prompt previews
+are saved in prompts-recruitment-refinement; they are offline and are NOT the
+v18 treatment. The v18 immutable runtime retains its original prompts.
+
+Bounded-memory clarification (offline refinement, not injected into v18):
+Recorded work observations showed a0004 retaining an empty memory while repeatedly
+inspecting shared files; other workers retained useful but sometimes stale notes.
+Added concise guidance explaining bounded per-call history, replacement-memory
+semantics, preservation of essential findings/interfaces/checks/next action, and
+reuse of unchanged file versions and saved evidence. This is a prompt hypothesis,
+not a measured improvement. No history/context ceilings were increased.
+
+Large-command receipt correction (not injected into frozen v18):
+Actual request c0000208/a0004 contained coding.result={"truncated": true} after a
+large source-writing command. The command echo alone could exhaust the receipt
+budget and discard status, exit code and changed-file information. Abbreviate
+oversized echoed commands with a SHA-256 identity; preserve outcome facts and a
+bounded changed-file summary when other metadata cannot fit. Original audit
+results are never mutated. Two new regression cases cover successful/failed large
+commands through the production observation, with oversized-metadata coverage.
+421 tests pass. Replayed 137 actual tool receipts at zero API cost: all recorded
+status/exit-code values retained, original audit objects unchanged, and every
+visible receipt within 16,000 bytes (maximum 15,174). See receipt-replay-check.json.
+The final offline prompt previews, including hiring and memory refinements, are
+in prompts-final-preview. The paid v18 run retains its original frozen runtime.
+
+Current-prompt/context replay: 263 recorded v18 request states repacked with the
+latest prompts, activation metadata and corrected receipt display. All fit the
+unchanged 64,000-byte cap, including response schemas (maximum 63,932 bytes).
+Formal work contracts, tasks, assignments, money, proposals, board and action
+schemas were preserved exactly. Four additional optional context blocks were
+omitted; one previously lost latest receipt was restored. No API calls occurred.
+This verifies context safety, not the behavioral efficacy of the prompt changes.
+See prompt-replay-check.json.
+
+Live v18 coordination observations, rounds 9–10:
+The structural and core-verification child handoffs were accepted by their direct
+parents in round 9. Both were invalidated after a shared-source revision in round
+10, as designed. Whole-workspace freshness prevents stale acceptance but requires
+a coordinated verification window; this is a runtime/coordination cost, not a JSON
+format problem. The bank independently requested a stable integration window, all
+suites on one manifest, exact failure reporting, unchanged reference expectations,
+and no fixture-specific sampling workaround. Public checkpoint 20 passed 15/18
+agent-collected probes; failures were exact sort diagnostics and two seeded sample
+outputs. These diagnostics are not the protected final benchmark score.
+
+Current exact system prompts for all six phases are bundled in prompts-current.txt.
+They are generated offline from the current builders. The recorded v18 prompt
+export must be used when attributing paid-run outcomes to an actual prompt version.
+
+Further live audit, through round 11:
+All 14 replacements among the first 21 contracts retained their original_scope.
+Declared commands remained the same, except the core verifier combined two checks
+using && without dropping either verification step. This is descriptive evidence,
+not proof that the underlying tests are complete; see contract-replacement-review.json.
+The two remaining free applicants did adapt their proposals. a0007 proposed bounded
+index/table verification, but the bank found its coverage-gap evidence superseded
+and routed an introduction to a0003 in round 7. a0008 proposed numeric/type boundary
+verification and was routed to a0002 in round 9. Neither introduction became an
+actual job opening through this observation. Thus their initial duplicate proposals
+do not fully explain their continued lack of funding. Owner activation and bounded
+recruitment scheduling also matter. The current offline hiring guidance addresses
+the required opening/consent steps; frozen v18 does not contain that clarification.
+
+2026-10-12 live refinement amendment: user authorized adaptive work-prompt guidance during v18. Versions v001-v003 applied through bounded PROJECT_NOTES, with backups and per-file planned/applied audit events. First verified delivery c0000415. Exact text in prompts-live.txt; first observed requests per actor/version in live-guidance/requests. Seven helper tests pass.
+Trace exposed oversized partition probe capture requests and optional runtime-error messages. Current repository now retains up to three private recent rejection causes in required context until same-action success, states probe limits, and reports actual count/limit. Four new regression tests, 432 total pass; changed-file Ruff passes. 402-request maximum-error replay fits 64KB while preserving essential state (39 additional optional omissions). These code changes are not hot-loaded into v18. Live v003 independently corrected the probe: c0000430 selected12 captures, seq4875 accepted probe29aae9f5abfc6c35. Two malformed JSON/whitespace replies have been rejected without actions. Five-minute heartbeat active until final report, preserving $100 combined cap and grading isolation.
+
+Live v18 liquidity stall, rounds 19–20 (through seq6663):
+The last 15 completed calls spent $1.422755 entirely on coordination, with no
+new tools, checks or contract reviews. Runtime parent/child rights were
+1,439,766/1,371,546 at the round19 snapshot, individually below the reported
+1,541,120 work minimum despite 2,811,312 combined. Frozen engine.ask admits work
+only when individual rights cover the actual request reservation. Negative
+allocate is parent-owned and work-only, so an already unaffordable parent cannot
+reclaim child rights. v006/v007 explained reclamation before this boundary, but
+no negative allocation was executed. Further note guidance cannot reach work
+observations without an admitted work call; frozen system prompts remain unchanged.
+A future runtime change should make bounded financial/control decisions possible
+before work liquidity is exhausted and suppress repeated coordination when no
+permitted action can unlock work. Such behavior needs explicit conservation,
+assignment-preservation and useful-progress tests; it has NOT been implemented
+or hot-loaded in this run. Scope/fixtures/acceptance and the combined cap remain
+unchanged. See live-guidance/liquidity-stall-round19.json for request evidence.
+
+V007 delivered to runtime c565 and structural c566. The agent redirected the
+integration report to /tmp, preserved the old tracked snapshot, and exact check
+receipt wr0000080 confirmed source_unchanged=true while retaining strict exit1.
+Public diagnostics remain25/27; independent regression57/59; two unique seeded
+sampling mismatches remain. These are public/local diagnostics, not a native
+final score. Operator-assisted adaptive run; no controlled causal attribution.
+
+Live v18 finalization and stale-state observation (through seq6842):
+Bank c595 requested an incomplete stagnation checkpoint, but seq6786 deferred
+finalization for missing current readiness. The frozen finish action requires
+readiness and accepted contracts regardless of the stated stagnation reason;
+this differs from eventual automatic budget/round/stagnation checkpoint selection.
+Two zero-amount continuation proposals were still rejected during funding cooldown.
+Repeated formation views described already repaired stats/help issues as pending,
+while the last complete observed integrated replay had only two seeded failures.
+A future interface should distinguish incomplete checkpoint selection from verified
+completion, proposal withdrawal from a new zero-value proposal, and existing
+execution evidence from source-current formal acceptance. No corresponding code
+change or runtime bypass was made during monitoring. These are trace-backed
+limitations, not evidence of a new implementation regression or native score.
+
+Live v18 ephemeral report loop and v008 (through seq6965):
+Structural worker retired itself at seq6863; returning its unused rights allowed
+runtime three more work calls. Operator did not initiate membership/financial
+changes and no negative allocate occurred. Calls603/604 each regenerated the
+full suite because /tmp report files disappear between disposable execution
+sandboxes, then lost diagnostic detail to oversized source/output dumps. c605
+ran the suite a third time and edited coverage, staling source-wide evidence.
+V007 had correctly stopped report writes to tracked source, but did not explain
+that the alternative /tmp location is execution-local. V008 now explicitly
+requires consuming the report within the producing execution and persisting
+compact observed evidence in memory/auxiliary notes. It was applied with audited
+notes preservation at seq6965; actual delivery and improvement remain pending.
+This is adaptive prompt guidance, not a runtime code or system-prompt reload.
+The current public diagnostic remains25/27, not a final native grade.
+
+V18 final native result and accounting (2026-10-12, finished seq7297):
+Final native score978/1182 =82.7411%; public diagnostic25/27 and independent
+agent suite57/59 are distinct measures.204 native checks did not pass; hidden case
+contents/failure breakdown were not inspected or returned to agents. The run
+completed32 rounds via automatic_stagnation_checkpoint, without current accepted
+team readiness (latest contracts: working4/revise3).616 model calls;2 malformed
+responses rejected without actions;14 action rejections. Existing strict fixtures
+and seeded failures were retained. Seven workers were funded from9 configured
+workers plus the bank; one structural worker retired itself, no replacement.
+
+V18 API spend$89.7758805 plus pilot$3.849748 = $93.6256285 under$100. Final
+report.json/audit.json/outcomes.json agree; accounting_valid,usage_verified,
+accounting_identity and complete_evaluation are true. Zero pending, unresolved or
+quarantined run charges. Six unrelated historical holds totaling$4.94717 remain
+unchanged; caps/deadline preserved. Model-usage cost is distinct from simulated
+reward credits. No additional paid run or inference was launched by monitoring.
+
+Actual16 recorded prompt variants are exported and verified against source events
+in reports/work-contracts-astra10-20261012/prompts-recorded-v18. Verbatim system
+texts are in system-prompts.txt;39 representative guidance requests cover all
+seven delivered versions. Versionsv001-v007 reached111 requests;v008 was applied
+but never delivered and cannot be credited with an effect. System prompts stayed
+frozen; this is an operator-assisted adaptive run, not a controlled comparison.
+
+Main remaining limitations: unaffordable parent control calls left child funds
+stranded; repeated coordination/funding requests consumed remaining rights;
+truncated diagnostics and missing memory caused repeated reads and stale beliefs;
+tracked coverage edits invalidated receipts; ephemeral /tmp reports triggered
+repeated full-suite regeneration. Contracts enforced honest blockers but did not
+solve these scheduling/context failures. Repository-only fixes were not hot-loaded.
+Last code validation remains432 tests passing and changed-file Ruff passing; no
+code changed during final reporting. Detailed results and audit are in
+reports/work-contracts-astra10-20261012/final-results.txt and final-verification.json.
+Live notes edits stopped at native evaluation; heartbeat is PAUSED after verified
+completion. No native-feedback continuation was performed; chat remains open.

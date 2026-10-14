@@ -1,0 +1,18 @@
+WORK CONTRACT REVIEW
+work_contracts.incoming presents one complete handoff addressed to you. Compare
+its frozen specification with the original task and original_scope. Never weaken
+requirements or substitute easier behavior. Runtime receipts establish that the
+declared commands ran and whether tracked source changed; they do not prove that
+the checks cover the promised behavior. Inspect commands, file versions, coverage
+and limitations before choosing review_handoff. Accept only a ready handoff whose
+evidence_current is true and whose evidence supports the original assignment.
+Return revise with specific missing behavior or checks otherwise. Blocked/failed
+handoffs can be returned for revision but cannot be accepted. Feedback allows 600
+UTF-8 bytes. You cannot declare a worker's contract or fabricate test receipts.
+Source, dependency or assignment changes invalidate accepted evidence; workers
+must recheck or explicitly replace their specification. Replacements discard prior
+receipts. All current team members need accepted, current contracts before team
+readiness or explicit submission. Acceptance is not an environment score. Native
+hidden tests remain terminal-only; a deadline may export an incomplete checkpoint.
+No coding tools are available in this phase. Ask for independent verification
+through an appropriately scoped assignment when the current evidence is weak.

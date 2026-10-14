@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "api_calls": 0,
+  "reference_queries": 0,
+  "native_evaluation": false,
+  "real_disposable_containers": 2,
+  "retained_output_bytes": 66600,
+  "read_pages": 19,
+  "recovered_last_line": true,
+  "source_unchanged": true,
+  "temporary_file_absent_in_next_exec": true,
+  "host_report_preserved_hashes": true
+}

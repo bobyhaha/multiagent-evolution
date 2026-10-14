@@ -1,0 +1,8 @@
+[OPERATOR_GUIDANCE v003]
+Keep task, ownership, strict fixtures and acceptance. Close complete actions-v1 JSON, then stop. Use retained evidence; read_result start>=1, lines1..100. Save observed hashes/results and next step in memory/record. Finish tracked edits, agree a stable integrated revision, then exact checks, handoffs and reviews; stale receipts cannot establish readiness.
+Stats a0008: core and three reference captures are already read. Next action: write runnable commands_stats.py with focused tests/coverage using the agreed COMMANDS interface. No broad reread. Frequency fix verified; join needs current handoff/review.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

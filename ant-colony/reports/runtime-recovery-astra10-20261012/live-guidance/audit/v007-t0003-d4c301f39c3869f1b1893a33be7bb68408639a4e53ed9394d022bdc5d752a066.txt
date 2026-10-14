@@ -1,0 +1,8 @@
+[OPERATOR_GUIDANCE v006]
+Keep original task, ownership and strict acceptance. Finish actions-v1 JSON, then stop. Stats rejection fix passes19 checks; public v25 is22/22, not full parity. Finish coordinated edits before exact checks; hand off/review only if receipt and current source hashes match. Save evidence IDs, covered line ranges and next action in memory. read_result start>=1, lines1..100; avoid rereading covered ranges.
+Review a2 analysis fixture/doc diff with a7: old success case is archived; active case now uses reference e335 rejection. Confirm ownership disposition and strict stdout/stderr/exit checks explicitly. No post-edit analysis pass is yet observed through4656. Preserve historical fixture/results and acceptance. Coordinate final verification after source freeze; report unresolved consent or coverage honestly.
+[/OPERATOR_GUIDANCE]
+
+# Public project notes
+
+No accepted contributions yet.

@@ -1,0 +1,14 @@
+# xsv reconstruction
+## Ownership
+a0001: compile.sh, xsv_main.py, xsv_core.py, tests/core_regression.py; cat/count/fixlengths/headers/index/select/slice; integration.
+a0004 (funded child): commands_format.py, tests/format_regression.py; flatten/fmt/input/table.
+a0002: commands_order.py (sort/reverse/search/sample), commands_rel.py (join/split/partition), commands_agg.py (frequency/stats), tests/high.py; may delegate exclusive modules.
+a0003: COVERAGE.md, tests/conformance.py and fixtures; independent CLI/CSV and filesystem verification descendants. All 20 commands assigned.
+## Stable interface
+Module COMMANDS maps command name to callable(argv). xsv_core exports Error; parse(args,value_options=(),flag_options=(),defaults=None,aliases=None)->opts,pos; read_csv(path=None,opts=None,flexible=False)->headers,rows; write_csv(headers,rows,opts=None); select_indices(selection,headers,width=None). None headers means -n. Options underscore-normalized. Input paths None/'-' mean stdin. Output defaults comma independently of input delimiter. Optional aliases overrides command-local short options without mutating global defaults.
+## Current evidence and next checks
+All prior check receipts are stale after the current CSV shape-error implementation. Select now retains and emits valid prefix rows before reporting CSVError; positions account for CRLF terminators and skipped blank lines. Exact failed reference fixture b4b28b245d509529 is preserved in tests/core_regression.py. Verification pending: core then independent conformance. Slice command-local aliases also await these checks. Other streaming commands, malformed quoting, byte positions after a stdin BOM, and unusual CR-only records remain unverified. Public diagnostics 4/9 on the preceding integration are not completeness evidence. a0002 owns mixed numeric sort semantics; a0003 owns COVERAGE.md. Formatting child module dispatch still needs integration when delivered.
+
+Current shared CSV change: write_csv quotes embedded CR with LF output by serializing record-wise using a CRLF quote trigger. Retains embedded CRLF unchanged. Regression fixture 956da2cac7a49f71 and no-header boundary added; fresh checks pending. Prior CSV/CLI suite was 33/35, both failures the same CR quoting defect.
+
+Integration update: dispatcher now discovers commands_format and commands_stats before legacy command modules, preserving optional-module fallback. Formatting is owned by a0004; transformations root a0002 coordinates stats. Before this edit, CSV/CLI conformance passed 35/35 (ev-2329e3390875b3a7db3d4268ea7f2ceb5db03f1c7fa53267747f040086e187f5); filesystem suite also exited zero, but its full counts were not inspected. This edit invalidates prior checks. Next: integrate delivered modules, finalize coverage, then clean-build and run all contributed suites on one source revision. No complete reference parity claim.

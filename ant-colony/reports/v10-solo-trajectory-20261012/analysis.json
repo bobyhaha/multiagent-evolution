@@ -1,0 +1,4756 @@
+{
+  "trajectories": {
+    "V10": {
+      "phase": {
+        "application": {
+          "calls": 51,
+          "cost": 3.2762675
+        },
+        "bank": {
+          "calls": 30,
+          "cost": 3.865825
+        },
+        "discovery": {
+          "calls": 117,
+          "cost": 4.67826
+        },
+        "formation": {
+          "calls": 122,
+          "cost": 9.03631
+        },
+        "review": {
+          "calls": 5,
+          "cost": 0.406475
+        },
+        "work": {
+          "calls": 454,
+          "cost": 75.7270575
+        }
+      },
+      "calls": 779,
+      "input_tokens": 5325887,
+      "output_tokens": 608449,
+      "invalid_replies": [
+        {
+          "seq": 317,
+          "event": "invalid_reply",
+          "round": 1,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 2158)",
+          "call_id": "c0000029",
+          "cost_usd": "0.113255"
+        },
+        {
+          "seq": 324,
+          "event": "invalid_reply",
+          "round": 1,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1877)",
+          "call_id": "c0000030",
+          "cost_usd": "0.0928425"
+        },
+        {
+          "seq": 715,
+          "event": "invalid_reply",
+          "round": 2,
+          "phase": "work",
+          "actor": "a0040",
+          "reason": "Extra data: line 4 column 1 (char 548)",
+          "call_id": "c0000070",
+          "cost_usd": "0.07818"
+        },
+        {
+          "seq": 722,
+          "event": "invalid_reply",
+          "round": 2,
+          "phase": "work",
+          "actor": "a0041",
+          "reason": "Extra data: line 4 column 1 (char 461)",
+          "call_id": "c0000071",
+          "cost_usd": "0.064505"
+        },
+        {
+          "seq": 765,
+          "event": "invalid_reply",
+          "round": 2,
+          "phase": "work",
+          "actor": "a0040",
+          "reason": "Extra data: line 4 column 1 (char 561)",
+          "call_id": "c0000076",
+          "cost_usd": "0.0740175"
+        },
+        {
+          "seq": 812,
+          "event": "invalid_reply",
+          "round": 2,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 2 column 2 (char 1010)",
+          "call_id": "c0000081",
+          "cost_usd": "0.139805"
+        },
+        {
+          "seq": 853,
+          "event": "invalid_reply",
+          "round": 2,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 2 column 1 (char 1695)",
+          "call_id": "c0000085",
+          "cost_usd": "0.1158925"
+        },
+        {
+          "seq": 1212,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 1614)",
+          "call_id": "c0000121",
+          "cost_usd": "0.20123"
+        },
+        {
+          "seq": 1219,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1677)",
+          "call_id": "c0000122",
+          "cost_usd": "0.111855"
+        },
+        {
+          "seq": 1232,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 1159)",
+          "call_id": "c0000124",
+          "cost_usd": "0.1149175"
+        },
+        {
+          "seq": 1280,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0003",
+          "reason": "Extra data: line 4 column 1 (char 1441)",
+          "call_id": "c0000130",
+          "cost_usd": "0.16838"
+        },
+        {
+          "seq": 1299,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0041",
+          "reason": "Extra data: line 4 column 1 (char 749)",
+          "call_id": "c0000133",
+          "cost_usd": "0.151855"
+        },
+        {
+          "seq": 1324,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 1667)",
+          "call_id": "c0000135",
+          "cost_usd": "0.1639175"
+        },
+        {
+          "seq": 1361,
+          "event": "invalid_reply",
+          "round": 3,
+          "phase": "work",
+          "actor": "a0042",
+          "reason": "Extra data: line 4 column 1 (char 587)",
+          "call_id": "c0000141",
+          "cost_usd": "0.131405"
+        },
+        {
+          "seq": 1803,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 3 column 1 (char 545)",
+          "call_id": "c0000185",
+          "cost_usd": "0.127855"
+        },
+        {
+          "seq": 1862,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1539)",
+          "call_id": "c0000191",
+          "cost_usd": "0.1369175"
+        },
+        {
+          "seq": 1869,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0003",
+          "reason": "Extra data: line 4 column 1 (char 1496)",
+          "call_id": "c0000192",
+          "cost_usd": "0.192305"
+        },
+        {
+          "seq": 1876,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 2 column 2 (char 486)",
+          "call_id": "c0000193",
+          "cost_usd": "0.1256175"
+        },
+        {
+          "seq": 1883,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 4 column 1 (char 1238)",
+          "call_id": "c0000194",
+          "cost_usd": "0.1443425"
+        },
+        {
+          "seq": 1890,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0040",
+          "reason": "Extra data: line 4 column 1 (char 1846)",
+          "call_id": "c0000195",
+          "cost_usd": "0.15968"
+        },
+        {
+          "seq": 1903,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0042",
+          "reason": "Extra data: line 4 column 1 (char 1325)",
+          "call_id": "c0000197",
+          "cost_usd": "0.1768925"
+        },
+        {
+          "seq": 1922,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1893)",
+          "call_id": "c0000199",
+          "cost_usd": "0.15408"
+        },
+        {
+          "seq": 1941,
+          "event": "invalid_reply",
+          "round": 4,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 4 column 1 (char 1141)",
+          "call_id": "c0000202",
+          "cost_usd": "0.142205"
+        },
+        {
+          "seq": 2125,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "discovery",
+          "actor": "a0029",
+          "reason": "Extra data: line 2 column 2 (char 686)",
+          "call_id": "c0000218",
+          "cost_usd": "0.0433675"
+        },
+        {
+          "seq": 2433,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 409)",
+          "call_id": "c0000252",
+          "cost_usd": "0.134005"
+        },
+        {
+          "seq": 2440,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0010",
+          "reason": "Extra data: line 4 column 1 (char 787)",
+          "call_id": "c0000253",
+          "cost_usd": "0.09193"
+        },
+        {
+          "seq": 2509,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 1017)",
+          "call_id": "c0000261",
+          "cost_usd": "0.1492675"
+        },
+        {
+          "seq": 2522,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 2 column 2 (char 781)",
+          "call_id": "c0000263",
+          "cost_usd": "0.1251925"
+        },
+        {
+          "seq": 2541,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0042",
+          "reason": "Extra data: line 4 column 1 (char 927)",
+          "call_id": "c0000266",
+          "cost_usd": "0.16323"
+        },
+        {
+          "seq": 2578,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0003",
+          "reason": "Extra data: line 2 column 2 (char 491)",
+          "call_id": "c0000269",
+          "cost_usd": "0.17423"
+        },
+        {
+          "seq": 2585,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 798)",
+          "call_id": "c0000270",
+          "cost_usd": "0.144555"
+        },
+        {
+          "seq": 2616,
+          "event": "invalid_reply",
+          "round": 5,
+          "phase": "work",
+          "actor": "a0042",
+          "reason": "Extra data: line 4 column 1 (char 1727)",
+          "call_id": "c0000275",
+          "cost_usd": "0.1878675"
+        },
+        {
+          "seq": 2885,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1781)",
+          "call_id": "c0000301",
+          "cost_usd": "0.1715175"
+        },
+        {
+          "seq": 2898,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 2 column 2 (char 570)",
+          "call_id": "c0000303",
+          "cost_usd": "0.0859925"
+        },
+        {
+          "seq": 2911,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 2 column 1 (char 1582)",
+          "call_id": "c0000305",
+          "cost_usd": "0.1910925"
+        },
+        {
+          "seq": 2918,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0040",
+          "reason": "Extra data: line 4 column 1 (char 1389)",
+          "call_id": "c0000306",
+          "cost_usd": "0.1224675"
+        },
+        {
+          "seq": 2953,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1475)",
+          "call_id": "c0000310",
+          "cost_usd": "0.1686175"
+        },
+        {
+          "seq": 2972,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0010",
+          "reason": "Extra data: line 4 column 1 (char 921)",
+          "call_id": "c0000313",
+          "cost_usd": "0.144705"
+        },
+        {
+          "seq": 2985,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0040",
+          "reason": "Extra data: line 4 column 1 (char 1001)",
+          "call_id": "c0000315",
+          "cost_usd": "0.1349425"
+        },
+        {
+          "seq": 3044,
+          "event": "invalid_reply",
+          "round": 6,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 778)",
+          "call_id": "c0000321",
+          "cost_usd": "0.1326425"
+        },
+        {
+          "seq": 3386,
+          "event": "invalid_reply",
+          "round": 7,
+          "phase": "work",
+          "actor": "a0041",
+          "reason": "Extra data: line 4 column 1 (char 956)",
+          "call_id": "c0000356",
+          "cost_usd": "0.1472675"
+        },
+        {
+          "seq": 3460,
+          "event": "invalid_reply",
+          "round": 7,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 4 column 1 (char 1184)",
+          "call_id": "c0000363",
+          "cost_usd": "0.14803"
+        },
+        {
+          "seq": 3519,
+          "event": "invalid_reply",
+          "round": 7,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 2584)",
+          "call_id": "c0000369",
+          "cost_usd": "0.2139925"
+        },
+        {
+          "seq": 3526,
+          "event": "invalid_reply",
+          "round": 7,
+          "phase": "work",
+          "actor": "a0007",
+          "reason": "Extra data: line 4 column 1 (char 3498)",
+          "call_id": "c0000370",
+          "cost_usd": "0.19908"
+        },
+        {
+          "seq": 3533,
+          "event": "invalid_reply",
+          "round": 7,
+          "phase": "work",
+          "actor": "a0010",
+          "reason": "Extra data: line 4 column 1 (char 1563)",
+          "call_id": "c0000371",
+          "cost_usd": "0.1688675"
+        },
+        {
+          "seq": 3540,
+          "event": "invalid_reply",
+          "round": 7,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 4 column 1 (char 1346)",
+          "call_id": "c0000372",
+          "cost_usd": "0.15423"
+        },
+        {
+          "seq": 3870,
+          "event": "invalid_reply",
+          "round": 8,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 5 column 1 (char 1659)",
+          "call_id": "c0000403",
+          "cost_usd": "0.15863"
+        },
+        {
+          "seq": 3877,
+          "event": "invalid_reply",
+          "round": 8,
+          "phase": "work",
+          "actor": "a0007",
+          "reason": "Extra data: line 4 column 1 (char 1752)",
+          "call_id": "c0000404",
+          "cost_usd": "0.207455"
+        },
+        {
+          "seq": 3902,
+          "event": "invalid_reply",
+          "round": 8,
+          "phase": "work",
+          "actor": "a0041",
+          "reason": "Extra data: line 4 column 1 (char 1120)",
+          "call_id": "c0000408",
+          "cost_usd": "0.140155"
+        },
+        {
+          "seq": 3959,
+          "event": "invalid_reply",
+          "round": 8,
+          "phase": "work",
+          "actor": "a0004",
+          "reason": "Extra data: line 4 column 1 (char 1746)",
+          "call_id": "c0000413",
+          "cost_usd": "0.164105"
+        },
+        {
+          "seq": 4072,
+          "event": "invalid_reply",
+          "round": 8,
+          "phase": "work",
+          "actor": "a0033",
+          "reason": "Extra data: line 1 column 1419 (char 1418)",
+          "call_id": "c0000426",
+          "cost_usd": "0.1550175"
+        },
+        {
+          "seq": 4308,
+          "event": "invalid_reply",
+          "round": 9,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 2551)",
+          "call_id": "c0000447",
+          "cost_usd": "0.217255"
+        },
+        {
+          "seq": 4345,
+          "event": "invalid_reply",
+          "round": 9,
+          "phase": "work",
+          "actor": "a0043",
+          "reason": "Extra data: line 2 column 2 (char 783)",
+          "call_id": "c0000453",
+          "cost_usd": "0.177655"
+        },
+        {
+          "seq": 4366,
+          "event": "invalid_reply",
+          "round": 9,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 1796)",
+          "call_id": "c0000454",
+          "cost_usd": "0.17043"
+        },
+        {
+          "seq": 4373,
+          "event": "invalid_reply",
+          "round": 9,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 4 column 1 (char 1264)",
+          "call_id": "c0000455",
+          "cost_usd": "0.1956425"
+        },
+        {
+          "seq": 4404,
+          "event": "invalid_reply",
+          "round": 9,
+          "phase": "work",
+          "actor": "a0043",
+          "reason": "Extra data: line 2 column 2 (char 313)",
+          "call_id": "c0000460",
+          "cost_usd": "0.1585925"
+        },
+        {
+          "seq": 4726,
+          "event": "invalid_reply",
+          "round": 10,
+          "phase": "work",
+          "actor": "a0007",
+          "reason": "Extra data: line 4 column 1 (char 1662)",
+          "call_id": "c0000491",
+          "cost_usd": "0.2036925"
+        },
+        {
+          "seq": 4787,
+          "event": "invalid_reply",
+          "round": 10,
+          "phase": "work",
+          "actor": "a0040",
+          "reason": "Extra data: line 4 column 1 (char 3234)",
+          "call_id": "c0000499",
+          "cost_usd": "0.25238"
+        },
+        {
+          "seq": 4794,
+          "event": "invalid_reply",
+          "round": 10,
+          "phase": "work",
+          "actor": "a0043",
+          "reason": "Extra data: line 4 column 1 (char 1337)",
+          "call_id": "c0000500",
+          "cost_usd": "0.17473"
+        },
+        {
+          "seq": 4847,
+          "event": "invalid_reply",
+          "round": 10,
+          "phase": "work",
+          "actor": "a0043",
+          "reason": "Extra data: line 3 column 1 (char 963)",
+          "call_id": "c0000506",
+          "cost_usd": "0.16658"
+        },
+        {
+          "seq": 5030,
+          "event": "invalid_reply",
+          "round": 11,
+          "phase": "work",
+          "actor": "a0043",
+          "reason": "Extra data: line 4 column 1 (char 1604)",
+          "call_id": "c0000523",
+          "cost_usd": "0.17508"
+        },
+        {
+          "seq": 5061,
+          "event": "invalid_reply",
+          "round": 11,
+          "phase": "work",
+          "actor": "a0007",
+          "reason": "Extra data: line 5 column 1 (char 1954)",
+          "call_id": "c0000526",
+          "cost_usd": "0.1859675"
+        },
+        {
+          "seq": 5230,
+          "event": "invalid_reply",
+          "round": 12,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 2962)",
+          "call_id": "c0000543",
+          "cost_usd": "0.2101175"
+        },
+        {
+          "seq": 5237,
+          "event": "invalid_reply",
+          "round": 12,
+          "phase": "work",
+          "actor": "a0007",
+          "reason": "Extra data: line 1 column 3300 (char 3299)",
+          "call_id": "c0000544",
+          "cost_usd": "0.222305"
+        },
+        {
+          "seq": 5407,
+          "event": "invalid_reply",
+          "round": 13,
+          "phase": "work",
+          "actor": "a0043",
+          "reason": "Extra data: line 4 column 1 (char 1108)",
+          "call_id": "c0000563",
+          "cost_usd": "0.2133925"
+        },
+        {
+          "seq": 5885,
+          "event": "invalid_reply",
+          "round": 16,
+          "phase": "work",
+          "actor": "a0002",
+          "reason": "Extra data: line 3 column 1 (char 1080)",
+          "call_id": "c0000614",
+          "cost_usd": "0.1064675"
+        }
+      ],
+      "invalid_reply_cost": "10.1346925",
+      "tool_kinds": {
+        "exec": 293,
+        "probe": 32,
+        "read": 3,
+        "patch": 1
+      },
+      "rounds": {
+        "1": {
+          "calls": 34,
+          "cost": 1.7653825,
+          "work_calls": 8,
+          "tools": 6,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [
+            [
+              "a0001",
+              "MODULE_CONTRACT.md"
+            ],
+            [
+              "a0001",
+              "compile.sh"
+            ],
+            [
+              "a0001",
+              "core.py"
+            ],
+            [
+              "a0001",
+              "main.py"
+            ]
+          ],
+          "integrated_paths": [
+            "MODULE_CONTRACT.md",
+            "compile.sh",
+            "core.py",
+            "main.py"
+          ],
+          "public_checks": [
+            {
+              "version": 1,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 0,
+              "total": 3
+            }
+          ]
+        },
+        "2": {
+          "calls": 55,
+          "cost": 4.1595875,
+          "work_calls": 24,
+          "tools": 19,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "help_texts.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0003",
+              "tests_core.py"
+            ]
+          ],
+          "integrated_paths": [
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "help_texts.json",
+            "tests_core.py"
+          ],
+          "public_checks": [
+            {
+              "version": 2,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 0,
+              "total": 11
+            }
+          ]
+        },
+        "3": {
+          "calls": 59,
+          "cost": 5.6190575,
+          "work_calls": 28,
+          "tools": 20,
+          "nonzero_exec": 2,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "compile.sh"
+            ],
+            [
+              "a0001",
+              "core.py"
+            ],
+            [
+              "a0001",
+              "main.py"
+            ],
+            [
+              "a0001",
+              "misc_ops.py"
+            ],
+            [
+              "a0002",
+              "INDEX_NOTES.md"
+            ],
+            [
+              "a0002",
+              "analytics.py"
+            ],
+            [
+              "a0002",
+              "analytics_index.py"
+            ],
+            [
+              "a0002",
+              "tests_index.py"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0040",
+              "presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0041",
+              "STATS_NOTES.md"
+            ],
+            [
+              "a0041",
+              "analytics_stats.py"
+            ],
+            [
+              "a0041",
+              "tests_stats.py"
+            ]
+          ],
+          "integrated_paths": [
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "compile.sh",
+            "core.py",
+            "main.py",
+            "misc_ops.py",
+            "presentation.py",
+            "tests/presentation_notes.md",
+            "INDEX_NOTES.md",
+            "STATS_NOTES.md",
+            "analytics.py",
+            "analytics_index.py",
+            "analytics_stats.py",
+            "tests_index.py",
+            "tests_stats.py"
+          ],
+          "public_checks": [
+            {
+              "version": 4,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 8,
+              "total": 16
+            }
+          ]
+        },
+        "4": {
+          "calls": 65,
+          "cost": 7.1721375,
+          "work_calls": 32,
+          "tools": 22,
+          "nonzero_exec": 3,
+          "truncated_tools": 8,
+          "writes": [
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "MODULE_CONTRACT.md"
+            ],
+            [
+              "a0001",
+              "compile.sh"
+            ],
+            [
+              "a0042",
+              "presentation_fmt.py"
+            ],
+            [
+              "a0042",
+              "tests/fmt_notes.md"
+            ],
+            [
+              "a0042",
+              "tests/test_fmt.py"
+            ],
+            [
+              "a0001",
+              "compile.sh"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0004",
+              "ORDER_NOTES.md"
+            ],
+            [
+              "a0004",
+              "analytics_order.py"
+            ],
+            [
+              "a0004",
+              "tests_frequency_sort.py"
+            ],
+            [
+              "a0033",
+              "PARTITION_NOTES.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_cases.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0040",
+              "tests/test_presentation.py"
+            ],
+            [
+              "a0041",
+              "STATS_NOTES.md"
+            ],
+            [
+              "a0041",
+              "analytics_stats.py"
+            ],
+            [
+              "a0041",
+              "tests_stats.py"
+            ],
+            [
+              "a0042",
+              "tests/fmt_notes.md"
+            ]
+          ],
+          "integrated_paths": [
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "INTEGRATION_REGRESSION.json",
+            "MODULE_CONTRACT.md",
+            "PARTITION_NOTES.md",
+            "compile.sh",
+            "presentation_fmt.py",
+            "tests/fmt_notes.md",
+            "tests/presentation_cases.json",
+            "tests/presentation_notes.md",
+            "tests/presentation_results.json",
+            "tests/test_fmt.py",
+            "tests/test_presentation.py",
+            "ORDER_NOTES.md",
+            "STATS_NOTES.md",
+            "analytics_order.py",
+            "analytics_stats.py",
+            "tests_frequency_sort.py",
+            "tests_stats.py"
+          ],
+          "public_checks": [
+            {
+              "version": 6,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 13,
+              "total": 19
+            }
+          ]
+        },
+        "5": {
+          "calls": 71,
+          "cost": 7.888655,
+          "work_calls": 36,
+          "tools": 27,
+          "nonzero_exec": 1,
+          "truncated_tools": 9,
+          "writes": [
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "help_texts.json"
+            ],
+            [
+              "a0040",
+              "presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0001",
+              "BUILD_ACCEPTANCE.json"
+            ],
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0001",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "main.py"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_REPLAY.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0041",
+              "STATS_NOTES.md"
+            ],
+            [
+              "a0041",
+              "analytics_stats.py"
+            ],
+            [
+              "a0041",
+              "tests_stats.py"
+            ],
+            [
+              "a0042",
+              "tests/table_audit_notes.md"
+            ],
+            [
+              "a0042",
+              "tests/test_table_audit.py"
+            ]
+          ],
+          "integrated_paths": [
+            "BUILD_ACCEPTANCE.json",
+            "COMMAND_COVERAGE.md",
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "help_texts.json",
+            "main.py",
+            "presentation.py",
+            "tests/presentation_notes.md",
+            "tests/presentation_results.json",
+            "tests/table_audit_notes.md",
+            "tests/test_table_audit.py",
+            "ANALYTICS_NOTES.md",
+            "ANALYTICS_REPLAY.json",
+            "STATS_NOTES.md",
+            "analytics_stats.py",
+            "tests_stats.py"
+          ],
+          "public_checks": [
+            {
+              "version": 8,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 19,
+              "total": 24
+            }
+          ]
+        },
+        "6": {
+          "calls": 51,
+          "cost": 7.178005,
+          "work_calls": 36,
+          "tools": 24,
+          "nonzero_exec": 1,
+          "truncated_tools": 6,
+          "writes": [
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0041",
+              "analytics_stats.py"
+            ],
+            [
+              "a0042",
+              "tests/table_audit_notes.md"
+            ],
+            [
+              "a0001",
+              "REVERSE_BASELINE.json"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_REPLAY.json"
+            ],
+            [
+              "a0002",
+              "tests_analytics_replay.py"
+            ],
+            [
+              "a0001",
+              "BUILD_ACCEPTANCE.json"
+            ],
+            [
+              "a0001",
+              "tests_build.py"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_CHECKPOINT.json"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_REPLAY.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0003",
+              "tests/test_core_runner.py"
+            ],
+            [
+              "a0003",
+              "tests_core.py"
+            ],
+            [
+              "a0004",
+              "ORDER_NOTES.md"
+            ],
+            [
+              "a0004",
+              "analytics_order.py"
+            ],
+            [
+              "a0004",
+              "tests_frequency_sort.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_cases.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_round6.json"
+            ],
+            [
+              "a0041",
+              "ANALYTICS_REPLAY.json"
+            ],
+            [
+              "a0041",
+              "STATS_EMPTY_REGRESSION.json"
+            ],
+            [
+              "a0041",
+              "STATS_NOTES.md"
+            ]
+          ],
+          "integrated_paths": [
+            "BUILD_ACCEPTANCE.json",
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "REVERSE_BASELINE.json",
+            "tests/presentation_cases.json",
+            "tests/presentation_notes.md",
+            "tests/presentation_results.json",
+            "tests/presentation_round6.json",
+            "tests/table_audit_notes.md",
+            "tests/test_core_runner.py",
+            "tests_build.py",
+            "tests_core.py",
+            "ANALYTICS_CHECKPOINT.json",
+            "ANALYTICS_NOTES.md",
+            "ANALYTICS_REPLAY.json",
+            "ORDER_NOTES.md",
+            "STATS_EMPTY_REGRESSION.json",
+            "STATS_NOTES.md",
+            "analytics_order.py",
+            "analytics_stats.py",
+            "tests_analytics_replay.py",
+            "tests_frequency_sort.py"
+          ],
+          "public_checks": [
+            {
+              "version": 10,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 22,
+              "total": 27
+            }
+          ]
+        },
+        "7": {
+          "calls": 48,
+          "cost": 7.575615,
+          "work_calls": 36,
+          "tools": 29,
+          "nonzero_exec": 3,
+          "truncated_tools": 4,
+          "writes": [
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0004",
+              "analytics_order.py"
+            ],
+            [
+              "a0004",
+              "tests_frequency_sort.py"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_REPLAY.json"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0003",
+              "tests/test_core_runner.py"
+            ],
+            [
+              "a0003",
+              "tests_core.py"
+            ],
+            [
+              "a0040",
+              "presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0041",
+              "STATS_EMPTY_REGRESSION.json"
+            ],
+            [
+              "a0041",
+              "analytics_stats.py"
+            ],
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_CHECKPOINT.json"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_REPLAY.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0003",
+              "tests_core.py"
+            ],
+            [
+              "a0004",
+              "ORDER_NOTES.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_CHECK.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "data_ops.py"
+            ],
+            [
+              "a0007",
+              "tests_data_ops.py"
+            ],
+            [
+              "a0010",
+              "INDEX_COMPAT_NOTES.md"
+            ],
+            [
+              "a0010",
+              "verify_index_compat.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_cases.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0040",
+              "tests/test_presentation.py"
+            ],
+            [
+              "a0041",
+              "STATS_NOTES.md"
+            ],
+            [
+              "a0041",
+              "tests_stats.py"
+            ]
+          ],
+          "integrated_paths": [
+            "ANALYTICS_CHECKPOINT.json",
+            "ANALYTICS_NOTES.md",
+            "ANALYTICS_REPLAY.json",
+            "INDEX_COMPAT_NOTES.md",
+            "ORDER_NOTES.md",
+            "STATS_EMPTY_REGRESSION.json",
+            "STATS_NOTES.md",
+            "analytics_order.py",
+            "analytics_stats.py",
+            "tests_frequency_sort.py",
+            "tests_stats.py",
+            "verify_index_compat.py",
+            "DATA_OPS_CHECK.json",
+            "DATA_OPS_OWNERSHIP.md",
+            "data_ops.py",
+            "tests_data_ops.py",
+            "COMMAND_COVERAGE.md",
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "INTEGRATION_REGRESSION.json",
+            "presentation.py",
+            "tests/presentation_cases.json",
+            "tests/presentation_notes.md",
+            "tests/presentation_results.json",
+            "tests/test_core_runner.py",
+            "tests/test_presentation.py",
+            "tests_core.py"
+          ],
+          "public_checks": [
+            {
+              "version": 13,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 27,
+              "total": 29
+            }
+          ]
+        },
+        "8": {
+          "calls": 54,
+          "cost": 7.727195,
+          "work_calls": 38,
+          "tools": 28,
+          "nonzero_exec": 1,
+          "truncated_tools": 8,
+          "writes": [
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0041",
+              "STATS_NOTES.md"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_CHECKPOINT.json"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_round8.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ],
+            [
+              "a0043",
+              "file_ops.py"
+            ],
+            [
+              "a0043",
+              "file_ops_tests.py"
+            ]
+          ],
+          "integrated_paths": [
+            "ANALYTICS_CHECKPOINT.json",
+            "ANALYTICS_NOTES.md",
+            "STATS_NOTES.md",
+            "FILE_OPS_CHECK.json",
+            "FILE_OPS_NOTES.md",
+            "file_ops.py",
+            "file_ops_tests.py",
+            "COMMAND_COVERAGE.md",
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "INTEGRATION_REGRESSION.json",
+            "tests/presentation_notes.md",
+            "tests/presentation_round8.json"
+          ],
+          "public_checks": [
+            {
+              "version": 16,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 27,
+              "total": 30
+            }
+          ]
+        },
+        "9": {
+          "calls": 37,
+          "cost": 6.421435,
+          "work_calls": 28,
+          "tools": 21,
+          "nonzero_exec": 3,
+          "truncated_tools": 5,
+          "writes": [
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0040",
+              "presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_cases.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_round9.json"
+            ],
+            [
+              "a0040",
+              "tests/test_presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/test_table_audit.py"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0007",
+              "replay_data_ops.py"
+            ],
+            [
+              "a0033",
+              "PARTITION_CHECK.json"
+            ],
+            [
+              "a0033",
+              "PARTITION_NOTES.md"
+            ],
+            [
+              "a0033",
+              "partition_ops.py"
+            ],
+            [
+              "a0033",
+              "tests_partition.py"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "tests_integration.py"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0033",
+              "PARTITION_NOTES.md"
+            ],
+            [
+              "a0040",
+              "presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_round9.json"
+            ],
+            [
+              "a0040",
+              "tests/test_presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/test_table_audit.py"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_CHECK.json"
+            ]
+          ],
+          "integrated_paths": [
+            "ANALYTICS_NOTES.md",
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_REPLAY.json",
+            "FILE_OPS_CHECK.json",
+            "replay_data_ops.py",
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "INTEGRATION_REGRESSION.json",
+            "PARTITION_CHECK.json",
+            "PARTITION_NOTES.md",
+            "partition_ops.py",
+            "presentation.py",
+            "tests/presentation_cases.json",
+            "tests/presentation_notes.md",
+            "tests/presentation_results.json",
+            "tests/presentation_round9.json",
+            "tests/test_presentation.py",
+            "tests/test_table_audit.py",
+            "tests_integration.py",
+            "tests_partition.py"
+          ],
+          "public_checks": [
+            {
+              "version": 19,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 29,
+              "total": 30
+            }
+          ]
+        },
+        "10": {
+          "calls": 37,
+          "cost": 5.5039225,
+          "work_calls": 24,
+          "tools": 17,
+          "nonzero_exec": 0,
+          "truncated_tools": 5,
+          "writes": [
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0040",
+              "presentation.py"
+            ],
+            [
+              "a0040",
+              "tests/presentation_notes.md"
+            ],
+            [
+              "a0040",
+              "tests/presentation_results.json"
+            ],
+            [
+              "a0040",
+              "tests/presentation_round10.json"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0007",
+              "PARTITION_CHECK.json"
+            ],
+            [
+              "a0007",
+              "PARTITION_STANDALONE_CHECK.json"
+            ],
+            [
+              "a0007",
+              "replay_data_ops.py"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ],
+            [
+              "a0043",
+              "file_ops_tests.py"
+            ]
+          ],
+          "integrated_paths": [
+            "ANALYTICS_NOTES.md",
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_REPLAY.json",
+            "FILE_OPS_CHECK.json",
+            "FILE_OPS_NOTES.md",
+            "PARTITION_CHECK.json",
+            "PARTITION_STANDALONE_CHECK.json",
+            "file_ops_tests.py",
+            "replay_data_ops.py",
+            "CORE_FINDINGS.md",
+            "CORE_REGRESSION.json",
+            "INTEGRATION_REGRESSION.json",
+            "presentation.py",
+            "tests/presentation_notes.md",
+            "tests/presentation_results.json",
+            "tests/presentation_round10.json"
+          ],
+          "public_checks": [
+            {
+              "version": 22,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 30,
+              "total": 30
+            }
+          ]
+        },
+        "11": {
+          "calls": 24,
+          "cost": 3.6847325,
+          "work_calls": 16,
+          "tools": 11,
+          "nonzero_exec": 0,
+          "truncated_tools": 3,
+          "writes": [
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0007",
+              "PARTITION_CHECK.json"
+            ],
+            [
+              "a0007",
+              "replay_data_ops.py"
+            ],
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0001",
+              "INTEGRATION_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "RELEASE_MANIFEST.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0007",
+              "PARTITION_CHECK.json"
+            ],
+            [
+              "a0007",
+              "replay_data_ops.py"
+            ],
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ]
+          ],
+          "integrated_paths": [
+            "ANALYTICS_NOTES.md",
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_REPLAY.json",
+            "DATA_OPS_SYNC.json",
+            "FILE_OPS_CHECK.json",
+            "FILE_OPS_NOTES.md",
+            "PARTITION_CHECK.json",
+            "replay_data_ops.py",
+            "COMMAND_COVERAGE.md",
+            "INTEGRATION_REGRESSION.json",
+            "RELEASE_MANIFEST.json"
+          ],
+          "public_checks": [
+            {
+              "version": 25,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 30,
+              "total": 30
+            }
+          ]
+        },
+        "12": {
+          "calls": 14,
+          "cost": 1.76552,
+          "work_calls": 7,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [
+            [
+              "a0001",
+              "RELEASE_MANIFEST.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ]
+          ],
+          "integrated_paths": [
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_SYNC.json",
+            "RELEASE_MANIFEST.json"
+          ],
+          "public_checks": [
+            {
+              "version": 27,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 30,
+              "total": 30
+            }
+          ]
+        },
+        "13": {
+          "calls": 17,
+          "cost": 2.4208475,
+          "work_calls": 13,
+          "tools": 8,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "replay_data_ops.py"
+            ]
+          ],
+          "integrated_paths": [
+            "DATA_OPS_OWNERSHIP.md",
+            "replay_data_ops.py",
+            "ANALYTICS_NOTES.md"
+          ],
+          "public_checks": [
+            {
+              "version": 29,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 30,
+              "total": 31
+            }
+          ]
+        },
+        "14": {
+          "calls": 21,
+          "cost": 2.808155,
+          "work_calls": 13,
+          "tools": 12,
+          "nonzero_exec": 0,
+          "truncated_tools": 4,
+          "writes": [
+            [
+              "a0043",
+              "file_ops.py"
+            ],
+            [
+              "a0001",
+              "RELEASE_MANIFEST.json"
+            ],
+            [
+              "a0007",
+              "FIXLENGTHS_REFERENCE_REPLAY.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_REFERENCE_REPLAY.json"
+            ],
+            [
+              "a0043",
+              "file_ops_tests.py"
+            ],
+            [
+              "a0001",
+              "FIXLENGTHS_INTEGRATION_GATE.json"
+            ],
+            [
+              "a0007",
+              "FIXLENGTHS_HANDOFF.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ]
+          ],
+          "integrated_paths": [
+            "FILE_OPS_CHECK.json",
+            "FILE_OPS_NOTES.md",
+            "FILE_OPS_REFERENCE_REPLAY.json",
+            "FIXLENGTHS_HANDOFF.json",
+            "FIXLENGTHS_REFERENCE_REPLAY.json",
+            "file_ops.py",
+            "file_ops_tests.py",
+            "FIXLENGTHS_INTEGRATION_GATE.json",
+            "RELEASE_MANIFEST.json"
+          ],
+          "public_checks": [
+            {
+              "version": 31,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 31,
+              "total": 31
+            }
+          ]
+        },
+        "15": {
+          "calls": 19,
+          "cost": 2.9179075,
+          "work_calls": 12,
+          "tools": 8,
+          "nonzero_exec": 1,
+          "truncated_tools": 4,
+          "writes": [
+            [
+              "a0001",
+              "FIXLENGTHS_RELEASE_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0001",
+              "FIXLENGTHS_REPLAY_RECONCILIATION.json"
+            ]
+          ],
+          "integrated_paths": [
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_SYNC.json",
+            "FILE_OPS_CHECK.json",
+            "FILE_OPS_NOTES.md",
+            "FIXLENGTHS_RELEASE_CHECK.json",
+            "FIXLENGTHS_REPLAY_RECONCILIATION.json"
+          ],
+          "public_checks": [
+            {
+              "version": 33,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 31,
+              "total": 31
+            }
+          ]
+        },
+        "16": {
+          "calls": 17,
+          "cost": 2.403935,
+          "work_calls": 11,
+          "tools": 6,
+          "nonzero_exec": 1,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0001",
+              "RELEASE_MANIFEST.json"
+            ]
+          ],
+          "integrated_paths": [
+            "COMMAND_COVERAGE.md",
+            "RELEASE_MANIFEST.json",
+            "ANALYTICS_NOTES.md",
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_SYNC.json"
+          ],
+          "public_checks": [
+            {
+              "version": 36,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 31,
+              "total": 31
+            }
+          ]
+        },
+        "17": {
+          "calls": 17,
+          "cost": 2.158035,
+          "work_calls": 11,
+          "tools": 8,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0007",
+              "SPLIT_LOCAL_CANDIDATE.json"
+            ],
+            [
+              "a0007",
+              "SPLIT_PROBE_CANDIDATE.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ]
+          ],
+          "integrated_paths": [
+            "CORE_FINDINGS.md",
+            "SPLIT_LOCAL_CANDIDATE.json",
+            "SPLIT_PROBE_CANDIDATE.json"
+          ],
+          "public_checks": [
+            {
+              "version": 38,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 31,
+              "total": 31
+            }
+          ]
+        },
+        "18": {
+          "calls": 20,
+          "cost": 2.6813875,
+          "work_calls": 13,
+          "tools": 12,
+          "nonzero_exec": 1,
+          "truncated_tools": 5,
+          "writes": [
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "SELECTOR_EVIDENCE.json"
+            ],
+            [
+              "a0007",
+              "SPLIT_REFERENCE_REPLAY.json"
+            ]
+          ],
+          "integrated_paths": [
+            "CORE_FINDINGS.md",
+            "SELECTOR_EVIDENCE.json",
+            "SPLIT_REFERENCE_REPLAY.json"
+          ],
+          "public_checks": [
+            {
+              "version": 40,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 31,
+              "total": 32
+            }
+          ]
+        },
+        "19": {
+          "calls": 23,
+          "cost": 3.5677775,
+          "work_calls": 17,
+          "tools": 15,
+          "nonzero_exec": 0,
+          "truncated_tools": 6,
+          "writes": [
+            [
+              "a0002",
+              "ANALYTICS_NOTES.md"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ],
+            [
+              "a0043",
+              "SPLIT_REFERENCE_REPLAY.json"
+            ],
+            [
+              "a0043",
+              "SPLIT_REPAIR_CHECK.json"
+            ],
+            [
+              "a0043",
+              "file_ops.py"
+            ],
+            [
+              "a0043",
+              "file_ops_tests.py"
+            ],
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0001",
+              "RELEASE_MANIFEST.json"
+            ],
+            [
+              "a0003",
+              "CORE_FINDINGS.md"
+            ],
+            [
+              "a0003",
+              "SELECTOR_EVIDENCE.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_REPLAY.json"
+            ],
+            [
+              "a0007",
+              "PARTITION_CHECK.json"
+            ],
+            [
+              "a0007",
+              "replay_data_ops.py"
+            ]
+          ],
+          "integrated_paths": [
+            "ANALYTICS_NOTES.md",
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_REPLAY.json",
+            "FILE_OPS_NOTES.md",
+            "PARTITION_CHECK.json",
+            "SPLIT_REFERENCE_REPLAY.json",
+            "SPLIT_REPAIR_CHECK.json",
+            "file_ops.py",
+            "file_ops_tests.py",
+            "replay_data_ops.py",
+            "COMMAND_COVERAGE.md",
+            "CORE_FINDINGS.md",
+            "RELEASE_MANIFEST.json",
+            "SELECTOR_EVIDENCE.json"
+          ],
+          "public_checks": [
+            {
+              "version": 43,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 32,
+              "total": 32
+            }
+          ]
+        },
+        "20": {
+          "calls": 21,
+          "cost": 3.341755,
+          "work_calls": 15,
+          "tools": 8,
+          "nonzero_exec": 0,
+          "truncated_tools": 3,
+          "writes": [
+            [
+              "a0001",
+              "CORE_REGRESSION.json"
+            ],
+            [
+              "a0001",
+              "SPLIT_RELEASE_CHECK.json"
+            ],
+            [
+              "a0001",
+              "SPLIT_RELEASE_REPLAY.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0040",
+              "SPLIT_INDEPENDENT_CHECK.json"
+            ],
+            [
+              "a0040",
+              "tests/verify_split_independent.py"
+            ],
+            [
+              "a0001",
+              "RELEASE_MANIFEST.json"
+            ]
+          ],
+          "integrated_paths": [
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_SYNC.json",
+            "CORE_REGRESSION.json",
+            "RELEASE_MANIFEST.json",
+            "SPLIT_INDEPENDENT_CHECK.json",
+            "SPLIT_RELEASE_CHECK.json",
+            "SPLIT_RELEASE_REPLAY.json",
+            "tests/verify_split_independent.py"
+          ],
+          "public_checks": [
+            {
+              "version": 45,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 32,
+              "total": 32
+            }
+          ]
+        },
+        "21": {
+          "calls": 6,
+          "cost": 0.786505,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ]
+          ],
+          "integrated_paths": [
+            "COMMAND_COVERAGE.md"
+          ],
+          "public_checks": [
+            {
+              "version": 46,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 32,
+              "total": 32
+            }
+          ]
+        },
+        "22": {
+          "calls": 3,
+          "cost": 0.364515,
+          "work_calls": 2,
+          "tools": 1,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "23": {
+          "calls": 10,
+          "cost": 1.7263,
+          "work_calls": 9,
+          "tools": 6,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0007",
+              "CAT_INPUT_REFERENCE_INVENTORY.json"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ],
+            [
+              "a0043",
+              "CAT_INPUT_CHECK.json"
+            ],
+            [
+              "a0043",
+              "FILE_OPS_NOTES.md"
+            ],
+            [
+              "a0043",
+              "cat_input_contracts.py"
+            ]
+          ],
+          "integrated_paths": [
+            "CAT_INPUT_CHECK.json",
+            "CAT_INPUT_REFERENCE_INVENTORY.json",
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_SYNC.json",
+            "FILE_OPS_NOTES.md",
+            "cat_input_contracts.py"
+          ],
+          "public_checks": [
+            {
+              "version": 47,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 32,
+              "total": 32
+            }
+          ]
+        },
+        "24": {
+          "calls": 17,
+          "cost": 2.3470725,
+          "work_calls": 13,
+          "tools": 7,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "COMMAND_COVERAGE.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_OWNERSHIP.md"
+            ],
+            [
+              "a0007",
+              "DATA_OPS_SYNC.json"
+            ]
+          ],
+          "integrated_paths": [
+            "DATA_OPS_OWNERSHIP.md",
+            "DATA_OPS_SYNC.json",
+            "COMMAND_COVERAGE.md"
+          ],
+          "public_checks": [
+            {
+              "version": 49,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 32,
+              "total": 32
+            }
+          ]
+        },
+        "25": {
+          "calls": 7,
+          "cost": 0.7949975,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "26": {
+          "calls": 5,
+          "cost": 0.6585375,
+          "work_calls": 4,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "27": {
+          "calls": 2,
+          "cost": 0.1627225,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "28": {
+          "calls": 3,
+          "cost": 0.1715275,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "29": {
+          "calls": 3,
+          "cost": 0.130065,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "30": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "31": {
+          "calls": 2,
+          "cost": 0.123235,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "32": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "33": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "34": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "35": {
+          "calls": 1,
+          "cost": 0.0746175,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "36": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "37": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "38": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "39": {
+          "calls": 1,
+          "cost": 0.0769425,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "40": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "41": {
+          "calls": 2,
+          "cost": 0.0846975,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "42": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "43": {
+          "calls": 1,
+          "cost": 0.078955,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "44": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "45": {
+          "calls": 1,
+          "cost": 0.045405,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "46": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "47": {
+          "calls": 1,
+          "cost": 0.079005,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "48": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "49": {
+          "calls": 3,
+          "cost": 0.127765,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "50": {
+          "calls": 3,
+          "cost": 0.120165,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "51": {
+          "calls": 1,
+          "cost": 0.0825675,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "52": {
+          "calls": 1,
+          "cost": 0.04513,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "53": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "54": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "55": {
+          "calls": 1,
+          "cost": 0.072005,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "56": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "57": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "58": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "59": {
+          "calls": 1,
+          "cost": 0.0764175,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "60": {
+          "calls": 0,
+          "cost": 0.0,
+          "work_calls": 0,
+          "tools": 0,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        }
+      },
+      "failed_tools": [
+        {
+          "seq": 1422,
+          "round": 3,
+          "agent": "a0001",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "printf '\\n--- build/spec before integration ---\\n'; cat compile.sh; cat SPEC.md; sed -n '1,150p' main.py; python3 - <<'PY'\nfrom pathlib import Path\nimport json,base64\np=Path('core.py');s=p.read_text(); start=s.index('def read_csv(');end=s.i",
+          "output_tail": "mon options:\\n    -h, --help             Display this message\\n    -n, --no-headers       When set, the first row will not be included in\\n                           the count.\\n    -d, --delimiter <arg>  The field delimiter for reading CSV data.\\n                           Must be a single character. (default: ,)\\n\", \"actual\": \"\"}, \"stderr\": {\"expected\": \"\", \"actual\": \"Unknown command 'count'.\\n\"}}\nFAIL reference-c7d37abe3ad15cbd\n{\"stdout\": {\"expected\": \"name         abcde...\\nlong_header  a\\nb\\r\\n...\\nz   \u00e9\u4e2d\ud83d\ude42xy...\\n#\\nname         xy\\nlong_header  \\nz            12345\\n\", \"actual\": \"\"}, \"stderr\": {\"expected\": \"\", \"actual\": \"Unknown command 'flatten'.\\n\"}}\n8/34 passed; CORE_REGRESSION.json\n"
+        },
+        {
+          "seq": 1442,
+          "round": 3,
+          "agent": "a0041",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "cat /reference-docs/README.md; python3 - <<'PY'\nimport json,base64,pathlib\nbank=json.load(open('/evidence/probes.json'))\nif isinstance(bank,dict):bank=bank.get('probes',[])\ndef dec(v):\n if isinstance(v,str):return base64.b64decode(v).decode",
+          "output_tail": "nboolean[147 chars],3\\n'\n  field,type,sum,min,max,min_length,max_length,mean,stddev,median,mode,cardinality\n  integer,Integer,6,1,3,0,1,2,0.816496580927726,2,N/A,4\n  float,Float,8,1.5,4,0,3,2.6666666666666665,1.0274023338281628,2.5,N/A,4\n  text,Unicode,,a,z,0,1,,,,z,3\n- mixed,Unicode,,1,x,1,1,,,2,N/A,4\n?                          ^\n+ mixed,Unicode,,1,x,1,1,,,1,N/A,4\n?                          ^\n  empty,NULL,,,,0,0,,,,,1\n  boolean,Unicode,,false,true,4,5,,,,N/A,2\n  date,Unicode,,2020-01-01,2020-01-04,0,10,,,,N/A,4\n  tied,Unicode,,a,b,1,1,,,,N/A,2\n  unicode,Unicode,,\u00e9,\u754c,0,3,,,,\u00e9,3\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.005s\n\nFAILED (failures=1)\n"
+        },
+        {
+          "seq": 1905,
+          "round": 4,
+          "agent": "a0041",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "cat MODULE_CONTRACT.md; sed -n '1,180p' analytics_stats.py; cat tests_stats.py; python3 - <<'PY'\nimport json\np=json.load(open('/evidence/probes.json'));p=p.get('probes',[]) if isinstance(p,dict) else p\nfor x in p:\n if x['input']['args'][0]=",
+          "output_tail": "nboolean[147 chars],3\\n'\n  field,type,sum,min,max,min_length,max_length,mean,stddev,median,mode,cardinality\n  integer,Integer,6,1,3,0,1,2,0.816496580927726,2,N/A,4\n  float,Float,8,1.5,4,0,3,2.6666666666666665,1.0274023338281628,2.5,N/A,4\n  text,Unicode,,a,z,0,1,,,,z,3\n- mixed,Unicode,,1,x,1,1,,,2,N/A,4\n?                          ^\n+ mixed,Unicode,,1,x,1,1,,,1,N/A,4\n?                          ^\n  empty,NULL,,,,0,0,,,,,1\n  boolean,Unicode,,false,true,4,5,,,,N/A,2\n  date,Unicode,,2020-01-01,2020-01-04,0,10,,,,N/A,4\n  tied,Unicode,,a,b,1,1,,,,N/A,2\n  unicode,Unicode,,\u00e9,\u754c,0,3,,,,\u00e9,3\n\n\n----------------------------------------------------------------------\nRan 1 test in 0.005s\n\nFAILED (failures=1)\n"
+        },
+        {
+          "seq": 2029,
+          "round": 4,
+          "agent": "a0001",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "set -eu\nprintf '\\n--- entrypoint and build before integration ---\\n'\ncat compile.sh\ncat main.py\nprintf '\\n--- probe bank reader interface ---\\n'\ngrep -n -A65 -B3 'def bank\\|def load\\|base64\\|probes =' tests_core.py | tail -110\npython3 - <<'",
+          "output_tail": "t r['passed']: print(json.dumps(r.get('mismatches',r),ensure_ascii=False))\n65-    report={'passed':sum(r['passed'] for r in results),'total':len(results),'results':results}\n66-    pathlib.Path(ns.report).write_text(json.dumps(report,indent=2)+'\\n'); print(f\"{report['passed']}/{report['total']} passed; {ns.report}\")\n67-    return 0 if report['passed']==report['total'] else 1\n68-if __name__=='__main__': raise SystemExit(main())\nTraceback (most recent call last):\n  File \"<stdin>\", line 17, in <module>\n  File \"/usr/lib/python3.10/pathlib.py\", line 1191, in chmod\n    self._accessor.chmod(self, mode, follow_symlinks=follow_symlinks)\nPermissionError: [Errno 1] Operation not permitted: 'compile.sh'\n"
+        },
+        {
+          "seq": 2048,
+          "round": 4,
+          "agent": "a0040",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "printf '%s\\n' '--- owned source ---'; cat presentation.py; printf '\\n--- behavioral reference evidence ---\\n'; python3 - <<'PY'\nimport json,base64,os\np=json.load(open('/evidence/probes.json'))\nif isinstance(p,dict): p=p.get('probes',list(p.",
+          "output_tail": "  input is given.\\\\n    --intersect            Shows the intersection of all headers in all of\\\\n                           the inputs given.\\\\n\\\\nCommon options:\\\\n    -h, --help             Display this message\\\\n    -d, --delimiter <arg>  The field delimiter for reading CSV data.\\\\n                           Must be a single character. (default: ,)\\\\n\"', 'actual': \"b'usage: xsv headers [-h] [-o OUTPUT] [-d DELIMITER] [-j] [--intersect]\\\\n                   [input ...]\\\\n\\\\npositional arguments:\\\\n  input\\\\n\\\\noptions:\\\\n  -h, --help            show this help message and exit\\\\n  -o OUTPUT, --output OUTPUT\\\\n  -d DELIMITER, --delimiter DELIMITER\\\\n  -j, --just-names\\\\n  --intersect\\\\n'\"}}\n"
+        },
+        {
+          "seq": 2543,
+          "round": 5,
+          "agent": "a0002",
+          "kind": "exec",
+          "exit_code": 128,
+          "status": "ok",
+          "command": "cat SPEC.md; ls /reference-docs; cat INDEX_NOTES.md; sed -n '1,240p' tests_index.py; sed -n '1,240p' core.py; sed -n '1,220p' analytics_order.py; cat ORDER_NOTES.md; git status --short",
+          "output_tail": " tie claim is made.\nNext bounded reference question: frequency empty value presentation and headerless\nfirst-row handling with distinct counts, avoiding randomized equal-count ties.\nThen check null exclusion, ascending limits and reverse selected numeric sorting.\nKnown gaps: frequency null display not yet confirmed; long non-transitive NaN\nsort behavior unverified; invalid-argument error prose may differ.\nLocal acceptance: python3 -m unittest -v tests_frequency_sort. Only numeric NaN\nfixture is exact accepted reference evidence; other cases are documented-contract\nregressions awaiting focused ordinary reference comparison.\nfatal: not a git repository (or any of the parent directories): .git\n"
+        },
+        {
+          "seq": 2937,
+          "round": 6,
+          "agent": "a0041",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "cat SPEC.md; cat MODULE_CONTRACT.md; cat STATS_NOTES.md; sed -n '1,108p' analytics_stats.py; python3 - <<'PY'\nimport tests_stats,io,csv,math\nfor f in tests_stats.FIXTURES:\n if '--nulls' not in f['args']:continue\n print('FIXTURE',f['id'],f['",
+          "output_tail": " chars],1.1,7.7,0,3,3.025,2.949046456059992,3.3,N/A,4\\n' != 'fiel[209 chars],1.1,7.7,0,3,3.0250000000000004,2.9490464560599925,3.3,N/A,4\\n'\n  field,type,sum,min,max,min_length,max_length,mean,stddev,median,mode,cardinality\n  0,Integer,9223372036854775807,-2,9223372036854775807,1,19,2305843009213694000,3993837246235629000,1,1,3\n- 1,Float,12.100000000000001,1.1,7.7,0,3,3.025,2.949046456059992,3.3,N/A,4\n+ 1,Float,12.100000000000001,1.1,7.7,0,3,3.0250000000000004,2.9490464560599925,3.3,N/A,4\n?                                             +++++++++++++                  +\n : report.csv\n\n----------------------------------------------------------------------\nRan 1 test in 0.011s\n\nFAILED (failures=1)\n"
+        },
+        {
+          "seq": 3477,
+          "round": 7,
+          "agent": "a0004",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "printf '\\n--- Ordering scope notes ---\\n'; cat ORDER_NOTES.md; printf '\\n--- Build and current isolated/integrated tests ---\\n'; ./compile.sh && python3 -m unittest -v tests_frequency_sort && python3 -m unittest -q tests_index tests_stats t",
+          "output_tail": ",,,N/A,0\\ntext,NULL,,,,,,,,,N/A,0\\n\"}}\nFAIL cdde372ac8a274ac ['index', 'empty.csv'] {\"file:empty.csv.idx\": {\"actual\": null, \"expected\": \"\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\"}, \"stderr\": {\"actual\": \"[Errno 2] No such file or directory: 'empty.csv'\\n\", \"expected\": \"\"}, \"exit_code\": {\"actual\": 1, \"expected\": 0}}\nANALYTICS REPLAY 9 / 16\nSHA256 analytics_order.py 73ff47693ddb0189ff57bfece9fb35acc034da1c53b130af008ca79a0554a6ec\nSHA256 tests_frequency_sort.py 74ca9917a1cd6b4f96f1b52c56d4fd2af19919d8198231f2edb1327459488928\nSHA256 analytics.py c480f25527734bfc3695690983f8807a90738ca40110ab1f4223ea5d816a608d\nSHA256 core.py cc67be80057b745bc0c7854565f63d73f213d1353b58327508fd262f2653e3d3\n"
+        },
+        {
+          "seq": 3480,
+          "round": 7,
+          "agent": "a0010",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "printf '%s\\n' '--- SPEC ---'; cat SPEC.md; printf '%s\\n' '--- index implementation and notes ---'; cat analytics_index.py INDEX_NOTES.md; printf '%s\\n' '--- current count/index observations ---'; python3 - <<'PY'\nimport base64,json\nps=json.",
+          "output_tail": "00\\u0000\\u0013\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0003\"}, \"capture\": []}, \"rc\": 0, \"stdout\": \"3\\n\", \"stderr\": \"\", \"artifact_hex\": {}}\n{\"id\": \"cdde372ac8a274ac\", \"input\": {\"args\": [\"index\", \"empty.csv\"], \"stdin\": \"\", \"files\": {\"empty.csv\": \"\"}, \"capture\": [\"empty.csv.idx\"]}, \"rc\": 0, \"stdout\": \"\", \"stderr\": \"\", \"artifact_hex\": {\"empty.csv.idx\": \"0000000000000000\"}}\n--- ownership and verifier existence ---\n2ee9bbbfc954878e5b1c0b99e0238b2e4a0d8cb2a5df4fb9b87fd2dca2dfaf04  analytics_index.py\nsha256sum: common.py: No such file or directory\n7724def05ecb184cfdebbf25498c2f9aa1f0160956fa43263a6bb1e4154586eb  main.py\nf9d1c579f057af4327c6cd17c33056b4519c7ea489ae57ab49f233a4dba9def2  compile.sh\n"
+        },
+        {
+          "seq": 3555,
+          "round": 7,
+          "agent": "a0002",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "printf '\\n--- durable replay driver ---\\n'; sed -n '1,240p' tests_analytics_replay.py; printf '\\n--- current stats empty fix ---\\n'; grep -n -A18 -B8 'N/A\\|not values\\|if not' analytics_stats.py; printf '\\n--- assigned verification status -",
+          "output_tail": ";', '-s', '3,1', '-o', 'report.csv', 'fixture.csv'] {}\nPASS 724250aca8ea8510 ['frequency', '-n', '-s', '2', '-l', '0'] {}\nPASS 1af3561222ea7084 ['count', 'empty.csv'] {}\nPASS df66360fe538eb53 ['count', '-n', 'data.csv'] {}\nFAIL 9680179236fca6c8 ['stats', '--everything'] {\"stdout\": {\"actual\": \"field,type,sum,min,max,min_length,max_length,mean,stddev,median,mode,cardinality\\nempty,NULL,,,,,,,,,,0\\nnumeric,NULL,,,,,,,,,,0\\ntext,NULL,,,,,,,,,,0\\n\", \"expected\": \"field,type,sum,min,max,min_length,max_length,mean,stddev,median,mode,cardinality\\nempty,NULL,,,,,,,,,N/A,0\\nnumeric,NULL,,,,,,,,,N/A,0\\ntext,NULL,,,,,,,,,N/A,0\\n\"}}\nPASS cdde372ac8a274ac ['index', 'empty.csv'] {}\nANALYTICS REPLAY 15 / 16\n"
+        },
+        {
+          "seq": 4000,
+          "round": 8,
+          "agent": "a0002",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "ls -1 *analytics* *index* *stats* *frequency*; printf '\\n--- replay entry points ---\\n'; for f in verify_analytics.py replay_analytics.py verify_index_compat.py; do if test -f \"$f\"; then echo \"--- $f\"; grep -nE '^(def |if __name__|OUT|COMMA",
+          "output_tail": "RLF and quoted newlines. Do not infer broad cross-consumption from artifact tests. Next: inspect checkpoint receipt, reconcile child verifier results, and report hash-bound totals to a0001.\n\n--- source identity ---\nf9d1c579f057af4327c6cd17c33056b4519c7ea489ae57ab49f233a4dba9def2  compile.sh\ncc67be80057b745bc0c7854565f63d73f213d1353b58327508fd262f2653e3d3  core.py\nc480f25527734bfc3695690983f8807a90738ca40110ab1f4223ea5d816a608d  analytics.py\n2ee9bbbfc954878e5b1c0b99e0238b2e4a0d8cb2a5df4fb9b87fd2dca2dfaf04  analytics_index.py\n954043edcd87b1f14ae11816930b7f2c22a59f1814cbec4c211ec801e9aa6f8f  analytics_stats.py\n73ff47693ddb0189ff57bfece9fb35acc034da1c53b130af008ca79a0554a6ec  analytics_order.py\n"
+        },
+        {
+          "seq": 4485,
+          "round": 9,
+          "agent": "a0040",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "python3 - <<'PY'\nimport json\nfrom pathlib import Path\nprint('--- TABLE TESTS ---'); print(Path('tests/test_table_audit.py').read_text())\nprint('--- CURRENT PRESENTATION HARNESS ---'); print(Path('tests/test_presentation.py').read_text())\npr",
+          "output_tail": "  \"--width\",\n      \"5\",\n      \"--pad\",\n      \"3\",\n      \"--condense\",\n      \"4\"\n    ],\n    \"stdin\": \"label,value,last\\nabcdefgh,\u00e9\u4e2d\ud83d\ude42xyz,end\\nxy,\\\"a\\tb\\\",finish\\nlong,\\\"a\\nb\\rc\\\",z\\nq,e\u0301e\u0301e\u0301e\u0301,tail\\n\",\n    \"files\": {},\n    \"capture\": []\n  },\n  \"expected\": {\n    \"stdout\": \"bGFiZS4uLiAgIHZhbHUuLi4gICAgIGxhc3QKYWJjZC4uLiAgIMOp5Lit8J+ZgnguLi4gICBlbmQKeHkgICAgICAgICJhICAgICAgICAgIGIiICAgICAgZmluaS4uLgpsb25nICAgICAgImEKYg0uLi4iICAgICB6CnEgICAgICAgICBlzIFlzIEuLi4gICB0YWlsCg==\",\n    \"stderr\": \"\",\n    \"exit_code\": 0,\n    \"files\": {},\n    \"truncated\": false\n  }\n}\n--- WIDTH HYPOTHESIS ---\nTraceback (most recent call last):\n  File \"<stdin>\", line 19, in <module>\nTypeError: string indices must be integers\n"
+        },
+        {
+          "seq": 4543,
+          "round": 9,
+          "agent": "a0001",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "cat > tests_integration.py <<'PY'\n\"\"\"Clean, isolated integration replay; writes only INTEGRATION_REGRESSION.json.\"\"\"\nimport hashlib,json,pathlib,shutil,subprocess,tempfile\nROOT=pathlib.Path(__file__).resolve().parent\nBANK=pathlib.Path('/evi",
+          "output_tail": "test_ragged_streaming (__main__.FmtTests) ... ok\ntest_saved_behavior (__main__.FmtTests) ... ok\ntest_stdin_dash (__main__.FmtTests) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.755s\n\nOK\n\nRUN python3 tests/test_table_audit.py EXIT 0\n\n........\n----------------------------------------------------------------------\nRan 8 tests in 0.861s\n\nOK\n\nRUN python3 tests/test_core_runner.py EXIT 0\n\n........\n----------------------------------------------------------------------\nRan 8 tests in 0.116s\n\nOK\n\nSUMMARY {\"core_summary\": {\"passed\": 48, \"total\": 49}, \"missing\": [], \"source_changed_during_run\": [], \"all_checks_passed\": false}\nPROJECT_NOTES bytes 6073\n"
+        },
+        {
+          "seq": 4567,
+          "round": 9,
+          "agent": "a0040",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "python3 - <<'PY'\nimport base64,csv,io,json\nfrom pathlib import Path\nimport presentation\nfrom presentation_fmt import _format_record\np=Path('presentation.py'); original=p.read_text()\nold1=\"0 if unicodedata.combining(c)\"\nnew1=\"0 if unicodedat",
+          "output_tail": "sts) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.786s\n\nOK\n\ntests/test_table_audit.py EXIT 0\n\n........\n----------------------------------------------------------------------\nRan 8 tests in 0.890s\n\nOK\n\nFINGERPRINTS {\"presentation.py\": \"e403b8addd5fc92b5718af106d581fbf030e442ef932b666c9505c908e065486\", \"presentation_fmt.py\": \"c961167135591098a8b24b9283ed85039d6afd3bf5aab187dfa5188fc32fd998\", \"core.py\": \"cc67be80057b745bc0c7854565f63d73f213d1353b58327508fd262f2653e3d3\", \"main.py\": \"7724def05ecb184cfdebbf25498c2f9aa1f0160956fa43263a6bb1e4154586eb\", \"compile.sh\": \"f9d1c579f057af4327c6cd17c33056b4519c7ea489ae57ab49f233a4dba9def2\"}\nALL_PASS False\n"
+        },
+        {
+          "seq": 5781,
+          "round": 15,
+          "agent": "a0001",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport hashlib,json,re\nR=Path.cwd(); P=Path('/public'); sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()\nload=lambda n:json.loads((R/n).read_text())\na=load('FIXLENGTHS_RELEASE_CHECK.json'); o",
+          "output_tail": "Traceback (most recent call last):\n  File \"<stdin>\", line 21, in <module>\nAssertionError: ['replay_data_ops.py', 'file_ops.py', 'file_ops_tests.py']\n"
+        },
+        {
+          "seq": 5892,
+          "round": 16,
+          "agent": "a0001",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "python3 - <<'PY'\nfrom pathlib import Path\nimport json,hashlib\nR=Path.cwd(); sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()\nfor name in ['RELEASE_MANIFEST.json','FIXLENGTHS_RELEASE_CHECK.json','FIXLENGTHS_REPLAY_RECONCILIATION.json'",
+          "output_tail": "e': 'standalone reverse stdin', 'passed': True, 'stdout': 'a,b\\n3,4\\n1,2\\n', 'stderr': '', 'status': 0}, {'case': 'standalone quoted Unicode', 'passed': True, 'stdout': 'name,value\\nc,\"x\\ny\"\\n\"a,b\",\u00e9\\n', 'stderr': '', 'status': 0}, {'case': 'exit status preserved', 'passed': True, 'stdout': '', 'stderr': \"Unknown command 'definitely-not-a-command'.\\n\", 'status': 1}, {'case': 'archived help resource after source deletion', 'passed': True}, {'case': 'relative input output paths containing spaces', 'passed': True}, {'case': 'executable CSV pipeline', 'passed': True}]\nTraceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nAttributeError: 'list' object has no attribute 'items'\n"
+        },
+        {
+          "seq": 6301,
+          "round": 18,
+          "agent": "a0007",
+          "kind": "exec",
+          "exit_code": 1,
+          "status": "ok",
+          "command": "python3 - <<'PY'\nimport base64,json,pathlib,subprocess\ncases=[c for c in json.load(open('/evidence/probes.json')) if c['input'].get('args',[''])[0]=='split']\nprint('SAVED SPLIT REFERENCE CASES:',len(cases))\nif not cases:\n print('No saved sp",
+          "output_tail": "95841e43a68ab9b788afce3677546d82009dc45fa13703\",\n    \"partition_ops.py\": \"8ab5cc4f8252fb48c758de5bc0c30665f88d68a71c869d80e95e5e893d71331a\",\n    \"tests_data_ops.py\": \"b8de469a063cd9d3391a14158b5762c92b244317d51aca869cf04f8cb3f9599a\",\n    \"file_ops_tests.py\": \"1736c2f26ec2188f26569542eba090d5a2977efe06bf30e616fc0ac21354c65c\",\n    \"tests_partition.py\": \"76aed19c3ec5c11f51a16677c371ca389a9ccf8f2f2194a64c2d487036616bfd\"\n  },\n  \"scope\": {\n    \"reference_only\": true,\n    \"commands\": [\n      \"split\"\n    ]\n  },\n  \"passed\": false,\n  \"workspace\": \"/workspace\",\n  \"entrypoint\": \"/workspace/executable\",\n  \"evidence_kind\": \"local contract suites plus exact saved-reference replay; no reference invoked\"\n}\n\n"
+        }
+      ]
+    },
+    "solo": {
+      "phase": {
+        "work": {
+          "calls": 120,
+          "cost": 13.351125
+        }
+      },
+      "calls": 120,
+      "input_tokens": 859726,
+      "output_tokens": 52109,
+      "invalid_replies": [
+        {
+          "seq": 482,
+          "event": "invalid_reply",
+          "round": 15,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Expecting value: line 1 column 1 (char 0)",
+          "call_id": "c0000060",
+          "cost_usd": "0.133005"
+        },
+        {
+          "seq": 512,
+          "event": "invalid_reply",
+          "round": 16,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Expecting value: line 1 column 1 (char 0)",
+          "call_id": "c0000064",
+          "cost_usd": "0.0918425"
+        },
+        {
+          "seq": 601,
+          "event": "invalid_reply",
+          "round": 19,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Duplicate JSON key",
+          "call_id": "c0000076",
+          "cost_usd": "0.1568425"
+        },
+        {
+          "seq": 928,
+          "event": "invalid_reply",
+          "round": 30,
+          "phase": "work",
+          "actor": "a0001",
+          "reason": "Extra data: line 4 column 1 (char 190)",
+          "call_id": "c0000117",
+          "cost_usd": "0.092955"
+        }
+      ],
+      "invalid_reply_cost": "0.4746450",
+      "tool_kinds": {
+        "exec": 101,
+        "probe": 14
+      },
+      "rounds": {
+        "1": {
+          "calls": 4,
+          "cost": 0.196345,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [
+            [
+              "a0001",
+              "compile.sh"
+            ],
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "compile.sh",
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 1,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 0,
+              "total": 1
+            }
+          ]
+        },
+        "2": {
+          "calls": 4,
+          "cost": 0.6343575,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [
+            [
+              "a0001",
+              "helps.json"
+            ],
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "helps.json",
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 2,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 2,
+              "total": 2
+            }
+          ]
+        },
+        "3": {
+          "calls": 4,
+          "cost": 0.3606075,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 3,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "4": {
+          "calls": 4,
+          "cost": 0.4763325,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "5": {
+          "calls": 4,
+          "cost": 0.5018575,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "helps.json"
+            ],
+            [
+              "a0001",
+              "xsv.py"
+            ],
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "helps.json",
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 3,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 4,
+              "total": 4
+            }
+          ]
+        },
+        "6": {
+          "calls": 4,
+          "cost": 0.44537,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "7": {
+          "calls": 4,
+          "cost": 0.43492,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "8": {
+          "calls": 4,
+          "cost": 0.506195,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "check_probes.py"
+            ]
+          ],
+          "integrated_paths": [
+            "check_probes.py"
+          ],
+          "public_checks": [
+            {
+              "version": 4,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 5,
+              "total": 5
+            }
+          ]
+        },
+        "9": {
+          "calls": 4,
+          "cost": 0.45522,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 5,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 5,
+              "total": 5
+            }
+          ]
+        },
+        "10": {
+          "calls": 4,
+          "cost": 0.410495,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "11": {
+          "calls": 4,
+          "cost": 0.43282,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "helps.json"
+            ]
+          ],
+          "integrated_paths": [
+            "helps.json"
+          ],
+          "public_checks": [
+            {
+              "version": 6,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 6,
+              "total": 7
+            }
+          ]
+        },
+        "12": {
+          "calls": 4,
+          "cost": 0.4693825,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 7,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 7,
+              "total": 8
+            }
+          ]
+        },
+        "13": {
+          "calls": 4,
+          "cost": 0.36637,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 8,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 8,
+              "total": 8
+            }
+          ]
+        },
+        "14": {
+          "calls": 4,
+          "cost": 0.4674575,
+          "work_calls": 4,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "15": {
+          "calls": 4,
+          "cost": 0.466345,
+          "work_calls": 4,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "16": {
+          "calls": 4,
+          "cost": 0.3926325,
+          "work_calls": 4,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "17": {
+          "calls": 4,
+          "cost": 0.40527,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "18": {
+          "calls": 4,
+          "cost": 0.419295,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "19": {
+          "calls": 4,
+          "cost": 0.44727,
+          "work_calls": 4,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "20": {
+          "calls": 4,
+          "cost": 0.4471825,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 9,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 11,
+              "total": 11
+            }
+          ]
+        },
+        "21": {
+          "calls": 4,
+          "cost": 0.3830325,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "helps.json"
+            ]
+          ],
+          "integrated_paths": [
+            "helps.json"
+          ],
+          "public_checks": [
+            {
+              "version": 10,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 12,
+              "total": 12
+            }
+          ]
+        },
+        "22": {
+          "calls": 4,
+          "cost": 0.4176825,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 11,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 12,
+              "total": 13
+            }
+          ]
+        },
+        "23": {
+          "calls": 4,
+          "cost": 0.504995,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 12,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 13,
+              "total": 13
+            }
+          ]
+        },
+        "24": {
+          "calls": 4,
+          "cost": 0.431145,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 3,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "25": {
+          "calls": 4,
+          "cost": 0.3995825,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 13,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 14,
+              "total": 14
+            }
+          ]
+        },
+        "26": {
+          "calls": 4,
+          "cost": 0.461595,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 2,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "27": {
+          "calls": 4,
+          "cost": 0.49907,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 14,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 14,
+              "total": 14
+            }
+          ]
+        },
+        "28": {
+          "calls": 4,
+          "cost": 0.487595,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [],
+          "integrated_paths": [],
+          "public_checks": []
+        },
+        "29": {
+          "calls": 4,
+          "cost": 0.487545,
+          "work_calls": 4,
+          "tools": 4,
+          "nonzero_exec": 0,
+          "truncated_tools": 0,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 15,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 14,
+              "total": 14
+            }
+          ]
+        },
+        "30": {
+          "calls": 4,
+          "cost": 0.5431575,
+          "work_calls": 4,
+          "tools": 3,
+          "nonzero_exec": 0,
+          "truncated_tools": 1,
+          "writes": [
+            [
+              "a0001",
+              "xsv.py"
+            ]
+          ],
+          "integrated_paths": [
+            "xsv.py"
+          ],
+          "public_checks": [
+            {
+              "version": 16,
+              "status": "public_probe_score",
+              "build": true,
+              "passed": 14,
+              "total": 14
+            }
+          ]
+        }
+      },
+      "failed_tools": []
+    }
+  },
+  "common_test_count": 1182,
+  "test_groups": {
+    "test_argument_parsing": {
+      "total": 67,
+      "V10": 11,
+      "solo": 28,
+      "both_fail": 38
+    },
+    "test_subcommand_dispatch": {
+      "total": 111,
+      "V10": 87,
+      "solo": 90,
+      "both_fail": 19
+    },
+    "test_analysis": {
+      "total": 49,
+      "V10": 44,
+      "solo": 37,
+      "both_fail": 1
+    },
+    "test_core_modules": {
+      "total": 37,
+      "V10": 22,
+      "solo": 25,
+      "both_fail": 11
+    },
+    "test_edge_cases": {
+      "total": 77,
+      "V10": 73,
+      "solo": 72,
+      "both_fail": 3
+    },
+    "test_errors": {
+      "total": 34,
+      "V10": 13,
+      "solo": 13,
+      "both_fail": 21
+    },
+    "test_final_gapfill": {
+      "total": 24,
+      "V10": 17,
+      "solo": 15,
+      "both_fail": 6
+    },
+    "test_freq_sample_gapfill": {
+      "total": 14,
+      "V10": 11,
+      "solo": 8,
+      "both_fail": 3
+    },
+    "test_harvest": {
+      "total": 44,
+      "V10": 44,
+      "solo": 44,
+      "both_fail": 0
+    },
+    "test_integration": {
+      "total": 30,
+      "V10": 28,
+      "solo": 25,
+      "both_fail": 2
+    },
+    "test_io_basic": {
+      "total": 42,
+      "V10": 39,
+      "solo": 39,
+      "both_fail": 2
+    },
+    "test_join_gapfill": {
+      "total": 11,
+      "V10": 3,
+      "solo": 4,
+      "both_fail": 7
+    },
+    "test_main_gapfill": {
+      "total": 9,
+      "V10": 2,
+      "solo": 2,
+      "both_fail": 7
+    },
+    "test_partition_gapfill": {
+      "total": 9,
+      "V10": 6,
+      "solo": 0,
+      "both_fail": 3
+    },
+    "test_scale": {
+      "total": 21,
+      "V10": 20,
+      "solo": 21,
+      "both_fail": 0
+    },
+    "test_seed": {
+      "total": 3,
+      "V10": 3,
+      "solo": 3,
+      "both_fail": 0
+    },
+    "test_select_parsing_gapfill": {
+      "total": 13,
+      "V10": 8,
+      "solo": 8,
+      "both_fail": 5
+    },
+    "test_selection": {
+      "total": 51,
+      "V10": 49,
+      "solo": 49,
+      "both_fail": 2
+    },
+    "test_split_gapfill": {
+      "total": 14,
+      "V10": 12,
+      "solo": 11,
+      "both_fail": 2
+    },
+    "test_stats_gapfill": {
+      "total": 22,
+      "V10": 19,
+      "solo": 18,
+      "both_fail": 3
+    },
+    "test_transformation": {
+      "total": 34,
+      "V10": 32,
+      "solo": 29,
+      "both_fail": 2
+    },
+    "test_util_gapfill": {
+      "total": 21,
+      "V10": 11,
+      "solo": 11,
+      "both_fail": 10
+    },
+    "test_env_config": {
+      "total": 4,
+      "V10": 2,
+      "solo": 2,
+      "both_fail": 2
+    },
+    "test_xsv_io": {
+      "total": 14,
+      "V10": 9,
+      "solo": 11,
+      "both_fail": 3
+    },
+    "test_xsv_externalized": {
+      "total": 10,
+      "V10": 10,
+      "solo": 10,
+      "both_fail": 0
+    },
+    "test_cat": {
+      "total": 23,
+      "V10": 22,
+      "solo": 22,
+      "both_fail": 1
+    },
+    "test_count": {
+      "total": 20,
+      "V10": 20,
+      "solo": 19,
+      "both_fail": 0
+    },
+    "test_fixlengths": {
+      "total": 5,
+      "V10": 4,
+      "solo": 4,
+      "both_fail": 1
+    },
+    "test_flatten": {
+      "total": 9,
+      "V10": 7,
+      "solo": 8,
+      "both_fail": 1
+    },
+    "test_fmt": {
+      "total": 12,
+      "V10": 12,
+      "solo": 12,
+      "both_fail": 0
+    },
+    "test_frequency": {
+      "total": 15,
+      "V10": 15,
+      "solo": 11,
+      "both_fail": 0
+    },
+    "test_headers": {
+      "total": 14,
+      "V10": 14,
+      "solo": 12,
+      "both_fail": 0
+    },
+    "test_join": {
+      "total": 15,
+      "V10": 14,
+      "solo": 15,
+      "both_fail": 0
+    },
+    "test_partition": {
+      "total": 16,
+      "V10": 14,
+      "solo": 10,
+      "both_fail": 2
+    },
+    "test_reverse": {
+      "total": 7,
+      "V10": 7,
+      "solo": 7,
+      "both_fail": 0
+    },
+    "test_search": {
+      "total": 24,
+      "V10": 24,
+      "solo": 23,
+      "both_fail": 0
+    },
+    "test_select": {
+      "total": 33,
+      "V10": 31,
+      "solo": 33,
+      "both_fail": 0
+    },
+    "test_slice": {
+      "total": 30,
+      "V10": 29,
+      "solo": 29,
+      "both_fail": 1
+    },
+    "test_sort": {
+      "total": 20,
+      "V10": 20,
+      "solo": 19,
+      "both_fail": 0
+    },
+    "test_split": {
+      "total": 13,
+      "V10": 13,
+      "solo": 13,
+      "both_fail": 0
+    },
+    "test_stats": {
+      "total": 62,
+      "V10": 61,
+      "solo": 60,
+      "both_fail": 1
+    },
+    "test_table": {
+      "total": 6,
+      "V10": 6,
+      "solo": 6,
+      "both_fail": 0
+    },
+    "test_additional_commands": {
+      "total": 15,
+      "V10": 13,
+      "solo": 13,
+      "both_fail": 1
+    },
+    "test_basic_invocation": {
+      "total": 7,
+      "V10": 5,
+      "solo": 6,
+      "both_fail": 1
+    },
+    "test_input_command": {
+      "total": 4,
+      "V10": 4,
+      "solo": 4,
+      "both_fail": 0
+    },
+    "test_join_split_partition": {
+      "total": 9,
+      "V10": 8,
+      "solo": 9,
+      "both_fail": 0
+    },
+    "test_argparse_validation": {
+      "total": 21,
+      "V10": 3,
+      "solo": 4,
+      "both_fail": 17
+    },
+    "test_basic": {
+      "total": 8,
+      "V10": 5,
+      "solo": 6,
+      "both_fail": 2
+    },
+    "test_index": {
+      "total": 3,
+      "V10": 3,
+      "solo": 3,
+      "both_fail": 0
+    },
+    "test_input": {
+      "total": 4,
+      "V10": 4,
+      "solo": 4,
+      "both_fail": 0
+    },
+    "test_sample": {
+      "total": 7,
+      "V10": 6,
+      "solo": 7,
+      "both_fail": 0
+    },
+    "test_cli_global": {
+      "total": 6,
+      "V10": 3,
+      "solo": 3,
+      "both_fail": 3
+    },
+    "test_commands_basic": {
+      "total": 9,
+      "V10": 9,
+      "solo": 9,
+      "both_fail": 0
+    }
+  },
+  "paired_disagreements": [
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestCatSubcommands.test_cat_invalid_subcommand",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestCatSubcommands.test_cat_no_subcommand",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestDelimiterValidation.test_delimiter_empty_string[count]",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestDelimiterValidation.test_delimiter_empty_string[select]",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestDelimiterValidation.test_delimiter_empty_string[slice]",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestDelimiterValidation.test_delimiter_multiple_chars[count]",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestDelimiterValidation.test_delimiter_multiple_chars[select]",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestDelimiterValidation.test_delimiter_multiple_chars[slice]",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestFlattenFlags.test_flatten_separator_flag",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestMissingRequiredArguments.test_join_missing_all_args",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestMissingRequiredArguments.test_join_missing_some_args",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestMissingRequiredArguments.test_partition_missing_args",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestMissingRequiredArguments.test_partition_missing_outdir",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestMissingRequiredArguments.test_sample_missing_size",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestMissingRequiredArguments.test_select_missing_selection",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestOutputFlag.test_output_long_form",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestOutputFlag.test_output_short_form",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestSearchRegexArgument.test_search_requires_regex",
+      "group": "test_argument_parsing",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "22169f6a3746",
+      "name": "eval.tests.test_argument_parsing.TestSliceRangeValidation.test_start_greater_than_end",
+      "group": "test_argument_parsing",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "222d9b023497",
+      "name": "tests.test_subcommand_dispatch.TestGlobalOptions.test_list_flag",
+      "group": "test_subcommand_dispatch",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_frequency_ascending_order",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_frequency_no_nulls_flag",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_frequency_with_nulls",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_index_with_indexed_sample",
+      "group": "test_analysis",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_join_no_case_flag",
+      "group": "test_analysis",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_partition_drop_flag",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_sample_fixed_size",
+      "group": "test_analysis",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_sample_no_headers",
+      "group": "test_analysis",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_basic",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_cardinality_flag",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_everything_flag",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_median_flag",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_mode_flag",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_no_headers",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_analysis.test_stats_select_columns",
+      "group": "test_analysis",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_core_modules.test_delimiter_empty_string",
+      "group": "test_core_modules",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_core_modules.test_delimiter_multichar_error",
+      "group": "test_core_modules",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_core_modules.test_delimiter_nonascii_error",
+      "group": "test_core_modules",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_core_modules.test_delimiter_tab_escape_sequence",
+      "group": "test_core_modules",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_core_modules.test_select_nonexistent_column_name",
+      "group": "test_core_modules",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_edge_cases.test_numeric_extremes_stats",
+      "group": "test_edge_cases",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_final_gapfill.test_frequency_ascending_sort_order",
+      "group": "test_final_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_final_gapfill.test_frequency_no_nulls_excludes_empty_fields",
+      "group": "test_final_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_final_gapfill.test_frequency_with_nulls_shows_null_marker",
+      "group": "test_final_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_final_gapfill.test_join_no_case_ignores_case_in_keys",
+      "group": "test_final_gapfill",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_freq_sample_gapfill.test_frequency_ascending_with_limit",
+      "group": "test_freq_sample_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_freq_sample_gapfill.test_frequency_no_nulls_flag_excludes_empty_values",
+      "group": "test_freq_sample_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_freq_sample_gapfill.test_frequency_null_values_shown_as_null_label",
+      "group": "test_freq_sample_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_integration.test_join_select_sort_numeric_reverse_workflow",
+      "group": "test_integration",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_integration.test_join_select_stats_workflow",
+      "group": "test_integration",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_integration.test_search_select_stats_workflow",
+      "group": "test_integration",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_io_basic.test_flatten_custom_separator",
+      "group": "test_io_basic",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_io_basic.test_flatten_no_separator",
+      "group": "test_io_basic",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_join_gapfill.test_join_no_case_flag_with_mixed_case_keys",
+      "group": "test_join_gapfill",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_partition_gapfill.test_partition_empty_column_values",
+      "group": "test_partition_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_partition_gapfill.test_partition_no_headers_with_drop",
+      "group": "test_partition_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_partition_gapfill.test_partition_prefix_exact_match_no_truncation",
+      "group": "test_partition_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_partition_gapfill.test_partition_prefix_length_truncation",
+      "group": "test_partition_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_partition_gapfill.test_partition_very_long_values_with_prefix",
+      "group": "test_partition_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_partition_gapfill.test_partition_with_drop_preserves_other_columns",
+      "group": "test_partition_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_scale.test_sample_deep_file_100_from_10k",
+      "group": "test_scale",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_split_gapfill.test_split_empty_data_file",
+      "group": "test_split_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_stats_gapfill.test_stats_no_headers_flag_uses_numeric_field_names",
+      "group": "test_stats_gapfill",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_transformation.test_fmt_escape_character",
+      "group": "test_transformation",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_transformation.test_sort_reverse_numeric",
+      "group": "test_transformation",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "291bdfab7f5b",
+      "name": "tests.test_transformation.test_sort_reverse_string",
+      "group": "test_transformation",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "6109df5aa6b7",
+      "name": "eval.tests.test_xsv_io.test_subcommand_help_exit_0[search]",
+      "group": "test_xsv_io",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "6109df5aa6b7",
+      "name": "eval.tests.test_xsv_io.test_subcommand_help_exit_0[select]",
+      "group": "test_xsv_io",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_frequency.test_frequency_no_headers",
+      "group": "test_frequency",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_frequency.test_frequency_no_nulls",
+      "group": "test_frequency",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_frequency.test_frequency_nulls",
+      "group": "test_frequency",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_headers.test_headers_intersect",
+      "group": "test_headers",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_partition.test_partition_drop",
+      "group": "test_partition",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_partition.test_partition_drop_no_headers",
+      "group": "test_partition",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_partition.test_partition_with_prefix_length",
+      "group": "test_partition",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "73f302f96962",
+      "name": "eval.tests.test_stats.test_stats_no_header_field_name",
+      "group": "test_stats",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_additional_commands.test_fixlengths_length",
+      "group": "test_additional_commands",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_additional_commands.test_flatten_separator",
+      "group": "test_additional_commands",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_basic_invocation.test_list_flag",
+      "group": "test_basic_invocation",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_count.test_count_help",
+      "group": "test_count",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_edge_cases.test_fixlengths_truncate",
+      "group": "test_edge_cases",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_headers.test_headers_help",
+      "group": "test_headers",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_join_split_partition.test_join_no_case",
+      "group": "test_join_split_partition",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_search.test_search_help",
+      "group": "test_search",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_select.test_select_help",
+      "group": "test_select",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_select.test_select_no_headers",
+      "group": "test_select",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "8b960294e03b",
+      "name": "tests.test_sort.test_sort_help",
+      "group": "test_sort",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "928f23d96cac",
+      "name": "eval.tests.test_argparse_validation.test_delimiter_must_be_single_ascii_character[-False]",
+      "group": "test_argparse_validation",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "ac2ea32e87c1",
+      "name": "eval.tests.test_subcommand_dispatch.test_each_subcommand_has_help[cat]",
+      "group": "test_subcommand_dispatch",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "ac2ea32e87c1",
+      "name": "eval.tests.test_subcommand_dispatch.test_global_list_flag_outputs_subcommands",
+      "group": "test_subcommand_dispatch",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "ac2ea32e87c1",
+      "name": "eval.tests.test_subcommand_dispatch.test_subcommand_help_differs_from_main_help[cat]",
+      "group": "test_subcommand_dispatch",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "ac2ea32e87c1",
+      "name": "eval.tests.test_subcommand_dispatch.test_subcommand_rejects_unknown_flag[cat]",
+      "group": "test_subcommand_dispatch",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "ac2ea32e87c1",
+      "name": "eval.tests.test_subcommand_dispatch.test_subcommand_rejects_unknown_flag[fixlengths]",
+      "group": "test_subcommand_dispatch",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "ac2ea32e87c1",
+      "name": "eval.tests.test_subcommand_dispatch.test_subcommand_rejects_unknown_flag[help]",
+      "group": "test_subcommand_dispatch",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_basic.test_list_flag",
+      "group": "test_basic",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_edge_cases.test_flatten_with_custom_separator",
+      "group": "test_edge_cases",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_flatten.test_flatten_custom_separator",
+      "group": "test_flatten",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_frequency.test_frequency_asc",
+      "group": "test_frequency",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_join.test_join_no_case",
+      "group": "test_join",
+      "V10": "failure",
+      "solo": "passed"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_partition.test_partition_drop",
+      "group": "test_partition",
+      "V10": "passed",
+      "solo": "failure"
+    },
+    {
+      "branch": "e75089074c1a",
+      "name": "tests.test_sample.test_sample_with_seed",
+      "group": "test_sample",
+      "V10": "failure",
+      "solo": "passed"
+    }
+  ],
+  "method": "Read-only historical analysis. Hidden terminal results never fed to live agents. Each test keyed by branch and name after upstream active/ignore filters. No inference or evaluation reruns."
+}

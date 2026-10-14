@@ -1,0 +1,14 @@
+# xsv reconstruction
+## Ownership and entry point
+a0001: compile.sh, xsv_main.py, xsv_core.py, tests/core_regression.py; cat/count/fixlengths/headers/index/select/slice and integration.
+a0004: commands_format.py, tests/format_regression.py, FORMAT_COVERAGE.md; flatten/fmt/input/table.
+a0002: commands_order.py (sort/reverse/search/sample), commands_rel.py (split/partition plus join delegated to a0006), commands_agg.py (frequency); transformation integration. a0008: commands_stats.py (stats).
+a0003: COVERAGE.md and independent conformance fixtures/tests; delegates CSV/CLI and filesystem coverage. Every documented command is assigned.
+## Stable interface
+COMMANDS maps name to callable(argv). xsv_core: Error, CSVError; parse(args,value_options=(),flag_options=(),defaults=None,aliases=None)->opts,pos; read_csv(path=None,opts=None,flexible=False)->headers,rows; write_csv(headers,rows,opts=None); select_indices(selection,headers,width=None). None headers means -n. Long option names are underscore-normalized; alias values must also use underscores. Input None or '-' is stdin; output delimiter defaults comma independently of input delimiter. Shared selection syntax is centrally owned. Modules may not mutate global aliases.
+Dispatcher discovers formatting and stats modules before legacy implementations. compile.sh builds ./executable and syntax-checks all command modules. No runtime dependency downloads.
+## Evidence and coverage limits
+Historical core check at revision 11 / ab828020 passed 21 local assertions, slice aliases, strict malformed-CSV prefix/diagnostic fixture and two embedded-CR cases. Those receipts are stale after integration. Public v17 diagnostic is 15/19, not completeness evidence. Full retained failure inventory is owned by a0003.
+Shared writer quotes CR and LF while retaining LF output terminators. Select emits valid prefix before CSV shape errors. Prior CSV/CLI check was 33/35 before CR fix; must rerun on final source. Formatting module received but its first check failed fmt -t; suspected alias normalization is being investigated by a0004. Frequency NULL spelling fix is owned by a0002; stats delivery is pending.
+Coverage sources: COVERAGE.md, FORMAT_COVERAGE.md, JOIN_COVERAGE.md and tests/*COVERAGE.md distinguish reference-backed, local-only, failing and untested behavior. Known unknowns include malformed quoting, BOM error positions on stdin, CR-only records, index binary compatibility, seeded RNG parity and unusual selection syntax.
+Next: resolve formatting alias failure; integrate final modules; refresh coverage, then run clean build/core and independent conformance on the same integrated source. Do not infer native parity from public probes.

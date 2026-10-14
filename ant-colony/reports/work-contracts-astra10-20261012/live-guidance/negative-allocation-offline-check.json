@@ -1,0 +1,16 @@
+{
+  "source": "/Users/baiyu/Documents/ChatGPT/Multiagent/ant-colony/runs/programbench-astra10-work-contracts-high-20261012-v18/runtime/ant_colony/engine.py",
+  "source_sha256": "dab747f7aa9cbb575e9119661854c9816410cd52233e1199ec8607db0f876d48",
+  "paid_calls": 0,
+  "runtime_state_modified": false,
+  "checks": [
+    "negative integer allocation passes frozen actions-v1 schema",
+    "existing child rights return to parent without changing total",
+    "assignment preserved verbatim",
+    "over-reclaim rejected without mutation"
+  ],
+  "after": {
+    "parent": 3000000,
+    "child": 2000000
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "origin": "actual recorded requests; direct context.project_notes marker only",
+  "verified_through_seq": 6806,
+  "delivery_counts": {
+    "v001": 10,
+    "v002": 5,
+    "v003": 23,
+    "v004": 16,
+    "v005": 17,
+    "v006": 43,
+    "v007": 20,
+    "v008": 20
+  },
+  "total_guided_work_requests": 154,
+  "representatives": [
+    {
+      "file": "guidance/delivered-v001-t0001.json",
+      "version": "v001",
+      "call_id": "c0000298",
+      "seq": 3302
+    },
+    {
+      "file": "guidance/delivered-v001-t0002.json",
+      "version": "v001",
+      "call_id": "c0000297",
+      "seq": 3293
+    },
+    {
+      "file": "guidance/delivered-v001-t0003.json",
+      "version": "v001",
+      "call_id": "c0000299",
+      "seq": 3309
+    },
+    {
+      "file": "guidance/delivered-v002-t0001.json",
+      "version": "v002",
+      "call_id": "c0000323",
+      "seq": 3582
+    },
+    {
+      "file": "guidance/delivered-v002-t0002.json",
+      "version": "v002",
+      "call_id": "c0000324",
+      "seq": 3590
+    },
+    {
+      "file": "guidance/delivered-v003-a0008.json",
+      "version": "v003",
+      "call_id": "c0000337",
+      "seq": 3713
+    },
+    {
+      "file": "guidance/delivered-v003-t0001.json",
+      "version": "v003",
+      "call_id": "c0000331",
+      "seq": 3666
+    },
+    {
+      "file": "guidance/delivered-v003-t0002.json",
+      "version": "v003",
+      "call_id": "c0000332",
+      "seq": 3674
+    },
+    {
+      "file": "guidance/delivered-v003-t0003.json",
+      "version": "v003",
+      "call_id": "c0000330",
+      "seq": 3637
+    },
+    {
+      "file": "guidance/delivered-v004-t0001.json",
+      "version": "v004",
+      "call_id": "c0000370",
+      "seq": 4081
+    },
+    {
+      "file": "guidance/delivered-v004-t0002.json",
+      "version": "v004",
+      "call_id": "c0000372",
+      "seq": 4095
+    },
+    {
+      "file": "guidance/delivered-v004-t0003.json",
+      "version": "v004",
+      "call_id": "c0000371",
+      "seq": 4088
+    },
+    {
+      "file": "guidance/delivered-v005-t0001.json",
+      "version": "v005",
+      "call_id": "c0000402",
+      "seq": 4430
+    },
+    {
+      "file": "guidance/delivered-v005-t0002.json",
+      "version": "v005",
+      "call_id": "c0000401",
+      "seq": 4421
+    },
+    {
+      "file": "guidance/delivered-v005-t0003.json",
+      "version": "v005",
+      "call_id": "c0000405",
+      "seq": 4453
+    },
+    {
+      "file": "guidance/delivered-v006-a0002.json",
+      "version": "v006",
+      "call_id": "c0000435",
+      "seq": 4812
+    },
+    {
+      "file": "guidance/delivered-v006-t0001-restored.json",
+      "version": "v006",
+      "call_id": "c0000446",
+      "seq": 4946
+    },
+    {
+      "file": "guidance/delivered-v006-t0001.json",
+      "version": "v006",
+      "call_id": "c0000429",
+      "seq": 4748
+    },
+    {
+      "file": "guidance/delivered-v006-t0002.json",
+      "version": "v006",
+      "call_id": "c0000432",
+      "seq": 4774
+    },
+    {
+      "file": "guidance/delivered-v007-a0004.json",
+      "version": "v007",
+      "call_id": "c0000514",
+      "seq": 5706
+    },
+    {
+      "file": "guidance/delivered-v007-a0006.json",
+      "version": "v007",
+      "call_id": "c0000530",
+      "seq": 5876
+    },
+    {
+      "file": "guidance/delivered-v007-t0001-restored.json",
+      "version": "v007",
+      "call_id": "c0000542",
+      "seq": 6026
+    },
+    {
+      "file": "guidance/delivered-v007-t0001.json",
+      "version": "v007",
+      "call_id": "c0000512",
+      "seq": 5681
+    },
+    {
+      "file": "guidance/delivered-v007-t0002.json",
+      "version": "v007",
+      "call_id": "c0000528",
+      "seq": 5858
+    },
+    {
+      "file": "guidance/delivered-v008-a0001.json",
+      "version": "v008",
+      "call_id": "c0000558",
+      "seq": 6197
+    },
+    {
+      "file": "guidance/delivered-v008-a0002.json",
+      "version": "v008",
+      "call_id": "c0000559",
+      "seq": 6204
+    },
+    {
+      "file": "guidance/delivered-v008-a0004.json",
+      "version": "v008",
+      "call_id": "c0000560",
+      "seq": 6213
+    },
+    {
+      "file": "guidance/delivered-v008-a0006.json",
+      "version": "v008",
+      "call_id": "c0000561",
+      "seq": 6221
+    },
+    {
+      "file": "guidance/delivered-v008-a0008.json",
+      "version": "v008",
+      "call_id": "c0000562",
+      "seq": 6229
+    },
+    {
+      "file": "guidance/delivered-v008-t0001.json",
+      "version": "v008",
+      "call_id": "c0000558",
+      "seq": 6197
+    },
+    {
+      "file": "guidance/delivered-v008-t0002.json",
+      "version": "v008",
+      "call_id": "c0000559",
+      "seq": 6204
+    }
+  ],
+  "system_prompt_variants": 18,
+  "all_exported_messages_match_trace": true,
+  "system_prompts_frozen": true,
+  "no_live_guidance_after_inference": true,
+  "final_report_verified": true
+}

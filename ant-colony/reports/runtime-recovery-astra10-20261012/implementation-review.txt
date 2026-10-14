@@ -1,0 +1,126 @@
+Runtime recovery implementation review — 2026-10-12
+
+Implemented after the completed v18 trace review; not loaded into that old run.
+
+1. Opt-in runtime_control schedules paid, strictly typed control decisions only
+   when child allowances can unlock execution or a funded descendant is asleep.
+   2048 output tokens and 24000 context bytes are real request caps. Direct-child
+   transfers conserve rights, preserve assignments and validate the whole batch.
+   Allocations/hiring/spawning retain owner control funds; work/formation calls
+   also retain that reserve for parents. Ancestors may route a bounded specific
+   request to listed sleeping descendants without an intermediate manager call.
+   A no-op control decision is not purchased again until relevant state changes.
+   Underfunded workers skip status-only formation calls.
+2. Explicit funding withdrawal works during cooldown, clears obsolete recruitment
+   plans, and suppresses automatic liquidity requests until an explicit proposal.
+   Existing workers' minimum grants subtract their current rights consistently in
+   display and authorization. New workers retain the full working-capital minimum.
+3. Immutable host evidence records capture exec/test results, exact before/after
+   source hashes and actor/team identity. read_result recovers bounded pages using
+   a current-team evidence ID. Reports use record, outside submitted source; they
+   are marked agent_note and cannot become passing verification receipts. Last
+   execution status/artifact/revision freshness persists across observation phases
+   and subsequent reads. ProgramBench stdout retention is capped at 128KiB, with
+   truncation explicit. The sandbox remains ephemeral and isolated.
+4. checkpoint_reason explicitly selects an incomplete public checkpoint, records
+   blockers and verified_complete=false, and freezes selection before grading.
+   Verified finish retains all readiness, source and acceptance requirements.
+5. Prompts now emphasize one useful next step, retained evidence, public coverage
+   by command/option/boundary, immutable fixtures, temporary file lifetime and
+   report placement. Full production-generated prompts and response schemas are
+   in prompts-final; system-prompts.txt concatenates distinct system text.
+
+Review findings addressed: retained evidence must survive subsequent read/note
+calls; evidence retrieval is restricted to the original team; long physical output
+lines are split for resumable pagination; parent work calls must retain control
+capacity too; incomplete selection must skip post-selection integration. The new
+control flag is wired through the experiment launcher and recorded in its plan.
+
+Validation: 444 tests pass (12 new deterministic zero-API scenarios); changed-file
+Ruff passes. A real two-container smoke recovered 66,600 stdout bytes across 19
+pages after proving /tmp vanished, and proved host reporting preserved source
+hashes. Zero model calls, reference queries or native evaluation in the smoke.
+
+Limits: control is still paid and cannot rescue a parent with less than its own
+control reservation. A rejected/no-op control action waits for relevant state
+change. Maximum stdout retention is bounded, not unlimited archival. Existing
+tracked source, tests and documentation still conservatively invalidate receipts;
+we move subsequent reports to host evidence rather than guessing dependency
+exclusions. No benchmark score improvement is established by these tests. A fresh
+fixed-prompt run changes several mechanisms, so it cannot isolate causal effects.
+The previously completed v18 source, prompts, accounting and results are preserved.
+
+Paid launch remains pending the requested budget clarification: new $100 versus
+remaining old authorization (~$6.37), or local testing only. New API calls: zero.
+
+Launch amendment: user approved a NEW $100. Fresh v19 launched with 10 total Astras, high reasoning, fixed prompts and a five-hour deadline. Added a tested run-scoped deadline so older episodes remain closed by their original deadline; monetary ledger and holds unchanged. Full suite now445 passes and ledger/test Ruff passes. First bank request settled, discovery underway. New actual starting prompts are in prompts-recorded-start; final export follows completion. Monitoring is read-only for this treatment.
+
+Live-guidance amendment — 2026-10-12 18:01 Pacific
+The user explicitly authorized continuous trace-based prompt changes. The fixed
+prefix ends before first verified guided work request c0000297/seq3293. Frozen
+system prompts and runtime remain unchanged. Version v001 was applied through
+bounded auxiliary PROJECT_NOTES.md at seq3288 and verified in six subsequent
+requests, including stats owner a0008. Original agent notes were preserved.
+Guidance targets repeated broad reads, delayed stats implementation, the observed
+fmt -t failure, complete JSON closure, and coordinated final checks on a stable
+revision. Exact text: prompts-live.txt; immutable policy and audit: live-guidance/.
+No benchmark source, fixture, agent memory, cap, deadline or reservation changed
+by the operator. This is now a fixed prefix followed by operator-assisted adaptive
+work guidance, not a wholly fixed-prompt or controlled causal comparison.
+Before guidance delivery, frequency NULL correction passed its declared checks,
+join passed 30 strict checks, formatting regression failed on fmt -t, and stats
+was still absent. Two agents successfully used host record notes for historical
+evidence; no read_result use yet. These developments preceded this intervention.
+The five-minute heartbeat now permits evidence-driven, audited future revisions,
+requires delivery/behavior verification and stops edits at inference completion.
+
+Adaptive follow-up: v002 adds exact read_result pagination bounds (start>=1, lines1..100) after c302 requested220 lines and was rejected at3356. Applied at3479 without pausing inference, also restoring guidance after an in-flight core notes replacement. Agent-authored notes preserved; no benchmark source/fixture changes. Delivery evidence is recorded separately in live-guidance/. No causal benefit claimed.
+
+Trace finding: optional project_notes guidance was omitted from stats c309 under the64k context ceiling. v003 compresses the guidance; offline replay fits63915 bytes, and actual new-request delivery is preserved. This addresses delivery probability without changing frozen context builders. Formatting subsequently reports36/36 bounded checks; public16/19 leaves stats absent. These are public/local diagnostics, not a native score or causal result.
+
+V19 inference ended — 2026-10-13 03:03 UTC
+Bank selected public checkpoint29 explicitly incomplete at seq6790/round25; native
+evaluation began6792 and its score is pending. All608 calls settled at$84.9015470,
+zero v19 reservations; separate$100 cap and historical holds/deadlines preserved.
+Public24/24 concerns checkpoint29's diagnostics;25 probes were observed in total,
+including one final BOM/CSV probe without a local comparison or source repair.
+Transformations is accepted/current and ready. Core was accepted, then renewed a
+new boundary contract before completing team readiness; conformance remains blocked.
+No source edits occurred in the final closeout. Live guidance edits have stopped.
+Actual18 prompt variants and31 direct-delivery representatives for8 guidance
+versions (154 guided requests) were exported and matched against recorded events
+in reports/runtime-recovery-astra10-20261012/prompts-recorded-v19.
+Remaining trace concerns: exact-minimum transfers lose work eligibility to formation
+fees; sponsored applications consume parent reserves; pending bank handoffs wait
+for periodic review after the first queue item; formation omits contract state;
+status messages wake accepted workers; a new final probe was cut off before local
+comparison by stagnation selection. Preserve these as future improvements, without
+weakening strict acceptance or changing the frozen treatment. Final report/audit/
+outcomes verification and native-score comparison remain pending evaluation.
+
+V19 verified final completion — 2026-10-13 (supersedes pending evaluation notes)
+Native999/1182 =84.5178%,183 not passed; public checkpoint29 diagnostic24/24
+is separate. Bank-selected incomplete checkpoint at round25; no full task or
+reference-parity claim. Transformations ready; core renewed closeout unfinished;
+independent-conformance acceptance blocked. Final seq6806, worker exit0.
+All608 calls settled at$84.9015470, pending$0, remaining$15.0984530 under the
+separate$100 cap. Report/audit/outcomes, ledger and trace agree; accounting_valid,
+usage_verified, accounting_identity and complete_evaluation are true. Prior
+v17/v18 spending/caps, both deadlines and6 historical holds/$4.94717 preserved.
+All58 frozen runtime hashes match. No paid continuation or private test inspection.
+Compared descriptively with v18:21 more native passes (+1.77665 percentage points),
+$4.8743335 lower episode cost,9 vs7 active workers,1 vs2 malformed replies,14 vs7
+acceptance events. Coordination share rose22.13% to24.90%; invalidations12 to25.
+Work memory usage rose92/406 to202/381; durable retrieval occurred4 times.
+Priorities: reserve actual execution across coordination phases; drain review
+queues; show authoritative phase-wide contract state; avoid status-message wakeups;
+preserve completed milestones during bounded renewal; allow final probe comparison
+before stagnation selection; move status reports outside tracked candidate source.
+These are future improvements, not changes hot-loaded into the completed run.
+Exported18 exact recorded prompt variants and31 delivery representatives covering
+all8 guidance versions/154 work requests. Fixed prefix plus operator-assisted
+adaptive phase; multiple mechanisms changed, so no causal attribution.
+Report: reports/runtime-recovery-astra10-20261012/final-results.txt; assertions:
+final-verification.json; actual prompts: prompts-recorded-v19/system-prompts.txt,
+guidance-policies.txt and guidance-manifest.json. Runtime tests remain445 passing;
+final edits are documentation only. Heartbeat PAUSED; chat left open.

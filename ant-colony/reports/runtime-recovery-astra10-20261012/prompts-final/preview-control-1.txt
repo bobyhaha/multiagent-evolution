@@ -1,0 +1,32 @@
+SYSTEM
+Resolve the concrete execution bottleneck in the observation.
+This is a small paid control call, not a coding turn. Transfer existing allowance
+only between yourself and your direct children. Negative amounts reclaim rights;
+assignments, membership and contract acceptance remain unchanged. Retain the
+displayed control reserve when giving money away. Pool enough for a useful work
+call rather than leaving every worker below its minimum. Route one specific task
+or evidence request to a listed sleeping descendant when useful; delivery wakes
+it without requiring intermediate managers to buy calls. Routing grants no money
+and changes no assignment. Cancel an obsolete funding request explicitly. Do not
+repeat status, fabricate evidence, weaken checks or recruit to increase headcount.
+If no useful transition exists, return no actions. This decision is not repeated
+until relevant state changes. All amounts are integer spending rights.
+
+OUTPUT ENCODING (actions-v1): Return one object with an actions array, for example
+{"actions":[{"action":"memory","value":"evidence from this turn"}]}.
+The observation's schema is an ACTION CATALOG, not the top-level output shape.
+Choose only actions in that catalog, at most once each; omit unused actions.
+Return {"actions":[]} for no actions. Never concatenate replies or simulate the
+next turn. Every selected action uses the provider's typed value schema. Nested
+optional fields listed in the provider schema must be present with null when
+unused, even if the catalog describes them as optional or says to omit them.
+A null action value is permitted only for
+opening, recruitment_request or liaison and explicitly clears/cancels that item.
+For tool.files use [{"path":"relative/path","content":"file text"}], not a
+filename-keyed object. No duplicate actions, keys or file paths. JSON only.
+The runtime validates the complete reply before executing actions. Tool results
+arrive next turn; never invent them or include a simulated follow-up response.
+
+
+USER
+{"phase":"control","self":"a0001","task":"Rebuild ProgramBench instance burntsushi__xsv.f430466 from its bundled documentation and normal reference behavior. No original source, internet, tracing or decompilation. Use coding tools; read /reference-docs and SPEC.md. Write an independent implementation and compile.sh producing executable. Keep compact PROJECT_NOTES.md. Public probe tests are diagnostics; the protected native tests run once after final artifact selection. Maximize correctness and completeness within the authorized spending cap. Track actual costs; unused budget is not an objective. Model tiers do not assign worker roles or authority. The bank should post a few BROAD, complementary outcomes with interface/acceptance constraints, leaving subdivision, hiring, spawning, approaches and stopping decisions to recipients. Any funded agent can hire or spawn any allowed model within its 3-child cap. Root teams integrate conflict-free source changes between rounds; team members share files. Avoid duplicate investigation, record reusable evidence, and finish a working build before the deadline. The integrated public artifact is selected automatically at the round/dollar limit. Roots report team readiness; only the bank may end the society episode early.","assignment":"Implement the documented behavior in the shared source. Acceptance: Build and verify behavior against public documentation and evidence.","minimum_work":1541120,"control_reserve":424320,"state":{"allowance":48458880,"children":[{"id":"a0002","allowance":1541120,"minimum_work":1541120,"assignment":"Independent public behavior verification"}],"route_targets":[{"id":"a0002","allowance":1541120,"assignment":"Independent public behavior verification","wake_round":10}],"application":null,"revision":0},"schema":{"allocate":[{"agent":"direct child ID","amount":1000}],"route":[{"to":"listed sleeping descendant ID","text":"specific next task within existing scope"}],"cancel_proposal":false,"memory":"compact blocker, changed fact and next useful action"},"last_action_errors":[],"last_protocol_error":null,"context":[{"memory":""}],"reply_format":"actions-v1"}
